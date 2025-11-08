@@ -1,0 +1,5 @@
+site_name: Livres pour enfants
+
+nav:
+  - Home: index.md
+  - "Par auteurs nav": par_auteurs.md
