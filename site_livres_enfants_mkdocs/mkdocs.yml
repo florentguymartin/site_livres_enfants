@@ -1,5 +1,9 @@
 site_name: Livres pour enfants
 
+theme:
+  name: material
+
 nav:
   - Home: index.md
   - "Par auteurs nav": par_auteurs.md
+  - "Girls empowerment": girls_empowerment.md
