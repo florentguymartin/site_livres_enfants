@@ -1,6 +1,5 @@
-from dataclasses import dataclass
+# -*- coding: utf-8 -*-
 import os
-import jinja2
 from site_livres_enfants_backend.livres_database import database
 from site_livres_enfants_backend.config import root_directory
 
@@ -9,24 +8,46 @@ os.chdir(root_directory)
 MKDOCS_DIR_NAME = "site_livres_enfants_mkdocs"
 DOCS_DIR_NAME = "docs"
 
-GIRL_EMPOWERMENT_MD_FILENAME = "girls_empowerment.md"
 
-environment = jinja2.Environment(loader=jinja2.FileSystemLoader("jinja_templates"))
-template = environment.get_template("template_page_categorie_livres.md.jinja")
+def generate_category_page(title, category_name, category_description, livres):
+    """Generate Markdown content for a category page."""
+    lines = []
+    lines.append("# " + title)
+    lines.append("")
+    lines.append("## Introduction")
+    lines.append(category_description)
+    lines.append("")
+
+    for livre in livres:
+        category_content = getattr(livre, category_name, None)
+        if category_content:
+            lines.append("## " + livre.titre)
+            if livre.couverture_path:
+                lines.append("![Screenshot](img/" + livre.couverture_path + ")")
+                lines.append("")
+            lines.append(category_content)
+            lines.append("")
+
+    return "\n".join(lines)
+
+
+def write_category_markdown(filename, title, category_name, category_description, livres):
+    """Generate and write a category Markdown file."""
+    category_md = generate_category_page(title, category_name, category_description, livres)
+    file_path = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, filename)
+    
+    with open(file_path, mode="w", encoding="utf-8") as f:
+        f.write(category_md)
+    
+    print("Generated: " + filename)
+
 
 livres = database
 
-category_name = "girl_empowerment"
-title = "Girls empowerment"
-category_description = """Des livres où des filles et des femmes jouent le premier role et sont inspirantes."""
-
-category_md = template.render(
-    title=title,
-    category_name=category_name,
-    category_description=category_description,
-    livres=livres,
+write_category_markdown(
+    "girls_empowerment.md",
+    "Girls empowerment",
+    "girl_empowerment",
+    "Des livres où des filles et des femmes jouent le premier role et sont inspirantes.",
+    livres,
 )
-
-file_path = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, GIRL_EMPOWERMENT_MD_FILENAME)
-with open(file_path, mode="w", encoding="utf-8") as f:
-    f.write(category_md)
