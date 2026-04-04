@@ -2,14 +2,34 @@
 
 A Python-based static site generator for curating and showcasing children's books with categorization by theme, author, and price range.
 
+## 📦 Installation
+
+### Prerequisites
+- Conda (Anaconda or Miniconda)
+
+### Setup Instructions
+
+1. **Create a Conda environment:**
+   ```bash
+   conda create -n env_site_livres python=3.11
+   conda activate env_site_livres
+   ```
+
+2. **Install the project in editable mode:**
+   ```bash
+   pip install -e .
+   ```
+
+This will install the `site_livres_enfants_backend` package and all dependencies specified in `pyproject.toml`.
+
 ## 🎯 Project Overview
 
 This project generates a static website featuring children's literature recommendations. It combines:
 - **Pydantic-based data models** for type-safe book metadata
-- **Jinja2 templating** to dynamically generate Markdown pages from book data
+- **Python string building** to dynamically generate Markdown pages from book data
 - **MkDocs + Material theme** to build and serve the static site
 
-The workflow follows a classic **data-driven site generation pattern**: Python code defines the book database, templates inject that data into Markdown files, and MkDocs builds the final HTML.
+The workflow follows a classic **data-driven site generation pattern**: Python code defines the book database, Python functions build that data into Markdown files, and MkDocs builds the final HTML.
 
 ## 📁 Project Structure
 
@@ -124,13 +144,13 @@ bash scripts/build.sh
 ```
 
 This script:
-1. Runs `scripts/build_markdowns.py` → Generates Markdown from templates
+1. Runs `scripts/build_markdowns.py` → Generates Markdown from Python data
 2. Runs `mkdocs build` → Builds static HTML
 3. Runs `mkdocs serve` → Serves the site locally (opens in browser)
 
 ### Manual Steps
 ```bash
-# Generate Markdown from templates
+# Generate Markdown from Python data
 python scripts/build_markdowns.py
 
 # Build static site
