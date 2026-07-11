@@ -1,0 +1,10 @@
+site_name: Livres pour enfants
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - "Par auteurs": par_auteurs.md
+  - "Girls empowerment": girls_empowerment.md
+  - "Livres sans image": livres_sans_image.md

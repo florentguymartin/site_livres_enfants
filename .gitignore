@@ -1,0 +1,12 @@
+site_livres_enfants_mkdocs/site/
+
+*.egg-info
+
+*.pyc
+
+site_livres_enfants_mkdocs/docs/*.md
+!site_livres_enfants_mkdocs/docs/index.md
+
+.DS_Store
+
+.vscode/
