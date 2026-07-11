@@ -6,6 +6,9 @@
 
 - sans image
 
+- rire
+ca pourrait être pire
+
 - Age:
     - 0-1
     - 2-3
@@ -23,6 +26,8 @@
 - by authors: add books, ordered by author name
 - by prices: by prices
 
+livres:
+- chien bleu
 
 ## Backlog livre a ajouter
 Olivia reine (girl)
