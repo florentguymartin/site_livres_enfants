@@ -1,10 +1,9 @@
 # Livres pour Enfants – Static Website Generator
 
-A Python-based static site generator for curating and showcasing children's books with categorization by theme, author, and price range.
+A Python-based static site generator for curating and showcasing children's books with categorization by theme and category-based filtering.
 
 ## Essential Dev
-put cover images in 'site_livres_enfants_mkdocs/docs/img'
-
+Put cover images in `site_livres_enfants_mkdocs/docs/img`
 
 ## 📦 Installation
 
@@ -29,11 +28,11 @@ This will install the `site_livres_enfants_backend` package and all dependencies
 ## 🎯 Project Overview
 
 This project generates a static website featuring children's literature recommendations. It combines:
-- **Pydantic-based data models** for type-safe book metadata
+- **Pydantic-based data models** with category enums for type-safe book metadata
 - **Python string building** to dynamically generate Markdown pages from book data
 - **MkDocs + Material theme** to build and serve the static site
 
-The workflow follows a classic **data-driven site generation pattern**: Python code defines the book database, Python functions build that data into Markdown files, and MkDocs builds the final HTML.
+The workflow follows a classic **data-driven site generation pattern**: Python code defines the book database, Python functions build that data into Markdown files, and MkDocs builds the final HTML output.
 
 ## 📁 Project Structure
 
@@ -41,7 +40,7 @@ The workflow follows a classic **data-driven site generation pattern**: Python c
 site_livres_enfants/
 ├── site_livres_enfants_backend/          # Core Python package
 │   ├── config.py                         # Project configuration (root directory)
-│   ├── livre.py                          # Livre (Book) Pydantic model
+│   ├── livre.py                          # Livre (Book) Pydantic model with BooksCategory enum
 │   └── livres_database/
 │       ├── __init__.py                   # Aggregates all book sources
 │       └── by_prices/
@@ -52,8 +51,8 @@ site_livres_enfants/
 │   ├── mkdocs.yml                        # Site structure & theme settings
 │   ├── docs/                             # Source Markdown files
 │   │   ├── index.md                      # Homepage
-│   │   ├── par_auteurs.md                # Books by author
 │   │   ├── girls_empowerment.md          # (Generated dynamically)
+│   │   ├── livres_sans_image.md          # (Generated dynamically)
 │   │   └── img/                          # Book cover images
 │   └── site/                             # Built HTML output
 │
@@ -70,13 +69,18 @@ site_livres_enfants/
 ### 1. **Data Model: `Livre` (Book)**
 Defined in `site_livres_enfants_backend/livre.py`:
 ```python
+class BooksCategory(Enum):
+    GIRL_EMPOWERMENT = "girl_empowerment"
+    LIVRES_SANS_IMAGE = "livres_sans_image"
+
 class Livre(BaseModel):
     titre: str                          # Book title
     auteur: str                         # Author name
-    couverture_path: str | None = None  # Cover image path
-    girl_empowerment: str | None = None # Thematic metadata for filtering
+    couverture_path: Optional[str] = None  # Cover image path
+    categories: list[BooksCategory] = []   # List of category tags
+    description: str                   # Book description
 ```
-Uses Pydantic for validation and serialization.
+Uses Pydantic for validation and serialization. Books can belong to multiple categories.
 
 ### 2. **Book Database**
 - Located in `site_livres_enfants_backend/livres_database/`
@@ -87,9 +91,13 @@ Uses Pydantic for validation and serialization.
 ### 3. **Markdown Generation: Pure Python**
 `scripts/build_markdowns.py` generates Markdown files directly:
 - `generate_category_page()` builds Markdown content from book data
-- Loops through books filtered by category (e.g., `girl_empowerment`)
+- Uses `BooksCategory` enum to filter books by category
 - Renders book titles, descriptions, and cover images as strings
 - Output is written to `site_livres_enfants_mkdocs/docs/`
+
+Currently generates:
+- `girls_empowerment.md` – Books featuring inspiring girls and women
+- `livres_sans_image.md` – Books without illustrations to stimulate imagination
 
 ### 4. **Static Site Builder: MkDocs**
 - Configured in `site_livres_enfants_mkdocs/mkdocs.yml`
@@ -103,6 +111,7 @@ Uses Pydantic for validation and serialization.
 ```
 ┌─────────────────────────────────────────────┐
 │ Python Book Database (Pydantic models)      │
+│ with BooksCategory enum                     │
 └──────────────────┬──────────────────────────┘
                    │
                    ▼
@@ -114,7 +123,7 @@ Uses Pydantic for validation and serialization.
                    ▼
 ┌─────────────────────────────────────────────┐
 │ Generated Markdown Files                    │
-│ (docs/girls_empowerment.md, etc.)           │
+│ (girls_empowerment.md, livres_sans_image.md)│
 └──────────────────┬──────────────────────────┘
                    │
                    ▼
@@ -133,7 +142,7 @@ Uses Pydantic for validation and serialization.
 ## 🛠️ Getting Started
 
 ### Prerequisites
-- Python ≥ 3.13
+- Python ≥ 3.11
 - Dependencies: `mkdocs`, `pydantic`, `mkdocs-material` (see `pyproject.toml`)
 
 ### Installation
@@ -169,12 +178,13 @@ mkdocs serve -o -f site_livres_enfants_mkdocs/mkdocs.yml
 1. **Create or edit a book source file** (e.g., `site_livres_enfants_backend/livres_database/by_prices/medaille_caldecott.py`)
 2. **Instantiate `Livre` objects** with metadata:
    ```python
-   from site_livres_enfants_backend.livre import Livre
+   from site_livres_enfants_backend.livre import Livre, BooksCategory
    
    my_book = Livre(
        titre="Mon Livre",
        auteur="Auteur Français",
-       girl_empowerment="Description of why this book empowers girls...",
+       description="An inspiring story about exploration...",
+       categories=[BooksCategory.GIRL_EMPOWERMENT],
        couverture_path="mon_livre.jpg",
    )
    ```
@@ -189,20 +199,40 @@ mkdocs serve -o -f site_livres_enfants_mkdocs/mkdocs.yml
 
 ## 🎨 Customization
 
-### Add a New Category Page
-1. Add new field to `Livre` model in `site_livres_enfants_backend/livre.py` (e.g., `adventure: Optional[str] = None`)
-2. Add book metadata to your data source (e.g., `medaille_caldecott.py`)
+### Add a New Category
+
+1. Add a new enum value to `BooksCategory` in `site_livres_enfants_backend/livre.py`:
+   ```python
+   class BooksCategory(Enum):
+       GIRL_EMPOWERMENT = "girl_empowerment"
+       LIVRES_SANS_IMAGE = "livres_sans_image"
+       MY_NEW_CATEGORY = "my_new_category"  # Add here
+   ```
+
+2. Add category metadata to your book data (e.g., `medaille_caldecott.py`):
+   ```python
+   my_book = Livre(
+       titre="My Book",
+       auteur="An Author",
+       description="...",
+       categories=[BooksCategory.GIRL_EMPOWERMENT, BooksCategory.MY_NEW_CATEGORY],
+   )
+   ```
+
 3. Add a new generation call in `scripts/build_markdowns.py`:
    ```python
    write_category_markdown(
-       filename="adventure.md",
-       title="Adventure Stories",
-       category_name="adventure",
-       category_description="Books about exploration and adventure...",
+       filename="my_new_category.md",
+       title="My New Category",
+       category_name="my_new_category",
+       category=BooksCategory.MY_NEW_CATEGORY,
+       category_description="Description of books in this category...",
        livres=livres,
    )
    ```
-4. Update `mkdocs.yml` to include the new page in navigation
+
+4. Update `site_livres_enfants_mkdocs/mkdocs.yml` to include the new page in navigation
+
 5. Run `bash scripts/build.sh` to regenerate
 
 ## 📦 Dependencies
