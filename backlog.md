@@ -12,9 +12,12 @@
     - 4-5
 
 - Auteurs:
-  - Matsumoto
+  - Mitsumaso anno
   - famille souris
   - auteur de floatman
+  - anthony brown
+  - david wiesner
+  - 
 
 ## Update the database of books
 - by authors: add books, ordered by author name
