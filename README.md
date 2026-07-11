@@ -2,6 +2,10 @@
 
 A Python-based static site generator for curating and showcasing children's books with categorization by theme, author, and price range.
 
+## Essential Dev
+put cover images in 'site_livres_enfants_mkdocs/docs/img'
+
+
 ## 📦 Installation
 
 ### Prerequisites

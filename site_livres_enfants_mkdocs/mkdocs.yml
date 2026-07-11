@@ -5,5 +5,6 @@ theme:
 
 nav:
   - Home: index.md
-  - "Par auteurs nav": par_auteurs.md
+  - "Par auteurs": par_auteurs.md
   - "Girls empowerment": girls_empowerment.md
+  - "Livres sans image": livres_sans_image.md

@@ -17,7 +17,10 @@ voyage = Livre(
     titre="Voyage",
     auteur="Aaron Becker",
     description="La petite fille mène l'action. C'est elle qui sauve le roi. C'est elle qui a la curiosité d'initier l'histoire qui nous est racontée.",
-    categories=[BooksCategory.GIRL_EMPOWERMENT]
+    categories=[
+        BooksCategory.GIRL_EMPOWERMENT,
+        BooksCategory.LIVRES_SANS_IMAGE,
+    ]
 )
 
 medaille_caldecott_books.append(voyage)

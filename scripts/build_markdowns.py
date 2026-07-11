@@ -72,3 +72,12 @@ write_category_markdown(
     category_description="Des livres où des filles et des femmes jouent le premier role et sont inspirantes.",
     livres=livres,
 )
+
+write_category_markdown(
+    filename="livres_sans_image.md",
+    title="Livres sans images",
+    category_name="livres_sans_image",
+    category=BooksCategory.LIVRES_SANS_IMAGE,
+    category_description="Des livres sans images, pour stimuler l'imagination.",
+    livres=livres,
+)
