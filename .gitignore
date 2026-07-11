@@ -6,3 +6,7 @@ site_livres_enfants_mkdocs/site/
 
 site_livres_enfants_mkdocs/docs/*.md
 !site_livres_enfants_mkdocs/docs/index.md
+
+.DS_Store
+
+.vscode/
