@@ -6,7 +6,7 @@
 
 - sans image
 
-- rire
+- rire   
 ca pourrait être pire
 
 - Age:
