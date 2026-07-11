@@ -17,7 +17,7 @@
   - auteur de floatman
   - anthony brown
   - david wiesner
-  - 
+  - max ducos
 
 ## Update the database of books
 - by authors: add books, ordered by author name
