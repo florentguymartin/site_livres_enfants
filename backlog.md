@@ -7,7 +7,8 @@
 - sans image
 
 - rire   
-ca pourrait être pire
+ca pourrait être pire. 
+grosse legume. 
 
 - Age:
     - 0-1
