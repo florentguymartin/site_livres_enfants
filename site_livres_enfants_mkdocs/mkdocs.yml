@@ -7,10 +7,10 @@ theme:
 
 
 nav:
-  - Home: index.md
-  - "Par auteurs": par_auteurs.md
-  # - Artistes:
-  #   - "Artist 1": artist_1.md
+  - Introduction: index.md
   - Categories:
     - "Girls empowerment": girls_empowerment.md
     - "Livres sans image": livres_sans_image.md
+  - "Par auteurs": par_auteurs.md
+  # - Artistes:
+  #   - "Artist 1": artist_1.md
