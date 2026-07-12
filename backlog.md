@@ -10,6 +10,7 @@
 - rire   
 ca pourrait être pire. 
 grosse legume. 
+au lit petit monstre
 
 - Age:
     - 0-1
@@ -24,6 +25,13 @@ grosse legume.
   - david wiesner
   - max ducos
 
+
+- se faire peur
+  - chien bleu
+
+- rever
+  - souris au clair de lune
+
 ## Update the database of books
 - by authors: add books, ordered by author name
 - by prices: by prices
@@ -34,3 +42,13 @@ livres:
 ## Backlog livre a ajouter
 Olivia reine (girl)
 Le tunnel (sans image)
+
+
+## Improvement
+
+Add livre attributes:
+* Publisher
+* Year of publication
+* Price won by book
+
+Add an enum with authors to avoid typos
