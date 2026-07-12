@@ -5,6 +5,8 @@ from enum import Enum
 class BooksCategory(Enum):
     GIRL_EMPOWERMENT = "girl_empowerment"
     LIVRES_SANS_IMAGE = "livres_sans_image"
+    POUR_RIRE = "pour_rire"
+    POUR_REVER = "pour_rever"
 
 class Livre (BaseModel):
     titre: str
