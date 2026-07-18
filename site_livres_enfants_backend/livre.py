@@ -4,10 +4,30 @@ from enum import Enum
 from site_livres_enfants_backend.livres_database.authors import Author
 
 class BooksCategory(Enum):
-    GIRL_EMPOWERMENT = "girl_empowerment"
+    GIRL_EMPOWERMENT = "girls_empowerment"
     LIVRES_SANS_IMAGE = "livres_sans_image"
     POUR_RIRE = "pour_rire"
     POUR_REVER = "pour_rever"
+
+# mapping category to (title, description)
+category_descriptions: dict[BooksCategory, tuple[str, str]] = {
+    BooksCategory.GIRL_EMPOWERMENT: (
+        "Girl Empowerment", 
+        "Des livres où des filles et des femmes jouent le premier role et sont inspirantes.",
+        ),
+    BooksCategory.LIVRES_SANS_IMAGE: (
+        "Livres sans image", 
+        "Des livres sans images, pour stimuler l'imagination.",
+    ),
+    BooksCategory.POUR_RIRE: (
+        "Pour rire", 
+        "Des livres pour rire et s'amuser.",
+    ),
+    BooksCategory.POUR_REVER: (
+        "Pour rêver", 
+        "Des livres pour rêver et s'évader.",
+    ),
+}
 
 class Livre (BaseModel):
     titre: str

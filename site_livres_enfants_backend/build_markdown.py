@@ -1,5 +1,5 @@
 from site_livres_enfants_backend.config import root_directory
-from site_livres_enfants_backend.livre import Livre, BooksCategory, LivreRendererMarkdown
+from site_livres_enfants_backend.livre import Livre, BooksCategory, LivreRendererMarkdown, category_descriptions
 from site_livres_enfants_backend.livres_database.authors import Author, author_descriptions
 import os
 
@@ -101,7 +101,34 @@ def write_category_markdown(
     print("Generated: " + filename)
 
 
+def write_all_category_markdown(
+    # filename: str, 
+    # title: str, 
+    # books_category: BooksCategory, 
+    # books_category_description: str, 
+    livres: list[Livre]
+) -> None:
+    """
+    Generate and write a category Markdown file.
+    
+    Args:
+        filename (str): The filename of the file to write.
+        title (str): The title of the category.
+        books_category (BooksCategory): The category of books.
+        books_category_description (str): The description of the category.
+        livres (list[Livre]): The list of books in the category.
 
+    Returns:
+        None
+    """
+    for books_category, (title, description) in category_descriptions.items():
+        write_category_markdown(
+            filename=books_category.value + ".md",
+            title=title,
+            books_category=books_category,
+            books_category_description=description,
+            livres=livres
+        )
 
 
 def generate_author_page(
