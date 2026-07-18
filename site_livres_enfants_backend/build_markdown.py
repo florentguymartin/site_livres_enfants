@@ -43,7 +43,7 @@ def generate_page(
     return "\n".join(lines)
 
 
-def generate_category_page(
+def _generate_category_page(
     title: str, 
     books_category: BooksCategory,
     category_description: str, 
@@ -87,7 +87,7 @@ def write_category_markdown(
     Returns:
         None
     """
-    category_md = generate_category_page(
+    category_md = _generate_category_page(
         title=title, 
         books_category=books_category,
         category_description=books_category_description, 
@@ -99,6 +99,9 @@ def write_category_markdown(
         f.write(category_md)
     
     print("Generated: " + filename)
+
+
+
 
 
 def generate_author_page(
