@@ -1,6 +1,7 @@
 from typing import Optional
 from pydantic import BaseModel, ConfigDict
 from enum import Enum
+from site_livres_enfants_backend.livres_database.authors import Author
 
 class BooksCategory(Enum):
     GIRL_EMPOWERMENT = "girl_empowerment"
@@ -10,9 +11,30 @@ class BooksCategory(Enum):
 
 class Livre (BaseModel):
     titre: str
-    auteur: str
+    auteur: Author
     couverture_path: Optional[str] = None
     categories: list[BooksCategory] = []
     description: str
     
     model_config = ConfigDict(extra='forbid') # at runtime raise an error if an extra field is present at init
+
+class LivreRendererMarkdown:
+
+    def render_markdown(self, livre: Livre) -> str:
+        """Render a Livre instance as a Markdown string.
+
+        Args:
+            livre (Livre): The Livre instance to render.
+
+        Returns:
+            str: The rendered Markdown string.
+        """
+        lines = []
+        lines.append(f"## {livre.titre} (*{livre.auteur}*)")
+        lines.append("")
+        if livre.couverture_path:
+            lines.append("![Screenshot](img/" + livre.couverture_path + ")")
+            lines.append("")
+        lines.append(livre.description)
+        lines.append("")
+        return "\n".join(lines)

@@ -2,7 +2,7 @@
 import os
 from site_livres_enfants_backend.livres_database import database
 from site_livres_enfants_backend.config import root_directory
-from site_livres_enfants_backend.livre import Livre, BooksCategory
+from site_livres_enfants_backend.livre import Livre, BooksCategory, LivreRendererMarkdown
 
 os.chdir(root_directory)
 
@@ -32,13 +32,12 @@ def generate_page(
     lines.append(introduction)
     lines.append("")
 
+    livre_renderer = LivreRendererMarkdown()
+
     for livre in livres:
-        lines.append("## " + livre.titre)
-        if livre.couverture_path:
-            lines.append("![Screenshot](img/" + livre.couverture_path + ")")
-            lines.append("")
-        lines.append(livre.description)
+        lines.append(livre_renderer.render_markdown(livre))
         lines.append("")
+
     return "\n".join(lines)
 
 
