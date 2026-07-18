@@ -13,14 +13,18 @@ class Livre (BaseModel):
     titre: str
     auteur: Author
     couverture_path: Optional[str] = None
-    categories: list[BooksCategory] = []
+    categories: tuple[BooksCategory, ...] = ()
     description: str
     
     model_config = ConfigDict(extra='forbid') # at runtime raise an error if an extra field is present at init
 
 class LivreRendererMarkdown:
 
-    def render_markdown(self, livre: Livre) -> str:
+    def render_markdown(
+        self, 
+        livre: Livre,
+        img_folder: str | None = None,
+        ) -> str:
         """Render a Livre instance as a Markdown string.
 
         Args:
@@ -29,11 +33,14 @@ class LivreRendererMarkdown:
         Returns:
             str: The rendered Markdown string.
         """
+        if img_folder is None:
+            img_folder = "./img"
         lines = []
         lines.append(f"## {livre.titre} (*{livre.auteur}*)")
         lines.append("")
         if livre.couverture_path:
-            lines.append("![Screenshot](img/" + livre.couverture_path + ")")
+            # specify image size explicitely to be at most 300 pixels
+            lines.append(f"![Screenshot]({img_folder}/" + livre.couverture_path + "){ width=\"100\" }")
             lines.append("")
         lines.append(livre.description)
         lines.append("")

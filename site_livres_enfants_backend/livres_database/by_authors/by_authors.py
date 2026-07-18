@@ -1,5 +1,8 @@
 from site_livres_enfants_backend.livre import Livre, BooksCategory  
 
+from site_livres_enfants_backend.livres_database.by_authors.kazuo_iwamura import kazuo_iwamura_livres
+from site_livres_enfants_backend.livres_database.by_authors.david_wiesner import david_wiesner_livres
 
 by_authors_books: list[Livre] = []
-
+by_authors_books.extend(kazuo_iwamura_livres)
+by_authors_books.extend(david_wiesner_livres)

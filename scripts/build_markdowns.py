@@ -3,7 +3,7 @@ import os
 from site_livres_enfants_backend.livres_database import database
 from site_livres_enfants_backend.config import root_directory
 from site_livres_enfants_backend.livre import Livre, BooksCategory, LivreRendererMarkdown
-from site_livres_enfants_backend.build_markdown import write_category_markdown
+from site_livres_enfants_backend.build_markdown import write_category_markdown, generate_author_pages
 os.chdir(root_directory)
 
 
@@ -26,3 +26,5 @@ write_category_markdown(
     books_category_description="Des livres sans images, pour stimuler l'imagination.",
     livres=livres,
 )
+
+generate_author_pages(livres)
