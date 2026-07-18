@@ -1,5 +1,6 @@
 from site_livres_enfants_backend.config import root_directory
 from site_livres_enfants_backend.livre import Livre, BooksCategory, LivreRendererMarkdown
+from site_livres_enfants_backend.livres_database.authors import Author
 import os
 
 MKDOCS_DIR_NAME = "site_livres_enfants_mkdocs"
@@ -11,7 +12,7 @@ def generate_page(
     introduction: str, 
     livres: list[Livre],
 ) -> str:
-    """Generate Markdown page content for a category page.
+    """Generate Markdown page with a list of books.
 
     Args:
         title (str): The title of the page.
@@ -61,22 +62,59 @@ def generate_category_page(
         livres=category_livres
     )
 
+def generate_author_page(
+    author: Author,
+    author_description: str, 
+    livres: list[Livre],
+     title: str | None = None, 
+) -> str:
+    """Generate Markdown content for an author page.
+    Args:
+        title (str | None): The title of the page.
+        author (Author): The author of the books.
+        author_description (str): The description of the author.
+        livres (list[Livre]): The list of books by the author.
+
+    Returns:
+        The generated Markdown content as a string.
+    """
+    if title is None:
+        title = author
+    author_livres = [livre for livre in livres if livre.auteur == author]
+
+    return generate_page(
+        title=title,
+        introduction=author_description,
+        livres=author_livres
+    )
+
+    # Returns:
+    #     The generated Markdown content as a string.
+    # """
+    # category_livres = [livre for livre in livres if books_category in livre.categories]
+
+    # return generate_page(
+    #     title=title,
+    #     introduction=category_description,
+    #     livres=category_livres
+    # )
+
 
 def write_category_markdown(
     filename: str, 
     title: str, 
-    category: BooksCategory, 
-    category_description: str, 
+    books_category: BooksCategory, 
+    books_category_description: str, 
     livres: list[Livre]
 ) -> None:
     """
     Generate and write a category Markdown file.
     
     Args:
-        filename (str): The name of the file to write.
+        filename (str): The filename of the file to write.
         title (str): The title of the category.
-        category (BooksCategory): The category of books.
-        category_description (str): The description of the category.
+        books_category (BooksCategory): The category of books.
+        books_category_description (str): The description of the category.
         livres (list[Livre]): The list of books in the category.
 
     Returns:
@@ -84,8 +122,8 @@ def write_category_markdown(
     """
     category_md = generate_category_page(
         title=title, 
-        books_category=category,
-        category_description=category_description, 
+        books_category=books_category,
+        category_description=books_category_description, 
         livres=livres
     )
     file_path = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, filename)

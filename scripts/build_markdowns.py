@@ -14,15 +14,15 @@ livres = database
 write_category_markdown(
     filename="girls_empowerment.md",
     title="Girls empowerment",
-    category=BooksCategory.GIRL_EMPOWERMENT,
-    category_description="Des livres où des filles et des femmes jouent le premier role et sont inspirantes.",
+    books_category=BooksCategory.GIRL_EMPOWERMENT,
+    books_category_description="Des livres où des filles et des femmes jouent le premier role et sont inspirantes.",
     livres=livres,
 )
 
 write_category_markdown(
     filename="livres_sans_image.md",
     title="Livres sans images",
-    category=BooksCategory.LIVRES_SANS_IMAGE,
-    category_description="Des livres sans images, pour stimuler l'imagination.",
+    books_category=BooksCategory.LIVRES_SANS_IMAGE,
+    books_category_description="Des livres sans images, pour stimuler l'imagination.",
     livres=livres,
 )
