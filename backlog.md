@@ -1,5 +1,8 @@
 # Backlog of todos
 
+## refactor
+remove any logic (e.g. page rendering) into src
+
 ## Finalize categories
 
 - girls
