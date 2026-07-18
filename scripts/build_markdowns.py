@@ -6,9 +6,6 @@ from site_livres_enfants_backend.livre import Livre, BooksCategory, LivreRendere
 from site_livres_enfants_backend.build_markdown import write_category_markdown, generate_author_pages, write_all_category_markdown
 os.chdir(root_directory)
 
-
-
-
 livres = database
 
 write_all_category_markdown(livres)
