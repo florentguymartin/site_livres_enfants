@@ -17,4 +17,12 @@ kazuo_iwamura_livres: list[Livre] = [
         description="Une histoire sur la nature.",
         age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
     ),
+    Livre(
+        titre="À table",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="a_table.jpg",
+        description="Les oiseaux ne mangent pas la même chose que les écureuils.",
+        categories=(BooksCategory.POUR_REVER,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+    )
 ]

@@ -53,7 +53,7 @@ age_descriptions: dict[BooksAge,tuple[str, str]] = {
 
 class Livre (BaseModel):
     titre: str
-    auteur: Author
+    auteur: Author | tuple[Author, ...]
     couverture_path: Optional[str] = None
     categories: tuple[BooksCategory, ...] = ()
     description: str
@@ -79,7 +79,11 @@ class LivreRendererMarkdown:
         if img_folder is None:
             img_folder = "./img"
         lines = []
-        lines.append(f"## {livre.titre} (*{livre.auteur}*)")
+        if isinstance(livre.auteur, tuple):
+            auteur_as_str = " et ".join([auteur.value for auteur in livre.auteur])
+        else:
+            auteur_as_str = livre.auteur.value
+        lines.append(f"## {livre.titre} (*{auteur_as_str}*)")
         lines.append("")
         if livre.couverture_path:
             # specify image size explicitely to be at most 300 pixels

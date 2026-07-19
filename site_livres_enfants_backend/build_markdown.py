@@ -203,6 +203,12 @@ def write_all_age_markdown(
             age_description=description,
             livres=livres
         )
+def is_author(livre: Livre, author: Author) -> bool:
+    """Check if a book is written by a specific author."""
+    if isinstance(livre.auteur, tuple):
+        return author in livre.auteur
+    else:
+        return livre.auteur == author
 
 def generate_author_page(
     author: Author,
@@ -223,7 +229,7 @@ def generate_author_page(
     """
     if title is None:
         title = author
-    author_livres = [livre for livre in livres if livre.auteur == author]
+    author_livres = [livre for livre in livres if is_author(livre, author)]
 
     return generate_page(
         title=title,

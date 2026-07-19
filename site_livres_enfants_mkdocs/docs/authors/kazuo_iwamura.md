@@ -16,3 +16,10 @@ Un livre sur les liens familiaux et la nature.
 
 Une histoire sur la nature.
 
+
+## À table (*Kazuo Iwamura*)
+
+![Screenshot](../img/a_table.jpg){ width="100" }
+
+Les oiseaux ne mangent pas la même chose que les écureuils.
+
