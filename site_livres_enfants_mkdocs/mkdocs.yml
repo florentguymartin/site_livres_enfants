@@ -16,6 +16,10 @@ nav:
   - Artistes:
     - "Kazuo Iwamura": authors/kazuo_iwamura.md
     - "David Wiesner": authors/david_wiesner.md
+  - "Par âge":
+    - "0-1 ans": 0_1_ans.md
+    - "2-3 ans": 2_3_ans.md
+    - "4-5 ans": 4_5_ans.md
 
 markdown_extensions:
   - attr_list

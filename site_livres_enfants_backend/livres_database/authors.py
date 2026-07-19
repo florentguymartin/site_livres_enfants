@@ -2,9 +2,10 @@ from enum import StrEnum
 
 class Author(StrEnum):
     AARON_BECKER = "Aaron Becker"
-    EMILY_ARNOLD_MCCULLOUGH = "Emily Arnold McCully"
-    KAZUO_IWAMURA = "Kazuo Iwamura"
     DAVID_WIESNER = "David Wiesner"
+    EMILY_ARNOLD_MCCULLOUGH = "Emily Arnold McCully"
+    HELEN_OXENBURY = "Helen Oxenbury"
+    KAZUO_IWAMURA = "Kazuo Iwamura"
 
 
 author_descriptions: dict[Author, str] = {

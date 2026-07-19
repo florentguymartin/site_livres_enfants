@@ -1,4 +1,4 @@
-from site_livres_enfants_backend.livre import Livre, BooksCategory  
+from site_livres_enfants_backend.livre import Livre, BooksCategory, BooksAge 
 from site_livres_enfants_backend.livres_database.authors import Author
 
 
@@ -9,7 +9,8 @@ juliette_et_bellini = Livre(
     auteur=Author.EMILY_ARNOLD_MCCULLOUGH,
     description="""Ce livre est extraordinaire.""",
     couverture_path="juliette_et_bellini.jpg",
-    categories=(BooksCategory.GIRL_EMPOWERMENT,)
+    categories=(BooksCategory.GIRL_EMPOWERMENT,),
+    age = (BooksAge.AGE_4_5_ANS,)
 )
 
 medaille_caldecott_books.append(juliette_et_bellini)
@@ -21,7 +22,8 @@ voyage = Livre(
     categories=(
         BooksCategory.GIRL_EMPOWERMENT,
         BooksCategory.LIVRES_SANS_IMAGE,
-    )
+    ),
+    age=(BooksAge.AGE_4_5_ANS,)
 )
 
 medaille_caldecott_books.append(voyage)

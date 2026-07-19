@@ -1,13 +1,18 @@
 from typing import Optional
 from pydantic import BaseModel, ConfigDict
-from enum import Enum
+from enum import Enum, StrEnum
 from site_livres_enfants_backend.livres_database.authors import Author
 
-class BooksCategory(Enum):
+class BooksCategory(StrEnum):
     GIRL_EMPOWERMENT = "girls_empowerment"
     LIVRES_SANS_IMAGE = "livres_sans_image"
     POUR_RIRE = "pour_rire"
     POUR_REVER = "pour_rever"
+
+class BooksAge(StrEnum):
+    AGE_0_1_ANS = "0_1_ans"
+    AGE_2_3_ANS = "2_3_ans"
+    AGE_4_5_ANS = "4_5_ans"
 
 # mapping category to (title, description)
 category_descriptions: dict[BooksCategory, tuple[str, str]] = {
@@ -29,13 +34,31 @@ category_descriptions: dict[BooksCategory, tuple[str, str]] = {
     ),
 }
 
+
+# mapping age to descriptions:
+age_descriptions: dict[BooksAge,tuple[str, str]] = {
+    BooksAge.AGE_0_1_ANS: (
+        "0-1 ans", 
+        "Des livres pour les tout-petits.",
+    ),
+    BooksAge.AGE_2_3_ANS: (
+        "2-3 ans", 
+        "Des livres pour les enfants de 2 à 3 ans.",
+    ),
+    BooksAge.AGE_4_5_ANS: (
+        "4-5 ans", 
+        "Des livres pour les enfants de 4 à 5 ans.",
+    ),
+}
+
 class Livre (BaseModel):
     titre: str
     auteur: Author
     couverture_path: Optional[str] = None
     categories: tuple[BooksCategory, ...] = ()
     description: str
-    
+    age: tuple[BooksAge, ...] = ()
+
     model_config = ConfigDict(extra='forbid') # at runtime raise an error if an extra field is present at init
 
 class LivreRendererMarkdown:
