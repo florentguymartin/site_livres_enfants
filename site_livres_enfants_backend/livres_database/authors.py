@@ -7,7 +7,10 @@ class Author(StrEnum):
     DAVID_WIESNER = "David Wiesner"
     EMILY_ARNOLD_MCCULLOUGH = "Emily Arnold McCully"
     HELEN_OXENBURY = "Helen Oxenbury"
+    JOERG_MUEHLE = "Jörg Mühle"
+    KAREN_JAMESON = "Karen Jameson"
     KAZUO_IWAMURA = "Kazuo Iwamura"
+    MARC_BOUTAVANT = "Marc Boutavant"
     MEM_FOX = "Mem Fox"
     PAULINE_DELABROY_ALLARD = "Pauline Delabroy-Allard"
 
