@@ -30,3 +30,10 @@ Les oiseaux ne mangent pas la même chose que les écureuils.
 
 Que devient la neige au Printemps? Une très belle histoire, beaucoup de poésie, et une très belle rencontre au milieu du lac.
 
+
+## Vive la neige (*Kazuo Iwamura*)
+
+![Screenshot](../img/die_schlittenfahrt.jpg){ width="100" }
+
+Un peu de neige, c'est l'occasion idéale pour sortir la luge et permettre aux adultes de retrouver une âme d'enfants.
+

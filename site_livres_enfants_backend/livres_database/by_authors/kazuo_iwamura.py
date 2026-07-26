@@ -35,5 +35,16 @@ kazuo_iwamura_livres: list[Livre] = [
         ),
         categories=(BooksCategory.POUR_REVER,),
         age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+    ),
+    Livre(
+        titre="Vive la neige",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="die_schlittenfahrt.jpg",
+        description=(
+            "Un peu de neige, c'est l'occasion idéale pour sortir la luge "
+            "et permettre aux adultes de retrouver une âme d'enfants."
+        ),
+        categories=(BooksCategory.POUR_REVER,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
     )
 ]

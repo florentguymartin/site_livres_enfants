@@ -5,6 +5,7 @@ class Author(StrEnum):
     ANNE_MARGOT_RAMSTEIN = "Anne-Margot Ramstein"
     ANTHONY_BROWN = "Anthony Browne"
     AURORE_PETIT = "Aurore Petit"
+    AXEL_SCHEFFLER = "Axel Scheffler"
     CATI_BAUR = "Cati Baur"
     CHIAKI_OKADA = "Chiaki Okada"
     CHRIS_VAN_ALLSBURG = "Chris Van Allsburg"
@@ -14,16 +15,19 @@ class Author(StrEnum):
     GERDA_MULLER = "Gerda Muller"
     HELEN_OXENBURY = "Helen Oxenbury"
     JOERG_MUEHLE = "Jörg Mühle"
+    JULIA_DONALDSON = "Julia Donaldson"
     KAREN_JAMESON = "Karen Jameson"
     KAZUO_IWAMURA = "Kazuo Iwamura"
     KO_OKADA = "Ko Okada"
     MARC_BOUTAVANT = "Marc Boutavant"
+    MARIE_DORLEANS = "Marie Dorléans"
     MARIO_RAMOS = "Mario Ramos"
     MATTHIAS_AREGUI = "Matthias Aregui"
     MEM_FOX = "Mem Fox"
     MITSUMASA_ANNO = "Mitsumasa Anno"
     PAULINE_DELABROY_ALLARD = "Pauline Delabroy-Allard"
     STEPHANIE_BLAKE = "Stephanie Blake"
+    THE_TJONG_KHING = "Thé Tjong-Khing"
 
 
 author_descriptions: dict[Author, str] = {
