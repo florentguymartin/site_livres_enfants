@@ -22,5 +22,27 @@ david_wiesner_livres: list[Livre] = [
         categories=(BooksCategory.POUR_REVER, BooksCategory.LIVRES_SANS_TEXTE),
         age=(BooksAge.AGE_4_5_ANS, BooksAge.AGE_2_3_ANS),
     ),
+    Livre(
+        titre="Les trois cochons",
+        auteur=Author.DAVID_WIESNER,
+        couverture_path="les_trois_cochons.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
+    Livre(
+        titre="Mardi",
+        auteur=Author.DAVID_WIESNER,
+        couverture_path="mardi.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
 
 ]

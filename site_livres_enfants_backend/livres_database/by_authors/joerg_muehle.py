@@ -17,5 +17,16 @@ joerg_muehle_livres: list[Livre] = [
         description="Une histoire douce et apaisante pour l'heure du coucher.",
         categories=(),
         age=(BooksAge.AGE_0_1_ANS, BooksAge.AGE_2_3_ANS,),
-    )
+    ),
+    Livre(
+        titre="On joue, Petit Lapin!",
+        auteur=Author.JOERG_MUEHLE,
+        couverture_path="on_joue_petit_lapin.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
 ]

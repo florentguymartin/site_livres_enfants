@@ -17,4 +17,37 @@ aaron_becker_livres: list[Livre] = [
     ),
     age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,),
     ),
+    Livre(
+        titre="Imagine, encore...",
+        auteur=Author.AARON_BECKER,
+        couverture_path="imagine_encore.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
+    Livre(
+        titre="Quest",
+        auteur=Author.AARON_BECKER,
+        couverture_path="quest.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
+    Livre(
+        titre="The tree and the River",
+        auteur=Author.AARON_BECKER,
+        couverture_path="the_tree_and_the_river.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
 ]

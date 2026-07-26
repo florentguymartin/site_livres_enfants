@@ -10,4 +10,48 @@ anthony_browne_livres: list[Livre] = [
         categories=(BooksCategory.POUR_REVER,),
         age=(BooksAge.AGE_2_3_ANS,)
     ),
+    Livre(
+        titre="Le garçon, le chien et la mer",
+        auteur=Author.ANTHONY_BROWN,
+        couverture_path="le_garcon_le_chien_et_la_mer.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
+    Livre(
+        titre="Le tunnel",
+        auteur=Author.ANTHONY_BROWN,
+        couverture_path="le_tunnel.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
+    Livre(
+        titre="Ourson et la ville",
+        auteur=Author.ANTHONY_BROWN,
+        couverture_path="ourson_et_la_ville.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
+    Livre(
+        titre="Une histoire à quatre voix",
+        auteur=Author.ANTHONY_BROWN,
+        couverture_path="une_histoire_a_quatre_voix.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
 ]
