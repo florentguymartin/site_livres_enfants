@@ -11,7 +11,7 @@ paul_zelinsky_livres: list[Livre] = [
             "La narration de l'histoire des frères Grimm n'est pas très moderne, mais les illustrations "
             "de Zelinksy sont magnifiques et plaisent aux enfants."
         ),
-        categories=(BooksCategory.POUR_REVER,),
-        age=(BooksAge.AGE_2_3_ANS,)
+        categories=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
     ),
 ]

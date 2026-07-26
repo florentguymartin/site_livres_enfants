@@ -7,7 +7,7 @@ aurore_petit_livres: list[Livre] = [
         auteur=Author.AURORE_PETIT,
         couverture_path="bebe_ventre.jpg",
         description="Comment un petit garçon de 3/4 ans prépare la venue d'une petite soeur.",
-        categories=(BooksCategory.POUR_REVER,),
+        categories=(),
         age=(BooksAge.AGE_2_3_ANS,)
     ),
 ]

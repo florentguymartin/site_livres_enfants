@@ -2,6 +2,8 @@ from site_livres_enfants_backend.livre import Livre, BooksCategory
 
 # sort books by author names
 by_authors_books: list[Livre] = []
+from .aaron_becker import aaron_becker_livres
+by_authors_books.extend(aaron_becker_livres)
 
 from .anne_margot_ramstein import anne_margot_ramstein_livres
 by_authors_books.extend(anne_margot_ramstein_livres)
@@ -29,6 +31,9 @@ by_authors_books.extend(david_ellwand_livres)
 
 from .david_wiesner import david_wiesner_livres
 by_authors_books.extend(david_wiesner_livres)
+
+from .emily_arnold_mccully import emily_arnold_mccully_livres
+by_authors_books.extend(emily_arnold_mccully_livres)
 
 from .helen_oxenburry import helen_oxenburry_livres
 by_authors_books.extend(helen_oxenburry_livres)

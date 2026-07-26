@@ -7,7 +7,7 @@ david_ellwand_livres: list[Livre] = [
         auteur=Author.DAVID_ELLWAND,
         couverture_path="beaucoup_de_beaux_bebes.jpg",
         description="Des photos de bébés. Un livre pour les tout-tout-petits.",
-        categories=(BooksCategory.POUR_REVER,),
+        categories=(),
         age=(BooksAge.AGE_0_1_ANS,)
     ),
 ]

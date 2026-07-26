@@ -5,6 +5,7 @@ aaron_becker_livres: list[Livre] = [
     Livre(
     titre="Voyage",
     auteur=Author.AARON_BECKER,
+    couverture_path="voyage.jpg",
     description=(
         "La petite fille mène l'action. "
         "C'est elle qui sauve le roi. "
