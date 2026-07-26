@@ -14,6 +14,7 @@ class Author(StrEnum):
     EMILY_ARNOLD_MCCULLOUGH = "Emily Arnold McCully"
     GERDA_MULLER = "Gerda Muller"
     HELEN_OXENBURY = "Helen Oxenbury"
+    JILL_MURPHY = "Jill Murphy"
     JOERG_MUEHLE = "Jörg Mühle"
     JULIA_DONALDSON = "Julia Donaldson"
     KAREN_JAMESON = "Karen Jameson"

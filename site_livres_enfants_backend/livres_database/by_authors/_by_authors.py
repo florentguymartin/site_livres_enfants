@@ -1,39 +1,76 @@
 from site_livres_enfants_backend.livre import Livre, BooksCategory  
 
 # sort books by author names
-from .anne_margot_ramstein import anne_margot_ramstein_livres
-from .anthony_browne import anthony_browne_livres
-from .aurore_petit import aurore_petit_livres
-from .chiaki_okada import chiaki_okada_livres
-from .chris_van_allsburg import chris_van_allsburg_livres
-from .david_ellwand import david_ellwand_livres
-from .david_wiesner import david_wiesner_livres
-from .helen_oxenburry import helen_oxenburry_livres
-from .joerg_muehle import joerg_muehle_livres
-from .julia_donaldson import julia_donaldson_livres
-from .karen_jameson import karen_jameson_livres
-from .kazuo_iwamura import kazuo_iwamura_livres
-from .marie_dorleans import marie_dorleans_livres
-from .mario_ramos import mario_ramos_livres
-from .mitsumasa_anno import mitsumasa_anno_livres
-from .pauline_delabroy_allard import pauline_delabroy_allard_livres
-from .stephanie_blake import stephanie_blake_livres
-from .the_tjong_khing import the_tjong_khing_livres
-
 by_authors_books: list[Livre] = []
-by_authors_books.extend(kazuo_iwamura_livres)
-by_authors_books.extend(david_wiesner_livres)
-by_authors_books.extend(helen_oxenburry_livres)
-by_authors_books.extend(pauline_delabroy_allard_livres)
-by_authors_books.extend(anthony_browne_livres)
-by_authors_books.extend(joerg_muehle_livres)
-by_authors_books.extend(julia_donaldson_livres)
-by_authors_books.extend(mitsumasa_anno_livres)
-by_authors_books.extend(karen_jameson_livres)
-by_authors_books.extend(marie_dorleans_livres)
-by_authors_books.extend(mario_ramos_livres)
+
+from .anne_margot_ramstein import anne_margot_ramstein_livres
 by_authors_books.extend(anne_margot_ramstein_livres)
+
+from .anthony_browne import anthony_browne_livres
+by_authors_books.extend(anthony_browne_livres)
+
+from .aurore_petit import aurore_petit_livres
+by_authors_books.extend(aurore_petit_livres)
+
+from .chiaki_okada import chiaki_okada_livres
 by_authors_books.extend(chiaki_okada_livres)
+
+from .chris_van_allsburg import chris_van_allsburg_livres
 by_authors_books.extend(chris_van_allsburg_livres)
+
+from .david_ellwand import david_ellwand_livres
+by_authors_books.extend(david_ellwand_livres)
+
+from .david_wiesner import david_wiesner_livres
+by_authors_books.extend(david_wiesner_livres)
+
+from .helen_oxenburry import helen_oxenburry_livres
+by_authors_books.extend(helen_oxenburry_livres)
+
+from .jill_murphy import jill_murphy_livres
+by_authors_books.extend(jill_murphy_livres)
+
+from .joerg_muehle import joerg_muehle_livres
+by_authors_books.extend(joerg_muehle_livres)
+
+from .julia_donaldson import julia_donaldson_livres
+by_authors_books.extend(julia_donaldson_livres)
+
+from .karen_jameson import karen_jameson_livres
+by_authors_books.extend(karen_jameson_livres)
+
+from .kazuo_iwamura import kazuo_iwamura_livres
+by_authors_books.extend(kazuo_iwamura_livres)
+
+from .marie_dorleans import marie_dorleans_livres
+by_authors_books.extend(marie_dorleans_livres)
+
+from .mario_ramos import mario_ramos_livres
+by_authors_books.extend(mario_ramos_livres)
+
+from .mitsumasa_anno import mitsumasa_anno_livres
+by_authors_books.extend(mitsumasa_anno_livres)
+
+from .pauline_delabroy_allard import pauline_delabroy_allard_livres
+by_authors_books.extend(pauline_delabroy_allard_livres)
+
+from .stephanie_blake import stephanie_blake_livres
 by_authors_books.extend(stephanie_blake_livres)
+
+from .the_tjong_khing import the_tjong_khing_livres
 by_authors_books.extend(the_tjong_khing_livres)
+
+# by_authors_books.extend(helen_oxenburry_livres)
+# by_authors_books.extend(pauline_delabroy_allard_livres)
+# by_authors_books.extend(jill_murphy_livres)
+# by_authors_books.extend(joerg_muehle_livres)
+# by_authors_books.extend(julia_donaldson_livres)
+# by_authors_books.extend(mitsumasa_anno_livres)
+# by_authors_books.extend(karen_jameson_livres)
+# by_authors_books.extend(marie_dorleans_livres)
+# by_authors_books.extend(mario_ramos_livres)
+# by_authors_books.extend(anne_margot_ramstein_livres)
+# by_authors_books.extend(chiaki_okada_livres)
+# by_authors_books.extend(chris_van_allsburg_livres)
+# by_authors_books.extend(stephanie_blake_livres)
+# by_authors_books.extend(the_tjong_khing_livres)
