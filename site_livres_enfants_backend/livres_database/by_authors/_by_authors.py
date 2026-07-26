@@ -27,6 +27,12 @@ by_authors_books.extend(david_wiesner_livres)
 from .helen_oxenburry import helen_oxenburry_livres
 by_authors_books.extend(helen_oxenburry_livres)
 
+from.janosch import janosch_livres
+by_authors_books.extend(janosch_livres)
+
+from .jean_gourounas import jean_gourounas_livres
+by_authors_books.extend(jean_gourounas_livres)
+
 from .jill_murphy import jill_murphy_livres
 by_authors_books.extend(jill_murphy_livres)
 
@@ -48,29 +54,23 @@ by_authors_books.extend(marie_dorleans_livres)
 from .mario_ramos import mario_ramos_livres
 by_authors_books.extend(mario_ramos_livres)
 
+from .max_ducos import max_ducos_livres
+by_authors_books.extend(max_ducos_livres)
+
 from .mitsumasa_anno import mitsumasa_anno_livres
 by_authors_books.extend(mitsumasa_anno_livres)
 
+from .olivier_tallec import olivier_tallec_livres
+by_authors_books.extend(olivier_tallec_livres)
+
 from .pauline_delabroy_allard import pauline_delabroy_allard_livres
 by_authors_books.extend(pauline_delabroy_allard_livres)
+
+from .paul_zelinksy import paul_zelinsky_livres
+by_authors_books.extend(paul_zelinsky_livres)
 
 from .stephanie_blake import stephanie_blake_livres
 by_authors_books.extend(stephanie_blake_livres)
 
 from .the_tjong_khing import the_tjong_khing_livres
 by_authors_books.extend(the_tjong_khing_livres)
-
-# by_authors_books.extend(helen_oxenburry_livres)
-# by_authors_books.extend(pauline_delabroy_allard_livres)
-# by_authors_books.extend(jill_murphy_livres)
-# by_authors_books.extend(joerg_muehle_livres)
-# by_authors_books.extend(julia_donaldson_livres)
-# by_authors_books.extend(mitsumasa_anno_livres)
-# by_authors_books.extend(karen_jameson_livres)
-# by_authors_books.extend(marie_dorleans_livres)
-# by_authors_books.extend(mario_ramos_livres)
-# by_authors_books.extend(anne_margot_ramstein_livres)
-# by_authors_books.extend(chiaki_okada_livres)
-# by_authors_books.extend(chris_van_allsburg_livres)
-# by_authors_books.extend(stephanie_blake_livres)
-# by_authors_books.extend(the_tjong_khing_livres)

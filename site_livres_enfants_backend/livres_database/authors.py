@@ -13,7 +13,10 @@ class Author(StrEnum):
     DAVID_WIESNER = "David Wiesner"
     EMILY_ARNOLD_MCCULLOUGH = "Emily Arnold McCully"
     GERDA_MULLER = "Gerda Muller"
+    HARUO_YAMASHITA = "Haruo Yamashita"
     HELEN_OXENBURY = "Helen Oxenbury"
+    JANOSCH = "Janosch"
+    JEAN_GOUROUNAS = "Jean Gourounas"
     JILL_MURPHY = "Jill Murphy"
     JOERG_MUEHLE = "Jörg Mühle"
     JULIA_DONALDSON = "Julia Donaldson"
@@ -24,9 +27,12 @@ class Author(StrEnum):
     MARIE_DORLEANS = "Marie Dorléans"
     MARIO_RAMOS = "Mario Ramos"
     MATTHIAS_AREGUI = "Matthias Aregui"
+    MAX_DUCOS = "Max Ducos"
     MEM_FOX = "Mem Fox"
     MITSUMASA_ANNO = "Mitsumasa Anno"
+    OLIVIER_TALLEC = "Olivier Tallec"
     PAULINE_DELABROY_ALLARD = "Pauline Delabroy-Allard"
+    PAUL_ZELINKSKY = "Paul Zelinsky"
     STEPHANIE_BLAKE = "Stephanie Blake"
     THE_TJONG_KHING = "Thé Tjong-Khing"
 
@@ -51,4 +57,10 @@ author_descriptions: dict[Author, str] = {
         "Mitsumasa Anno est également connu pour son approche unique de la narration visuelle, "
         "incitant les jeunes lecteurs à interagir avec les illustrations et à découvrir des histoires cachées."
     ),
+    Author.MAX_DUCOS: (
+        "Max Ducos écrit des histoires dont les scénarios sont à la fois très imaginatifs, poétiques, et profonds,"
+        "mais avec un récit toujours très simple et efficace. "
+        "Tout ça avec de très belles illustrations. "
+        "Super à partir de 3 ans."
+    )
 }

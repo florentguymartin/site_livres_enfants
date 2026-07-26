@@ -46,5 +46,27 @@ kazuo_iwamura_livres: list[Livre] = [
         ),
         categories=(BooksCategory.POUR_REVER,),
         age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
-    )
+    ),
+    Livre(
+        titre="Le pique-nique de la famille Souris",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="familie_maus_macht_picknick.jpg",
+        description=(
+            "Tour est dans le titre."
+        ),
+        categories=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+    ),
+    Livre(
+        titre="Le train des souris",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="hurra_der_maeuszug_ist_da.jpg",
+        description=(
+            "Pour motiver les souris pour la rentrée des classes, la maman souris a une idée: "
+            "suggérer des rails jusqu'à l'école. " 
+            "Mais le chemin est semé d'embûches. "
+        ),
+        categories=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+    ),
 ]

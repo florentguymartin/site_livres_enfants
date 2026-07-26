@@ -13,4 +13,15 @@ chris_van_allsburg_livres: list[Livre] = [
         categories=(BooksCategory.POUR_REVER,),
         age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
     ),
+    Livre(
+        titre="Jumanji",
+        auteur=Author.CHRIS_VAN_ALLSBURG,
+        couverture_path="jumanji.jpg",
+        description=(
+            "Un jeu de société qui prend vie. "
+            "Le film est très populaire, mais le livre qui l'a inspiré mérite d'être redécouvert."
+        ),
+        categories=(BooksCategory.POUR_REVER,),
+        age=(BooksAge.AGE_4_5_ANS,)
+    )
 ]

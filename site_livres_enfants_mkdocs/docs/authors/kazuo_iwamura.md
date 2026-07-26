@@ -37,3 +37,17 @@ Que devient la neige au Printemps? Une très belle histoire, beaucoup de poésie
 
 Un peu de neige, c'est l'occasion idéale pour sortir la luge et permettre aux adultes de retrouver une âme d'enfants.
 
+
+## Le pique-nique de la famille Souris (*Kazuo Iwamura*)
+
+![Screenshot](../img/familie_maus_macht_picknick.jpg){ width="100" }
+
+Tour est dans le titre.
+
+
+## Le train des souris (*Kazuo Iwamura*)
+
+![Screenshot](../img/hurra_der_maeuszug_ist_da.jpg){ width="100" }
+
+Pour motiver les souris pour la rentrée des classes, la maman souris a une idée: suggérer des rails jusqu'à l'école. Mais le chemin est semé d'embûches. 
+
