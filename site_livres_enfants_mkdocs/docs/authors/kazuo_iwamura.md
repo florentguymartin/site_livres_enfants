@@ -7,7 +7,7 @@ Kazuo Iwamura est un auteur et illustrateur japonais, reconnu pour ses livres po
 
 ![Screenshot](../img/l_hiver_de_la_famille_souris.jpg){ width="100" }
 
-#todo
+La famille sourise est décidément très bricoleuse. Les souris fabriquent elle-même leur luge. 
 
 
 ## La famille souris dîne au clair de lune (*Kazuo Iwamura*)
@@ -56,28 +56,28 @@ Tour est dans le titre.
 
 ![Screenshot](../img/la_famille_souris_et_le_potiron.jpg){ width="100" }
 
-#todo
+Une superbe histoire pour donner une introduction à la botanique.
 
 
 ## La famille souris prépare le nouvel an (*Kazuo Iwamura*)
 
 ![Screenshot](../img/la_famille_souris_prepare_le_nouvel_an.jpg){ width="100" }
 
-#todo
+Le nouvel an au Japon, ça se mérite (du moins d'après cette histoire). 
 
 
 ## La fête d'automne de la famille souris (*Kazuo Iwamura*)
 
 ![Screenshot](../img/la_fete_dautomne_de_la_famille_souris.jpg){ width="100" }
 
-#todo
+Sur cet album Kazuo Iwamura lache la bride! Très beau comme toujours avec lui.
 
 
 ## La lessive de la famille souris (*Kazuo Iwamura*)
 
 ![Screenshot](../img/la_lessive_de_la_famille_souris.jpg){ width="100" }
 
-#todo
+La magie de Kazuo Iwamura qui transforme une histoire banale (la lessive) en un moment poétique.
 
 
 ## Le train des souris (*Kazuo Iwamura*)

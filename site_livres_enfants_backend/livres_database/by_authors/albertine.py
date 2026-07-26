@@ -6,6 +6,11 @@ albertine_livres: list[Livre] = [
         titre="La Rumeur de Venise",
         auteur=(Author.ALBERTINE, Author.GERMANO_ZULLO),
         couverture_path="la_rumeur_de_venise.jpg",
-        description="#todo",
-    ),
+        description=(
+            "Un livre sans texte, qui illustre comment la rumeur passe d'une maison à l'autre."
+            "Et tout ça en voyageant à travers Venise."
+        ),
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,)
+    )
 ]

@@ -26,7 +26,10 @@ if __name__ == "__main__":
     
     # Compress and save images
     for filename in tqdm.tqdm(high_quality_image_filenames):
-        print(f"Compressing {filename}...")
+        
+        
         src_image_path = os.path.join(high_quality_image_dirpath, filename)
         target_image_path = os.path.join(target_image_dirpath, filename)
-        compress_image(src_image_path=src_image_path, target_image_path=target_image_path, quality=JPEG_IMG_QUALITY)
+        if not os.path.exists(target_image_path):
+            print(f"Compressing {filename}...")
+            compress_image(src_image_path=src_image_path, target_image_path=target_image_path, quality=JPEG_IMG_QUALITY)

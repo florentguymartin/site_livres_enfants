@@ -6,7 +6,11 @@ kazuo_iwamura_livres: list[Livre] = [
         titre="L'hiver de la famille souris",
         auteur=Author.KAZUO_IWAMURA,
         couverture_path="l_hiver_de_la_famille_souris.jpg",
-        description="#todo",
+        description=(
+            "La famille sourise est décidément très bricoleuse. "
+            "Les souris fabriquent elle-même leur luge. "
+        ),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
     ),
     Livre(
         titre="La famille souris dîne au clair de lune",
@@ -67,25 +71,35 @@ kazuo_iwamura_livres: list[Livre] = [
         titre="La famille Souris et le potiron",
         auteur=Author.KAZUO_IWAMURA,
         couverture_path="la_famille_souris_et_le_potiron.jpg",
-        description="#todo",
+        description=(
+            "Une superbe histoire pour donner une introduction à la botanique."
+        ),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
     Livre(
         titre="La famille souris prépare le nouvel an",
         auteur=Author.KAZUO_IWAMURA,
         couverture_path="la_famille_souris_prepare_le_nouvel_an.jpg",
-        description="#todo",
+        description=(
+            "Le nouvel an au Japon, ça se mérite (du moins d'après cette histoire). "
+        ),
     ),
     Livre(
         titre="La fête d'automne de la famille souris",
         auteur=Author.KAZUO_IWAMURA,
         couverture_path="la_fete_dautomne_de_la_famille_souris.jpg",
-        description="#todo",
+        description=(
+            "Sur cet album Kazuo Iwamura lache la bride! Très beau comme toujours avec lui."
+        ),
     ),
     Livre(
         titre="La lessive de la famille souris",
         auteur=Author.KAZUO_IWAMURA,
         couverture_path="la_lessive_de_la_famille_souris.jpg",
-        description="#todo",
+        description=(
+            "La magie de Kazuo Iwamura qui transforme une histoire banale (la lessive) en un moment poétique."
+        ),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
     Livre(
         titre="Le train des souris",

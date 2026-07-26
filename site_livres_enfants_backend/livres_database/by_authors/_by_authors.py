@@ -69,9 +69,6 @@ by_authors_books.extend(max_ducos_livres)
 from .mitsumasa_anno import mitsumasa_anno_livres
 by_authors_books.extend(mitsumasa_anno_livres)
 
-from .michele_nikly import michele_nikly_livres
-by_authors_books.extend(michele_nikly_livres)
-
 from .olivier_tallec import olivier_tallec_livres
 by_authors_books.extend(olivier_tallec_livres)
 
