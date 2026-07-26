@@ -1,13 +1,19 @@
 from site_livres_enfants_backend.livre import Livre, BooksCategory  
 
-from site_livres_enfants_backend.livres_database.by_authors.kazuo_iwamura import kazuo_iwamura_livres
-from site_livres_enfants_backend.livres_database.by_authors.david_wiesner import david_wiesner_livres
-from site_livres_enfants_backend.livres_database.by_authors.helen_oxenburry import helen_oxenburry_livres
-from .pauline_delabroy_allard import pauline_delabroy_allard_livres
+# sort books by author names
+from .anne_margot_ramstein import anne_margot_ramstein_livres
 from .anthony_browne import anthony_browne_livres
+from .aurore_petit import aurore_petit_livres
+from .chiaki_okada import chiaki_okada_livres
+from .chris_van_allsburg import chris_van_allsburg_livres
+from .david_ellwand import david_ellwand_livres
+from .david_wiesner import david_wiesner_livres
+from .helen_oxenburry import helen_oxenburry_livres
 from .joerg_muehle import joerg_muehle_livres
 from .karen_jameson import karen_jameson_livres
+from .kazuo_iwamura import kazuo_iwamura_livres
 from .mario_ramos import mario_ramos_livres
+from .pauline_delabroy_allard import pauline_delabroy_allard_livres
 
 by_authors_books: list[Livre] = []
 by_authors_books.extend(kazuo_iwamura_livres)
@@ -18,3 +24,6 @@ by_authors_books.extend(anthony_browne_livres)
 by_authors_books.extend(joerg_muehle_livres)
 by_authors_books.extend(karen_jameson_livres)
 by_authors_books.extend(mario_ramos_livres)
+by_authors_books.extend(anne_margot_ramstein_livres)
+by_authors_books.extend(chiaki_okada_livres)
+by_authors_books.extend(chris_van_allsburg_livres)

@@ -4,7 +4,7 @@ from site_livres_enfants_backend.livres_database.authors import Author
 anne_margot_ramstein_livres: list[Livre] = [
     Livre(
         titre="Avant Après",
-        auteur=Author.ANNE_MARGOT_RAMSTEIN,
+        auteur=(Author.ANNE_MARGOT_RAMSTEIN, Author.MATTHIAS_AREGUI),
         couverture_path="avant_apres.jpg",
         description="Jour - Nuit, bourgeon - Fleur, vache - lait, etc.",
         categories=(BooksCategory.LIVRES_SANS_TEXTE,),

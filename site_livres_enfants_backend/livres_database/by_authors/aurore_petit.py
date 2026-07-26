@@ -1,14 +1,12 @@
 from site_livres_enfants_backend.livre import Livre, BooksCategory, BooksAge
 from site_livres_enfants_backend.livres_database.authors import Author
 
-author_livres: list[Livre] = [
+aurore_petit_livres: list[Livre] = [
     Livre(
-        titre="titre",
-        auteur=Author.KAZUO_IWAMURA,
-        couverture_path="img_filename",
-        description=(
-            "Un livre sur les liens familiaux et la nature."
-        ),
+        titre="Bébé ventre",
+        auteur=Author.AURORE_PETIT,
+        couverture_path="bebe_ventre.jpg",
+        description="Comment un petit garçon de 3/4 ans prépare la venue d'une petite soeur.",
         categories=(BooksCategory.POUR_REVER,),
         age=(BooksAge.AGE_2_3_ANS,)
     ),
