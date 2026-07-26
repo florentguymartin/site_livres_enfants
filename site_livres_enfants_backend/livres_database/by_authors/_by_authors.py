@@ -30,9 +30,6 @@ by_authors_books.extend(david_ellwand_livres)
 from .david_wiesner import david_wiesner_livres
 by_authors_books.extend(david_wiesner_livres)
 
-from .germano_zullo import germano_zullo_livres
-by_authors_books.extend(germano_zullo_livres)
-
 from .helen_oxenburry import helen_oxenburry_livres
 by_authors_books.extend(helen_oxenburry_livres)
 
