@@ -26,6 +26,9 @@ def generate_page(
     Returns:
         The generated Markdown content as a string.
     """
+    if not isinstance(introduction, str):
+        raise ValueError(f"Introduction must be a string but got {introduction} with type {type(introduction).__name__}")
+
     lines = []
     lines.append("# " + title)
     lines.append("")

@@ -13,7 +13,9 @@ from .joerg_muehle import joerg_muehle_livres
 from .karen_jameson import karen_jameson_livres
 from .kazuo_iwamura import kazuo_iwamura_livres
 from .mario_ramos import mario_ramos_livres
+from .mitsumasa_anno import mitsumasa_anno_livres
 from .pauline_delabroy_allard import pauline_delabroy_allard_livres
+from .stephanie_blake import stephanie_blake_livres
 
 by_authors_books: list[Livre] = []
 by_authors_books.extend(kazuo_iwamura_livres)
@@ -22,8 +24,10 @@ by_authors_books.extend(helen_oxenburry_livres)
 by_authors_books.extend(pauline_delabroy_allard_livres)
 by_authors_books.extend(anthony_browne_livres)
 by_authors_books.extend(joerg_muehle_livres)
+by_authors_books.extend(mitsumasa_anno_livres)
 by_authors_books.extend(karen_jameson_livres)
 by_authors_books.extend(mario_ramos_livres)
 by_authors_books.extend(anne_margot_ramstein_livres)
 by_authors_books.extend(chiaki_okada_livres)
 by_authors_books.extend(chris_van_allsburg_livres)
+by_authors_books.extend(stephanie_blake_livres)

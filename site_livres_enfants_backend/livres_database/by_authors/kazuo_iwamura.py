@@ -24,5 +24,16 @@ kazuo_iwamura_livres: list[Livre] = [
         description="Les oiseaux ne mangent pas la même chose que les écureuils.",
         categories=(BooksCategory.POUR_REVER,),
         age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+    ),
+    Livre(
+        titre="C'est déjà le Printemps!",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="c_est_deja_le_printemps.jpg",
+        description=(
+            "Que devient la neige au Printemps? "
+            "Une très belle histoire, beaucoup de poésie, et une très belle rencontre au milieu du lac."
+        ),
+        categories=(BooksCategory.POUR_REVER,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
     )
 ]

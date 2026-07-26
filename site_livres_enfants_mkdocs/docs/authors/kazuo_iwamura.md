@@ -23,3 +23,10 @@ Une histoire sur la nature.
 
 Les oiseaux ne mangent pas la même chose que les écureuils.
 
+
+## C'est déjà le Printemps! (*Kazuo Iwamura*)
+
+![Screenshot](../img/c_est_deja_le_printemps.jpg){ width="100" }
+
+Que devient la neige au Printemps? Une très belle histoire, beaucoup de poésie, et une très belle rencontre au milieu du lac.
+

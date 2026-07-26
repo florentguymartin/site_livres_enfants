@@ -1,7 +1,7 @@
 from typing import List
 from site_livres_enfants_backend.livre import Livre
 from .by_prices import books_by_prices
-from .by_authors.by_authors import by_authors_books
+from .by_authors._by_authors import by_authors_books
 
 database: List[Livre] = []
 
