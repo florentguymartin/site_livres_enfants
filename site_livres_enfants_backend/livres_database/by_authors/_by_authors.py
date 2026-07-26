@@ -6,11 +6,17 @@ by_authors_books: list[Livre] = []
 from .anne_margot_ramstein import anne_margot_ramstein_livres
 by_authors_books.extend(anne_margot_ramstein_livres)
 
+from .albertine import albertine_livres
+by_authors_books.extend(albertine_livres)
+
 from .anthony_browne import anthony_browne_livres
 by_authors_books.extend(anthony_browne_livres)
 
 from .aurore_petit import aurore_petit_livres
 by_authors_books.extend(aurore_petit_livres)
+
+from .claude_boujon import claude_boujon_livres
+by_authors_books.extend(claude_boujon_livres)
 
 from .chiaki_okada import chiaki_okada_livres
 by_authors_books.extend(chiaki_okada_livres)
@@ -24,6 +30,9 @@ by_authors_books.extend(david_ellwand_livres)
 from .david_wiesner import david_wiesner_livres
 by_authors_books.extend(david_wiesner_livres)
 
+from .germano_zullo import germano_zullo_livres
+by_authors_books.extend(germano_zullo_livres)
+
 from .helen_oxenburry import helen_oxenburry_livres
 by_authors_books.extend(helen_oxenburry_livres)
 
@@ -35,6 +44,9 @@ by_authors_books.extend(jean_gourounas_livres)
 
 from .jill_murphy import jill_murphy_livres
 by_authors_books.extend(jill_murphy_livres)
+
+from .jean_claverie import jean_claverie_livres
+by_authors_books.extend(jean_claverie_livres)
 
 from .joerg_muehle import joerg_muehle_livres
 by_authors_books.extend(joerg_muehle_livres)
@@ -60,6 +72,9 @@ by_authors_books.extend(max_ducos_livres)
 from .mitsumasa_anno import mitsumasa_anno_livres
 by_authors_books.extend(mitsumasa_anno_livres)
 
+from .michele_nikly import michele_nikly_livres
+by_authors_books.extend(michele_nikly_livres)
+
 from .olivier_tallec import olivier_tallec_livres
 by_authors_books.extend(olivier_tallec_livres)
 
@@ -68,6 +83,12 @@ by_authors_books.extend(pauline_delabroy_allard_livres)
 
 from .paul_zelinksy import paul_zelinsky_livres
 by_authors_books.extend(paul_zelinsky_livres)
+
+from .pef import pef_livres
+by_authors_books.extend(pef_livres)
+
+from .roberto_innocenti import roberto_innocenti_livres
+by_authors_books.extend(roberto_innocenti_livres)
 
 from .stephanie_blake import stephanie_blake_livres
 by_authors_books.extend(stephanie_blake_livres)

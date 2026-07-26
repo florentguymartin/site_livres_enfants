@@ -3,6 +3,12 @@ from site_livres_enfants_backend.livres_database.authors import Author
 
 kazuo_iwamura_livres: list[Livre] = [
     Livre(
+        titre="L'hiver de la famille souris",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="l_hiver_de_la_famille_souris.jpg",
+        description="#todo",
+    ),
+    Livre(
         titre="La famille souris dîne au clair de lune",
         auteur=Author.KAZUO_IWAMURA,
         couverture_path="la_famille_souris_dine_au_clair_de_lune.jpg",
@@ -56,6 +62,30 @@ kazuo_iwamura_livres: list[Livre] = [
         ),
         categories=(),
         age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+    ),
+    Livre(
+        titre="La famille Souris et le potiron",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="la_famille_souris_et_le_potiron.jpg",
+        description="#todo",
+    ),
+    Livre(
+        titre="La famille souris prépare le nouvel an",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="la_famille_souris_prepare_le_nouvel_an.jpg",
+        description="#todo",
+    ),
+    Livre(
+        titre="La fête d'automne de la famille souris",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="la_fete_dautomne_de_la_famille_souris.jpg",
+        description="#todo",
+    ),
+    Livre(
+        titre="La lessive de la famille souris",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="la_lessive_de_la_famille_souris.jpg",
+        description="#todo",
     ),
     Livre(
         titre="Le train des souris",
