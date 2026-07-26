@@ -3,6 +3,13 @@
 ## Introduction
 Kazuo Iwamura est un auteur et illustrateur japonais, reconnu pour ses livres pour enfants qui mettent en avant la nature et les relations humaines.
 
+## L'hiver de la famille souris (*Kazuo Iwamura*)
+
+![Screenshot](../img/l_hiver_de_la_famille_souris.jpg){ width="100" }
+
+#todo
+
+
 ## La famille souris dîne au clair de lune (*Kazuo Iwamura*)
 
 ![Screenshot](../img/la_famille_souris_dine_au_clair_de_lune.jpg){ width="100" }
@@ -43,6 +50,34 @@ Un peu de neige, c'est l'occasion idéale pour sortir la luge et permettre aux a
 ![Screenshot](../img/familie_maus_macht_picknick.jpg){ width="100" }
 
 Tour est dans le titre.
+
+
+## La famille Souris et le potiron (*Kazuo Iwamura*)
+
+![Screenshot](../img/la_famille_souris_et_le_potiron.jpg){ width="100" }
+
+#todo
+
+
+## La famille souris prépare le nouvel an (*Kazuo Iwamura*)
+
+![Screenshot](../img/la_famille_souris_prepare_le_nouvel_an.jpg){ width="100" }
+
+#todo
+
+
+## La fête d'automne de la famille souris (*Kazuo Iwamura*)
+
+![Screenshot](../img/la_fete_dautomne_de_la_famille_souris.jpg){ width="100" }
+
+#todo
+
+
+## La lessive de la famille souris (*Kazuo Iwamura*)
+
+![Screenshot](../img/la_lessive_de_la_famille_souris.jpg){ width="100" }
+
+#todo
 
 
 ## Le train des souris (*Kazuo Iwamura*)
