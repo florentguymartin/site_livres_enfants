@@ -7,7 +7,7 @@ david_wiesner_livres: list[Livre] = [
         auteur=Author.DAVID_WIESNER,
         couverture_path="flotsam.jpg",
         description="Un livre sur l'imagination et la créativité.",
-        categories=(BooksCategory.POUR_REVER, BooksCategory.LIVRES_SANS_IMAGE),
+        categories=(BooksCategory.POUR_REVER, BooksCategory.LIVRES_SANS_TEXTE),
         age=(BooksAge.AGE_4_5_ANS,)
     ),
 

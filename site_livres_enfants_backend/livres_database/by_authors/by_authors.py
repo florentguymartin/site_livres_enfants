@@ -7,6 +7,7 @@ from .pauline_delabroy_allard import pauline_delabroy_allard_livres
 from .anthony_browne import anthony_browne_livres
 from .joerg_muehle import joerg_muehle_livres
 from .karen_jameson import karen_jameson_livres
+from .mario_ramos import mario_ramos_livres
 
 by_authors_books: list[Livre] = []
 by_authors_books.extend(kazuo_iwamura_livres)
@@ -16,3 +17,4 @@ by_authors_books.extend(pauline_delabroy_allard_livres)
 by_authors_books.extend(anthony_browne_livres)
 by_authors_books.extend(joerg_muehle_livres)
 by_authors_books.extend(karen_jameson_livres)
+by_authors_books.extend(mario_ramos_livres)

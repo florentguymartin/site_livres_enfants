@@ -5,7 +5,7 @@ from site_livres_enfants_backend.livres_database.authors import Author
 
 class BooksCategory(StrEnum):
     GIRL_EMPOWERMENT = "girls_empowerment"
-    LIVRES_SANS_IMAGE = "livres_sans_image"
+    LIVRES_SANS_TEXTE = "livres_sans_texte"
     POUR_RIRE = "pour_rire"
     POUR_REVER = "pour_rever"
 
@@ -20,9 +20,9 @@ category_descriptions: dict[BooksCategory, tuple[str, str]] = {
         "Girl Empowerment", 
         "Des livres où des filles et des femmes jouent le premier role et sont inspirantes.",
         ),
-    BooksCategory.LIVRES_SANS_IMAGE: (
-        "Livres sans image", 
-        "Des livres sans images, pour stimuler l'imagination.",
+    BooksCategory.LIVRES_SANS_TEXTE: (
+        "Livres sans texte", 
+        "Des livres sans texte, avec seulement des images, pour stimuler l'imagination.",
     ),
     BooksCategory.POUR_RIRE: (
         "Pour rire", 

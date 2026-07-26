@@ -2,6 +2,7 @@ from enum import StrEnum
 
 class Author(StrEnum):
     AARON_BECKER = "Aaron Becker"
+    ANNE_MARGOT_RAMSTEIN = "Anne-Margot Ramstein"
     ANTHONY_BROWN = "Anthony Browne"
     CATI_BAUR = "Cati Baur"
     DAVID_WIESNER = "David Wiesner"
@@ -11,6 +12,7 @@ class Author(StrEnum):
     KAREN_JAMESON = "Karen Jameson"
     KAZUO_IWAMURA = "Kazuo Iwamura"
     MARC_BOUTAVANT = "Marc Boutavant"
+    MARIO_RAMOS = "Mario Ramos"
     MEM_FOX = "Mem Fox"
     PAULINE_DELABROY_ALLARD = "Pauline Delabroy-Allard"
 

@@ -21,7 +21,7 @@ voyage = Livre(
     description="La petite fille mène l'action. C'est elle qui sauve le roi. C'est elle qui a la curiosité d'initier l'histoire qui nous est racontée.",
     categories=(
         BooksCategory.GIRL_EMPOWERMENT,
-        BooksCategory.LIVRES_SANS_IMAGE,
+        BooksCategory.LIVRES_SANS_TEXTE,
     ),
     age=(BooksAge.AGE_4_5_ANS,)
 )
