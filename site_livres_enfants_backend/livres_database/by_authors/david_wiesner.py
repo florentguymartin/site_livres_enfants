@@ -10,5 +10,17 @@ david_wiesner_livres: list[Livre] = [
         categories=(BooksCategory.POUR_REVER, BooksCategory.LIVRES_SANS_TEXTE),
         age=(BooksAge.AGE_4_5_ANS,)
     ),
+    Livre(
+        titre="Chute libre",
+        auteur=Author.DAVID_WIESNER,
+        couverture_path="chute_libre.jpg",
+        description=(
+        "Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. "
+        "Un garçon s'endort avec un livre dans les bras, et qu'on suit dans ses rêves. "
+        "À couper le souffle."
+        ),
+        categories=(BooksCategory.POUR_REVER, BooksCategory.LIVRES_SANS_TEXTE),
+        age=(BooksAge.AGE_4_5_ANS, BooksAge.AGE_2_3_ANS),
+    ),
 
 ]
