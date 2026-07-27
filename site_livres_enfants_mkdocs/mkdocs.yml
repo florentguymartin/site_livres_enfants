@@ -11,11 +11,11 @@ theme:
 nav:
   - Introduction: index.md
   - Categories:
-    # - section/index.md
-    - "Girls empowerment": girls_empowerment.md
-    - "Livres sans texte": livres_sans_texte.md
-    - "Pour rire": pour_rire.md
-    - "Pour rêver": pour_rever.md
+    - categories/index.md
+    - "Girls empowerment": categories/girls_empowerment.md
+    - "Livres sans texte": categories/livres_sans_texte.md
+    - "Pour rire": categories/pour_rire.md
+    - "Pour rêver": categories/pour_rever.md
   - Artistes:
     - authors/index.md
     - "Mitsumasa Anno": authors/mitsumasa_anno.md
@@ -24,9 +24,10 @@ nav:
     - "Kazuo Iwamura": authors/kazuo_iwamura.md
     - "David Wiesner": authors/david_wiesner.md
   - "Par âge":
-    - "0-1 ans": 0_1_ans.md
-    - "2-3 ans": 2_3_ans.md
-    - "4-5 ans": 4_5_ans.md
+    - age/index.md
+    - "0-1 ans": age/0_1_ans.md
+    - "2-3 ans": age/2_3_ans.md
+    - "4-5 ans": age/4_5_ans.md
 
 markdown_extensions:
   - attr_list

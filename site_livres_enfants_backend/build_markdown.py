@@ -57,6 +57,7 @@ def _make_category_page_md(
     books_category: BooksCategory,
     category_description: str, 
     livres: list[Livre],
+    img_folder: str | None = None
 ) -> str:
     """Generate Markdown content for a category page.
     Args:
@@ -64,7 +65,8 @@ def _make_category_page_md(
         books_category (BooksCategory): The category of books.
         category_description (str): The description of the category.
         livres (list[Livre]): The list of books in the category.
-    
+        img_folder (str | None): The folder containing book cover images.
+
     Returns:
         The generated Markdown content as a string.
     """
@@ -73,7 +75,8 @@ def _make_category_page_md(
     return make_page_md(
         title=title,
         introduction=category_description,
-        livres=category_livres
+        livres=category_livres,
+        img_folder=img_folder
     )
 
 def _make_age_page_md(
@@ -81,6 +84,7 @@ def _make_age_page_md(
     books_age: BooksAge,
     age_description: str, 
     livres: list[Livre],
+    img_folder: str | None = None
 ) -> str:
     """Generate Markdown content for an age page.
     Args:
@@ -88,6 +92,7 @@ def _make_age_page_md(
         books_age (BooksAge): The age group of books.
         age_description (str): The description of the age group.
         livres (list[Livre]): The list of books in the age group.
+        img_folder (str | None): The folder containing book cover images.
 
     Returns:
         The generated Markdown content as a string.
@@ -97,7 +102,8 @@ def _make_age_page_md(
     return make_page_md(
         title=title,
         introduction=age_description,
-        livres=age_livres
+        livres=age_livres,
+        img_folder=img_folder
     )
 
 
@@ -139,7 +145,7 @@ def write_age_page_md(
     """
     Generate and write an age Markdown file.
     Args:
-        filename (str): The filename of the file to write.
+        filename (str): The filename of the file to write. Must include the .md extension
         title (str): The title of the age group.
         books_age (BooksAge): The age group of books.
         age_description (str): The description of the age group.
@@ -148,13 +154,20 @@ def write_age_page_md(
     Returns:
         None
     """
+    if not filename.endswith(".md"):
+        raise ValueError(f"Filename must end with .md extension: {filename}")
+
     age_md = _make_age_page_md(
         title=title, 
         books_age=books_age,
         age_description=age_description, 
-        livres=livres
+        livres=livres,
+        img_folder="../img",
     )
-    file_path = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, filename)
+
+    file_path_dir = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, "age")
+    os.makedirs(file_path_dir, exist_ok=True)
+    file_path = os.path.join(file_path_dir, filename)
 
     with open(file_path, mode="w", encoding="utf-8") as f:
         f.write(age_md)
@@ -170,9 +183,8 @@ def write_category_page_md(
 ) -> None:
     """
     Generate and write a category Markdown file.
-    
     Args:
-        filename (str): The filename of the file to write.
+        filename (str): The filename of the file to write. Must include the .md extension
         title (str): The title of the category.
         books_category (BooksCategory): The category of books.
         books_category_description (str): The description of the category.
@@ -181,13 +193,20 @@ def write_category_page_md(
     Returns:
         None
     """
+    if not filename.endswith(".md"):
+        raise ValueError(f"Filename must end with .md extension: {filename}")
+
     category_md = _make_category_page_md(
         title=title, 
         books_category=books_category,
         category_description=books_category_description, 
-        livres=livres
+        livres=livres,
+        img_folder="../img"
     )
-    file_path = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, filename)
+    file_path_dir = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, "categories")
+    os.makedirs(file_path_dir, exist_ok=True)
+    file_path = os.path.join(file_path_dir, filename)
+    # file_path = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, filename)
 
     with open(file_path, mode="w", encoding="utf-8") as f:
         f.write(category_md)
@@ -206,7 +225,7 @@ def write_author_page_md(
     Generate and write an author Markdown file.
 
     Args:
-        filename (str): The filename of the file to write.
+        filename (str): The filename of the file to write. Must include the .md extension
         title (str): The title of the author.
         author (Author): The author of the books.
         author_description (str): The description of the author.
@@ -215,6 +234,9 @@ def write_author_page_md(
     Returns:
         None
     """
+    if not filename.endswith(".md"):
+        raise ValueError(f"Filename must end with .md extension: {filename}")
+
     author_md = _make_author_page_md(
         author=author,
         author_description=author_description,
@@ -227,7 +249,6 @@ def write_author_page_md(
     os.makedirs(file_path_dir, exist_ok=True)
     file_path = os.path.join(file_path_dir, md_filename)
 
-    # file_path = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, filename)
 
     with open(file_path, mode="w", encoding="utf-8") as f:
         f.write(author_md)
@@ -280,8 +301,8 @@ def write_all_age_pages_md(
             livres=livres
         )
 
-def generate_author_pages(livres: list[Livre]) -> None:
-    """Generate Markdown pages for all authors."""
+def write_all_author_pages(livres: list[Livre]) -> None:
+    """Generate and write Markdown pages for all authors."""
     for author, description in author_descriptions.items():
         author_livres = [livre for livre in livres if livre.auteur == author]
         write_author_page_md(
