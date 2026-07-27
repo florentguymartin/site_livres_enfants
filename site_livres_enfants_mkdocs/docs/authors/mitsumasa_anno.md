@@ -14,12 +14,12 @@ Un voyage initiatique à travers l'Europe des siècles passés. Beaucoup de dét
 
 ![Screenshot](../img/sur_les_traces_de_don_quichotte.jpg){ width="100" }
 
-to be filled
+Même principe que 'ce jour-là...' en zoomant sur l'Espagne.
 
 
 ## Zwergenspuk (*Mitsumasa Anno*)
 
 ![Screenshot](../img/zwergenspuk.jpg){ width="100" }
 
-to be filled
+Un style très Escher. Avec plusieurs niveaux de compréhension. Unique dans son genre.
 

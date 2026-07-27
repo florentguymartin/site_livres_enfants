@@ -6,11 +6,10 @@ max_velthuijs_livres: list[Livre] = [
         titre="Petit-Bond est amoureux",
         auteur=Author.MAX_VELTHUIJS,
         couverture_path="petit_bond_est_amoureux.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Une tendre histoire sur les premiers émois amoureux."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

@@ -6,11 +6,12 @@ noe_carlain_livres: list[Livre] = [
         titre="Prout de Mammouth",
         auteur=Author.NOE_CARLAIN,
         couverture_path="prout_de_mammouth.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Des animaux et des prouts. " 
+            "C'est pas du Shakespeare, et je me rapelle avoir entendu des 'Oh mais arretez avec ce livre'! "
+            "Mais merci Pauline pour les séances de rigolade !"
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.POUR_RIRE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

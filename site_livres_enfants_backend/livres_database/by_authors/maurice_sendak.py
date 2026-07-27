@@ -6,11 +6,10 @@ maurice_sendak_livres: list[Livre] = [
         titre="Max et les Maximonstres",
         auteur=Author.MAURICE_SENDAK,
         couverture_path="max_et_les_maximonstres.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Un classique de la littérature enfantine, qui aborde les thèmes de l'imagination et de la rébellion."
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.POUR_REVER,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

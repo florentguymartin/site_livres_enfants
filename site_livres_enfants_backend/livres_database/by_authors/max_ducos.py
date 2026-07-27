@@ -16,33 +16,32 @@ max_ducos_livres: list[Livre] = [
         titre="Le Carnaval des dragons",
         auteur=Author.MAX_DUCOS,
         couverture_path="le_carnaval_des_dragons.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Comment transormer un échec en succès. "
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_4_5_ANS,),
     ),
     Livre(
         titre="Vert secret",
         auteur=Author.MAX_DUCOS,
         couverture_path="vert_secret.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Du grand Max Ducos qui offre là une histoire complexe et captivante. "
+            "Un scénario super pour les enfants, servi avec de belles illustrations."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,),
     ),
     Livre(
         titre="Jeu de pist à Volubilis",
         auteur=Author.MAX_DUCOS,
         couverture_path="volubilis.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Un jeu de piste captivant dans dans une maison d'architecte. "
+            "Un scénario complexe mais qui se suit bien par les enfants."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,),
     ),
 ]

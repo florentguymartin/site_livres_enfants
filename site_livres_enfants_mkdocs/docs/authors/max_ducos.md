@@ -14,19 +14,19 @@ Une visite au musée qui sort de l'ordinaire.
 
 ![Screenshot](../img/le_carnaval_des_dragons.jpg){ width="100" }
 
-to be filled
+Comment transormer un échec en succès. 
 
 
 ## Vert secret (*Max Ducos*)
 
 ![Screenshot](../img/vert_secret.jpg){ width="100" }
 
-to be filled
+Du grand Max Ducos qui offre là une histoire complexe et captivante. Un scénario super pour les enfants, servi avec de belles illustrations.
 
 
 ## Jeu de pist à Volubilis (*Max Ducos*)
 
 ![Screenshot](../img/volubilis.jpg){ width="100" }
 
-to be filled
+Un jeu de piste captivant dans dans une maison d'architecte. Un scénario complexe mais qui se suit bien par les enfants.
 

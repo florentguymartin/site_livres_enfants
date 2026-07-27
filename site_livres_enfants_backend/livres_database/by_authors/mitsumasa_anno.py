@@ -18,22 +18,21 @@ mitsumasa_anno_livres: list[Livre] = [
         titre="Sur les traces de Don Quichotte",
         auteur=Author.MITSUMASA_ANNO,
         couverture_path="sur_les_traces_de_don_quichotte.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Même principe que 'ce jour-là...' en zoomant sur l'Espagne."
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_4_5_ANS,),
     ),
     Livre(
         titre="Zwergenspuk",
         auteur=Author.MITSUMASA_ANNO,
         couverture_path="zwergenspuk.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Un style très Escher. Avec plusieurs niveaux de compréhension. "
+            "Unique dans son genre."
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,),
     ),
 ]

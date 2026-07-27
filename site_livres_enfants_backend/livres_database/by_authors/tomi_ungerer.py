@@ -6,11 +6,12 @@ tomi_ungerer_livres: list[Livre] = [
         titre="Les trois brigands",
         auteur=Author.TOMI_UNGERER,
         couverture_path="les_trois_brigands.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Trois brigands décident de voler tous les voyageurs de la route. "
+            "Mais ils vont rencontrer une petite fille qui va changer leur vie. "
+            "Un classique de la littérature jeunesse."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,),
     ),
 ]

@@ -6,11 +6,11 @@ suzy_lee_livres: list[Livre] = [
         titre="La Vague",
         auteur=Author.SUZY_LEE,
         couverture_path="la_vague.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Une petite fille, une plage, des vagues. "
+            "Rira bien qui rira le dernier !"
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

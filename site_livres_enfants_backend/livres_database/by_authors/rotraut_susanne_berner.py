@@ -6,11 +6,12 @@ rotraut_susanne_berner_livres: list[Livre] = [
         titre="Le livre de l'été",
         auteur=Author.ROTRAUT_SUSANNE_BERNER,
         couverture_path="sommer_wimmelbuch.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Dans la série de Rotraut Susanne Berner. "
+            "Des livres avec pleins de détails sur la vie quotidienne. "
+            "Super pour discuter avec les enfants et les aider à développer leur language."
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

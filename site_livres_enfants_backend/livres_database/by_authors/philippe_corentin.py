@@ -6,11 +6,10 @@ philippe_corentin_livres: list[Livre] = [
         titre="Plouf!",
         auteur=Author.PHILIPPE_CORENTIN,
         couverture_path="plouf.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Quand on voît quelque chose qui brille au fond d'un puit, faut réfléchir avant de sauter!"
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.POUR_RIRE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]
