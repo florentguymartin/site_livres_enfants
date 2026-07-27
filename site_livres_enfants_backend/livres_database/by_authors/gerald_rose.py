@@ -6,11 +6,11 @@ gerald_rose_livres: list[Livre] = [
         titre="Le tapis en peau de tigre",
         auteur=Author.GERALD_ROSE,
         couverture_path="le_tapis_en_peau_de_tigre.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Comme quoi les tigres ne sont pas toujours à envier. "
+            "Mais tout en bien qui finit bien !"
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.POUR_RIRE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

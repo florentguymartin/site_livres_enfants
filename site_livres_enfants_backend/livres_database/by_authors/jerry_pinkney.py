@@ -6,11 +6,11 @@ jerry_pinkney_livres: list[Livre] = [
         titre="Le lion et la souris",
         auteur=Author.JERRY_PINKNEY,
         couverture_path="le_lion_et_la_souris.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "La fable d'Ésope illustrée par Jerry Pinkney, sans texte. "
+            "De très belles illustrations et une morale qui traverse les millénaires."
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_0_1_ANS, BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

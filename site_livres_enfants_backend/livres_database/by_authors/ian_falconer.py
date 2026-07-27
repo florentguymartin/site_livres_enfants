@@ -6,11 +6,15 @@ ian_falconer_livres: list[Livre] = [
         titre="Olivia Reine des Princesses",
         auteur=Author.IAN_FALCONER,
         couverture_path="olivia_reine_des_princesses.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Toutes les petites filles rêvent de princesse. "
+            "Se pamer devant le preux et fort chevalier. "
+            "Être habillées toutes pareilles avec des tutus roses. "
+            "Euh... vraiment ?! "
+            "En tout cas pas Olivia !"
+            "Merci Olivia !"
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.GIRL_EMPOWERMENT,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

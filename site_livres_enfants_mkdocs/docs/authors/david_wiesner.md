@@ -21,12 +21,12 @@ Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un g
 
 ![Screenshot](../img/les_trois_cochons.jpg){ width="100" }
 
-to be filled
+Une réinterprétation imaginative du conte classique.
 
 
 ## Mardi (*David Wiesner*)
 
 ![Screenshot](../img/mardi.jpg){ width="100" }
 
-to be filled
+Un livre sur un mardi pas comme les autres.
 

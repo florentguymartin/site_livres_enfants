@@ -26,23 +26,21 @@ david_wiesner_livres: list[Livre] = [
         titre="Les trois cochons",
         auteur=Author.DAVID_WIESNER,
         couverture_path="les_trois_cochons.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Une réinterprétation imaginative du conte classique."
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_4_5_ANS,),
     ),
     Livre(
         titre="Mardi",
         auteur=Author.DAVID_WIESNER,
         couverture_path="mardi.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Un livre sur un mardi pas comme les autres."
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_4_5_ANS,),
     ),
 
 ]

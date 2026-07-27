@@ -6,11 +6,11 @@ catherine_zarcate_livres: list[Livre] = [
         titre="Les poulets guerriers",
         auteur=Author.CATHERINE_ZARCATE,
         couverture_path="les_poulets_guerriers.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Attention: ce livre nécessite de se donner la peine de chanter la 'Chanson des poulet guerriers'. "
+            "Si vous trouvez le bon rythme, succès assuré !"
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.POUR_RIRE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,),
     ),
 ]

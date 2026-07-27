@@ -22,11 +22,12 @@ joerg_muehle_livres: list[Livre] = [
         titre="On joue, Petit Lapin!",
         auteur=Author.JOERG_MUEHLE,
         couverture_path="on_joue_petit_lapin.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "De belles illustrations, des mini-histoires rigolotes. "
+            "Un final qui fait toujours rire même à la dixième lecture. "
+            "Simple mais efficace."
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.POUR_RIRE,),
+        age=(BooksAge.AGE_0_1_ANS, BooksAge.AGE_2_3_ANS),
     ),
 ]

@@ -6,11 +6,10 @@ jane_yolen_livres: list[Livre] = [
         titre="Un appel dans la nuit",
         auteur=Author.JANE_YOLEN,
         couverture_path="un_appel_dans_la_nuit.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Partir la nuit observer le hibou. Une belle histoire et de jolies illustrations."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

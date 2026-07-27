@@ -6,22 +6,20 @@ byron_barton_livres: list[Livre] = [
         titre="Les camions",
         auteur=Author.BYRON_BARTON,
         couverture_path="les_camions.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Des illustrations minimalistes très bien pour les tout petits."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_0_1_ANS,),
     ),
     Livre(
         titre="Ma maison",
         auteur=Author.BYRON_BARTON,
         couverture_path="ma_maison.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Des illustrations minimalistes très bien pour les tout petits."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_0_1_ANS,),
     ),
 ]

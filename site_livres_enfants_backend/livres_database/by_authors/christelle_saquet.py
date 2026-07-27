@@ -6,11 +6,12 @@ christelle_saquet_livres: list[Livre] = [
         titre="Les histoires du soir de Litouho",
         auteur=Author.CHRISTELLE_SAQUET,
         couverture_path="les_histoires_du_soir_de_litouho.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Une histoire sur les vertus de savoir lire tout seul. "
+            "Et sur la filouterie de maître hibou !"
+            "Merci Matou !"
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

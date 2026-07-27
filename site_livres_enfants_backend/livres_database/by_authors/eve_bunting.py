@@ -6,11 +6,11 @@ eve_bunting_livres: list[Livre] = [
         titre="Le petit bateau de petit ours",
         auteur=Author.EVE_BUNTING,
         couverture_path="le_petit_bateau_de_petit_ours.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Une histoire de barques qui finissent par être trop petites quand on grandit trop. "
+            "Mignon et bon enfant."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS,),
     ),
 ]
