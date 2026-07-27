@@ -1,19 +1,23 @@
-site_name: Livres pour enfants
+site_name: C'est pas du Shakespeare!
 
 theme:
   name: material
   features:
-    - navigation.expand
+    - navigation.tabs
+    - navigation.indexes
+    # - navigation.expand
 
 
 nav:
   - Introduction: index.md
   - Categories:
+    # - section/index.md
     - "Girls empowerment": girls_empowerment.md
     - "Livres sans texte": livres_sans_texte.md
     - "Pour rire": pour_rire.md
     - "Pour rêver": pour_rever.md
   - Artistes:
+    - authors/index.md
     - "Mitsumasa Anno": authors/mitsumasa_anno.md
     - "Anthony Browne": authors/anthony_browne.md
     - "Max Ducos": authors/max_ducos.md

@@ -8,8 +8,9 @@ os.chdir(root_directory)
 
 livres = database
 
-write_all_category_markdown(livres)
+if __name__ == "__main__":
+    write_all_category_markdown(livres)
 
-write_all_age_markdown(livres)
+    write_all_age_markdown(livres)
 
-generate_author_pages(livres)
+    generate_author_pages(livres)
