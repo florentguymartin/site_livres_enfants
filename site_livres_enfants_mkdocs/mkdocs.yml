@@ -1,5 +1,7 @@
 site_name: C'est pas du Shakespeare!
 
+site_dir: ../docs
+
 theme:
   name: material
   features:
