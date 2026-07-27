@@ -2,6 +2,8 @@
 
 A Python-based static site generator for curating and showcasing children's books with categorization by theme and category-based filtering.
 
+The site is deployed at https://florentguymartin.github.io/site_livres_enfants/
+
 ## Essential Dev
 Put cover images in `site_livres_enfants_mkdocs/docs/img`
 

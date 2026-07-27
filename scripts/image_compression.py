@@ -7,6 +7,7 @@ In this script, we will compress all images in a specified directory and save th
 from PIL import Image
 from site_livres_enfants_backend.config import root_directory
 import os
+import tqdm
 
 JPEG_IMG_QUALITY = 10
 
@@ -24,9 +25,11 @@ if __name__ == "__main__":
     high_quality_image_filenames = os.listdir(high_quality_image_dirpath)
     
     # Compress and save images
-    for filename in high_quality_image_filenames:
+    for filename in tqdm.tqdm(high_quality_image_filenames):
+        
+        
         src_image_path = os.path.join(high_quality_image_dirpath, filename)
         target_image_path = os.path.join(target_image_dirpath, filename)
-        compress_image(src_image_path=src_image_path, target_image_path=target_image_path, quality=JPEG_IMG_QUALITY)
-
-
+        if not os.path.exists(target_image_path):
+            print(f"Compressing {filename}...")
+            compress_image(src_image_path=src_image_path, target_image_path=target_image_path, quality=JPEG_IMG_QUALITY)

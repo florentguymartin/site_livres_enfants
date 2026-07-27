@@ -1,16 +1,35 @@
-site_name: Livres pour enfants
+site_name: C'est pas du Shakespeare!
+
+site_dir: ../docs
 
 theme:
   name: material
   features:
-    - navigation.expand
+    - navigation.tabs
+    - navigation.indexes
+    # - navigation.expand
 
 
 nav:
   - Introduction: index.md
   - Categories:
-    - "Girls empowerment": girls_empowerment.md
-    - "Livres sans image": livres_sans_image.md
-  - "Par auteurs": par_auteurs.md
-  # - Artistes:
-  #   - "Artist 1": artist_1.md
+    - categories/index.md
+    - "Girls empowerment": categories/girls_empowerment.md
+    - "Livres sans texte": categories/livres_sans_texte.md
+    - "Pour rire": categories/pour_rire.md
+    - "Pour rêver": categories/pour_rever.md
+  - Artistes:
+    - authors/index.md
+    - "Mitsumasa Anno": authors/mitsumasa_anno.md
+    - "Anthony Browne": authors/anthony_browne.md
+    - "Max Ducos": authors/max_ducos.md
+    - "Kazuo Iwamura": authors/kazuo_iwamura.md
+    - "David Wiesner": authors/david_wiesner.md
+  - "Par âge":
+    - age/index.md
+    - "0-1 ans": age/0_1_ans.md
+    - "2-3 ans": age/2_3_ans.md
+    - "4-5 ans": age/4_5_ans.md
+
+markdown_extensions:
+  - attr_list
