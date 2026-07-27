@@ -6,11 +6,11 @@ martin_waddell_livres: list[Livre] = [
         titre="Tu ne dors pas, petit ours?",
         auteur=Author.MARTIN_WADDELL,
         couverture_path="tu_ne_dors_pas_petit_ours.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Un livre dont certains parents se rappeleront. "
+            "Très mignon, et en tant que parent, pas trop dur de s'identifier."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

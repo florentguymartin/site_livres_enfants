@@ -117,54 +117,52 @@ kazuo_iwamura_livres: list[Livre] = [
         titre="Le petit déjeuner de la famille Souris",
         auteur=Author.KAZUO_IWAMURA,
         couverture_path="le_petit_dejeuner_de_la_famille_souris.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Tout est dans le titre. Très belle histoire. "
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
     Livre(
         titre="Le piano des bois",
         auteur=Author.KAZUO_IWAMURA,
         couverture_path="le_piano_des_bois.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Une belle histoire sur la musique et la nature."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
     Livre(
         titre="Quand dormez-vous?",
         auteur=Author.KAZUO_IWAMURA,
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Nic, Nac et Noc les écureuils vont la découverte du décalage horaire avec les hiboux. "
+            "Très mignon comme d'habitude avec Kazuo Iwamura."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
     Livre(
         titre="Tout est rouge",
         auteur=Author.KAZUO_IWAMURA,
         couverture_path="tout_est_rouge.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Nic, Nac et Noc nous font découvrir les couleurs de l'Automne. " 
+            "Simple et très beau."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
     Livre(
         titre="Un orage d'été",
         auteur=Author.KAZUO_IWAMURA,
         couverture_path="un_orage_d_ete.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Les enfants sont toujours impressionés, on pourrait dire fascinés, par les orages d'été. "
+            "On peut compter sur Kazuo Iwamura pour traîter le sujet avec une histoire limpide et de très belles illustrations."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

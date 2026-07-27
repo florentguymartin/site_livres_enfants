@@ -6,11 +6,11 @@ matthieu_maudet_livres: list[Livre] = [
         titre="Occupé",
         auteur=Author.MATTHIEU_MAUDET,
         couverture_path="occupe.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "Les toilettes sont occupées. Et la file d'attente s'allonge. "
+            "Mais gare à la chute!"
         ),
-        categories=(),
-        age=(),
+        categories=(BooksCategory.POUR_RIRE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

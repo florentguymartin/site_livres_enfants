@@ -91,31 +91,31 @@ Pour motiver les souris pour la rentrée des classes, la maman souris a une idé
 
 ![Screenshot](../img/le_petit_dejeuner_de_la_famille_souris.jpg){ width="100" }
 
-to be filled
+Tout est dans le titre. Très belle histoire. 
 
 
 ## Le piano des bois (*Kazuo Iwamura*)
 
 ![Screenshot](../img/le_piano_des_bois.jpg){ width="100" }
 
-to be filled
+Une belle histoire sur la musique et la nature.
 
 
 ## Quand dormez-vous? (*Kazuo Iwamura*)
 
-to be filled
+Nic, Nac et Noc les écureuils vont la découverte du décalage horaire avec les hiboux. Très mignon comme d'habitude avec Kazuo Iwamura.
 
 
 ## Tout est rouge (*Kazuo Iwamura*)
 
 ![Screenshot](../img/tout_est_rouge.jpg){ width="100" }
 
-to be filled
+Nic, Nac et Noc nous font découvrir les couleurs de l'Automne. Simple et très beau.
 
 
 ## Un orage d'été (*Kazuo Iwamura*)
 
 ![Screenshot](../img/un_orage_d_ete.jpg){ width="100" }
 
-to be filled
+Les enfants sont toujours impressionés, on pourrait dire fascinés, par les orages d'été. On peut compter sur Kazuo Iwamura pour traîter le sujet avec une histoire limpide et de très belles illustrations.
 
