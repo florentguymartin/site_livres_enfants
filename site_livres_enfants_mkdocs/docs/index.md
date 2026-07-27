@@ -1,4 +1,30 @@
 # C'est pas du Shakespeare! Vraiment?
 
-Bienvenue.
-Sur ce site vous trouverez mes recommendations de livres pour enfants.
+Les livres pour enfants ont tendance à ne pas jouer dans la cour des grands.
+
+À la différence de la *vraie* littérature pour adultes, quand on pense livre pour enfants on ne pense pas:  
+
+- C'est le dernier Prix Goncourt
+- Ah oui, c'est auteur est vraiment bien
+- C'est un classique, ça me ferait pas de mal de le lire
+
+Et parfois c'est même plutôt:  
+
+- En tête de gondole du supermarché, allez hop, ça fera un bon cadeau de Noël!
+- Le titre ou la couverture a l'air sympa, hop!
+- Et en général, des choix complètement random.
+
+Et pourtant, la littérature jeunesse, c'est comme la *vraie* littérature pour adulte:
+
+- Il y a des super livres
+- Des classiques indémodables
+- Des classiques un peu démodés, mais qui sont très bien si on les remet dans leur contexte
+- Des auteurs qui nous surprennent à chaque livres, et ne nous déçoivent jamais
+- Des prix littéraires en veux-tu en voilà
+- Si on se fie à Wikipedia, le [Prix Hans-Christian-Ansersen](https://fr.wikipedia.org/wiki/Prix_Hans-Christian-Andersen) est parfois surnommé le petit prix Nobel de littérature
+- Et comme pour les livres pour adultes, si on prend la tête de gondole du supermarché, on sera peut-être (à tous les coups?) déçu?
+
+Nous avons 3 jeunes enfants. 
+On essaye de faire une lecture aux enfants tous les soirs. 
+Et tout ça nous l'avons un peu découvert au fil de l'eau. 
+L'ambition de ce site est de partager les belles découvertes faites au gré de ces lectures du soir.
