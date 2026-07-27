@@ -113,4 +113,58 @@ kazuo_iwamura_livres: list[Livre] = [
         categories=(),
         age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
     ),
+    Livre(
+        titre="Le petit déjeuner de la famille Souris",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="le_petit_dejeuner_de_la_famille_souris.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
+    Livre(
+        titre="Le piano des bois",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="le_piano_des_bois.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
+    Livre(
+        titre="Quand dormez-vous?",
+        auteur=Author.KAZUO_IWAMURA,
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
+    Livre(
+        titre="Tout est rouge",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="tout_est_rouge.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
+    Livre(
+        titre="Un orage d'été",
+        auteur=Author.KAZUO_IWAMURA,
+        couverture_path="un_orage_d_ete.jpg",
+        # todo: description needs to be entered manually afterwards
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(),
+    ),
 ]
