@@ -9,3 +9,24 @@ Max Ducos écrit des histoires dont les scénarios sont à la fois très imagina
 
 Une visite au musée qui sort de l'ordinaire. 
 
+
+## Le Carnaval des dragons (*Max Ducos*)
+
+![Screenshot](../img/le_carnaval_des_dragons.jpg){ width="100" }
+
+to be filled
+
+
+## Vert secret (*Max Ducos*)
+
+![Screenshot](../img/vert_secret.jpg){ width="100" }
+
+to be filled
+
+
+## Jeu de pist à Volubilis (*Max Ducos*)
+
+![Screenshot](../img/volubilis.jpg){ width="100" }
+
+to be filled
+

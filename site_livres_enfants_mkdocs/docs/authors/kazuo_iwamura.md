@@ -86,3 +86,36 @@ La magie de Kazuo Iwamura qui transforme une histoire banale (la lessive) en un 
 
 Pour motiver les souris pour la rentrée des classes, la maman souris a une idée: suggérer des rails jusqu'à l'école. Mais le chemin est semé d'embûches. 
 
+
+## Le petit déjeuner de la famille Souris (*Kazuo Iwamura*)
+
+![Screenshot](../img/le_petit_dejeuner_de_la_famille_souris.jpg){ width="100" }
+
+to be filled
+
+
+## Le piano des bois (*Kazuo Iwamura*)
+
+![Screenshot](../img/le_piano_des_bois.jpg){ width="100" }
+
+to be filled
+
+
+## Quand dormez-vous? (*Kazuo Iwamura*)
+
+to be filled
+
+
+## Tout est rouge (*Kazuo Iwamura*)
+
+![Screenshot](../img/tout_est_rouge.jpg){ width="100" }
+
+to be filled
+
+
+## Un orage d'été (*Kazuo Iwamura*)
+
+![Screenshot](../img/un_orage_d_ete.jpg){ width="100" }
+
+to be filled
+

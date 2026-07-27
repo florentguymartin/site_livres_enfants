@@ -16,3 +16,17 @@ Un livre sur l'imagination et la créativité.
 
 Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un garçon s'endort avec un livre dans les bras, et qu'on suit dans ses rêves. À couper le souffle.
 
+
+## Les trois cochons (*David Wiesner*)
+
+![Screenshot](../img/les_trois_cochons.jpg){ width="100" }
+
+to be filled
+
+
+## Mardi (*David Wiesner*)
+
+![Screenshot](../img/mardi.jpg){ width="100" }
+
+to be filled
+
