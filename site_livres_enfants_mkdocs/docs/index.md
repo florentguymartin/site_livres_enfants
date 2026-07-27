@@ -1,12 +1,12 @@
 # C'est pas du Shakespeare! Vraiment?
 
 Les livres pour enfants ont tendance à ne pas jouer dans la cour des grands.
-
 À la différence de la *vraie* littérature pour adultes, quand on pense livre pour enfants on ne pense pas:  
 
 - C'est le dernier Prix Goncourt
 - Ah oui, c'est auteur est vraiment bien
 - C'est un classique, ça me ferait pas de mal de le lire
+- Faut vraiment que je trouve quelque chose qui lui fera plaisir
 
 Et parfois c'est même plutôt:  
 
@@ -22,7 +22,7 @@ Et pourtant, la littérature jeunesse, c'est comme la *vraie* littérature pour 
 - Des auteurs qui nous surprennent à chaque livres, et ne nous déçoivent jamais
 - Des prix littéraires en veux-tu en voilà
 - Si on se fie à Wikipedia, le [Prix Hans-Christian-Ansersen](https://fr.wikipedia.org/wiki/Prix_Hans-Christian-Andersen) est parfois surnommé le petit prix Nobel de littérature
-- Et comme pour les livres pour adultes, si on prend la tête de gondole du supermarché, on sera peut-être (à tous les coups?) déçu?
+- Et comme pour les livres pour adultes, si on prend la tête de gondole du supermarché, on sera peut-être (à tous les coups?) déçu
 
 Nous avons 3 jeunes enfants. 
 On essaye de faire une lecture aux enfants tous les soirs. 
