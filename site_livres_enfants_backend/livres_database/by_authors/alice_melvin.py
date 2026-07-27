@@ -3,14 +3,15 @@ from site_livres_enfants_backend.livres_database.authors import Author
 
 alice_melvin_livres: list[Livre] = [
     Livre(
-        titre="Mit Maus im Wald",
+        titre="Souris des bois - Une année dans la forêt",
         auteur=Author.ALICE_MELVIN,
         couverture_path="mit_maus_im_wald.jpg",
-        # todo: description needs to be entered manually afterwards
+        
         description=(
-            "to be filled"
+            "On suit une souris dans ses bois de Janvier à Décembre, "
+            "avec de très belles illustrations."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,),
     ),
 ]

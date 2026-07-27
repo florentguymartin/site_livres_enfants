@@ -6,11 +6,11 @@ anais_vaugelade_livres: list[Livre] = [
         titre="Le secret",
         auteur=Author.ANAIS_VAUGELADE,
         couverture_path="le_secret.jpg",
-        # todo: description needs to be entered manually afterwards
         description=(
-            "to be filled"
+            "'Non je veux pas te dire' dit la poule au chat. Alors le chat, va se forger son propre secret. "
+            "Une belle histoire qui part un peu dans tous les sens, sur fond de quête initiatique."
         ),
         categories=(),
-        age=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,),
     ),
 ]

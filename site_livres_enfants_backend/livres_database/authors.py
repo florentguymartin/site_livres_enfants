@@ -69,7 +69,10 @@ class Author(StrEnum):
 author_descriptions: dict[Author, str] = {
     Author.ANTHONY_BROWN: (
         "Anthony Browne est un auteur et illustrateur britannique, "
-        "connu pour ses livres pour enfants qui explorent des thèmes de l'imagination et de la réalité."
+        "connu pour ses livres pour enfants qui explorent des thèmes de l'imagination et de la réalité. "
+        "Il use et abuse (et on redemande) d'illustrations avec des détails suprenants (voir extra-ordinaires) dans l'arrière-plan: "
+        "Un arbre en forme de fruit, des nuages en forme d'animaux, etc. "
+        "Une source inépuisable de discussion avec les enfants."
     ),
     Author.DAVID_WIESNER: (
         "David Wiesner est un auteur et illustrateur américain, "
