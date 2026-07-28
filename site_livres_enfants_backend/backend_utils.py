@@ -10,3 +10,7 @@ def is_author(livre: Livre, author: Author) -> bool:
 
 def to_snake_case(text):
     return text.strip().lower().replace(" ", "_")
+
+def sort_books_by_author_and_title(books: list[Livre]) -> list[Livre]:
+    """Return a list of sorted books by author and title."""
+    return sorted(books, key=lambda livre: (livre.get_author_as_str(), livre.titre))

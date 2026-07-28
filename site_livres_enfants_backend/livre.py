@@ -2,6 +2,7 @@ from typing import Optional
 from pydantic import BaseModel, ConfigDict
 from enum import Enum, StrEnum
 from site_livres_enfants_backend.livres_database.authors import Author
+from .book_awards import BookAward
 
 class BooksCategory(StrEnum):
     """
@@ -67,8 +68,14 @@ class Livre (BaseModel):
     categories: tuple[BooksCategory, ...] = ()
     description: str
     age: tuple[BooksAge, ...] = ()
+    awards: tuple[BookAward, ...] | BookAward | None = None
 
-    model_config = ConfigDict(extra='forbid') # at runtime raise an error if an extra field is present at init
+    model_config = ConfigDict(extra='forbid', arbitrary_types_allowed=True) # at runtime raise an error if an extra field is present at init
+
+    def get_author_as_str(self) -> str:
+        if isinstance(self.auteur, tuple):
+            return "_".join([auteur.value for auteur in self.auteur])
+        return self.auteur.value
 
 class LivreRendererMarkdown:
 
@@ -106,4 +113,12 @@ class LivreRendererMarkdown:
             lines.append("")
         lines.append(livre.description)
         lines.append("")
+        if livre.awards is not None:
+            if isinstance(livre.awards, BookAward):
+                awards_list = (livre.awards,)
+            elif isinstance(livre.awards, tuple):
+                awards_list = livre.awards
+            for award in awards_list:
+                lines.append(f"{award.to_str()}  ")
+            lines.append("")
         return "\n".join(lines)

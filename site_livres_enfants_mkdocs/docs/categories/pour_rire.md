@@ -31,6 +31,13 @@ Deux petits lapins voisins, qui commencent à se brouiller pour de broutilles. M
 Comme quoi les tigres ne sont pas toujours à envier. Mais tout en bien qui finit bien !
 
 
+## L'art du pot (*Jean Claverie et Michele Nikly*)
+
+![Screenshot](../img/l_art_du_pot.jpg){ width="100" }
+
+Un super livre pour démystifier le pot. Très drole, très vrai, et de jolis dessins
+
+
 ## Grosse Légume (*Jean Gourounas*)
 
 ![Screenshot](../img/grosse_legume.jpg){ width="100" }
@@ -45,11 +52,11 @@ Comme quoi les tigres ne sont pas toujours à envier. Mais tout en bien qui fini
 Papa ours veut dormir. Mais ça ne se passe pas toujours comme prévu.
 
 
-## L'art du pot (*Jean Claverie et Michele Nikly*)
+## Le Gruffalo (*Julia Donaldson et Axel Scheffler*)
 
-![Screenshot](../img/l_art_du_pot.jpg){ width="100" }
+![Screenshot](../img/der_grueffelo.jpg){ width="100" }
 
-Un super livre pour démystifier le pot. Très drole, très vrai, et de jolis dessins
+La loi du plus fort est toujours la meilleure. Vraiment? La petite souris et le Gruffalo nous montrent qu'il n'en va pas toujours ainsi.Un bon comique de répétition.
 
 
 ## On joue, Petit Lapin! (*Jörg Mühle*)
@@ -57,13 +64,6 @@ Un super livre pour démystifier le pot. Très drole, très vrai, et de jolis de
 ![Screenshot](../img/on_joue_petit_lapin.jpg){ width="100" }
 
 De belles illustrations, des mini-histoires rigolotes. Un final qui fait toujours rire même à la dixième lecture. Simple mais efficace.
-
-
-## Le Gruffalo (*Julia Donaldson et Axel Scheffler*)
-
-![Screenshot](../img/der_grueffelo.jpg){ width="100" }
-
-La loi du plus fort est toujours la meilleure. Vraiment? La petite souris et le Gruffalo nous montrent qu'il n'en va pas toujours ainsi.Un bon comique de répétition.
 
 
 ## Course épique (*Marie Dorléans*)

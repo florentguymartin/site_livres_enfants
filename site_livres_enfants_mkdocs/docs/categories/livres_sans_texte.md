@@ -3,6 +3,13 @@
 ## Introduction
 Des livres sans texte, avec seulement des images, pour stimuler l'imagination.
 
+## The tree and the River (*Aaron Becker*)
+
+![Screenshot](../img/the_tree_and_the_river.jpg){ width="100" }
+
+Une histoire sur le temps qui passe et son effet sur les paysages, les villes et les hommes.
+
+
 ## Voyage | Quest | Imagine, encore... (*Aaron Becker*)
 
 ![Screenshot](../img/voyage.jpg){ width="100" }
@@ -12,11 +19,11 @@ Des livres sans texte, avec seulement des images, pour stimuler l'imagination.
 Une trilogie très originale qui suit les aventures d'une petite fille dans un mondes imaginaire.À l'aide de son crayon, elle crée des objets, des outils, des animaux qui lui permet d'avancer dans son aventure.Bien qu'il n'y ait pas de texte, dans chaque livre le scénario est très bien ficelé et captivant pour les enfants.C'est la petite fille qui mène l'action. C'est elle qui sauve le roi. Et c'est elle qui a la curiosité d'initier l'histoire qui nous est racontée.
 
 
-## The tree and the River (*Aaron Becker*)
+## La Rumeur de Venise (*Albertine et Germano Zullo*)
 
-![Screenshot](../img/the_tree_and_the_river.jpg){ width="100" }
+![Screenshot](../img/la_rumeur_de_venise.jpg){ width="100" }
 
-Une histoire sur le temps qui passe et son effet sur les paysages, les villes et les hommes.
+Un livre sans texte, qui illustre comment la rumeur passe d'une maison à l'autre.Et tout ça en voyageant à travers Venise.
 
 
 ## Avant Après (*Anne-Margot Ramstein et Matthias Aregui*)
@@ -26,11 +33,11 @@ Une histoire sur le temps qui passe et son effet sur les paysages, les villes et
 Jour - Nuit, bourgeon - Fleur, vache - lait, etc.
 
 
-## La Rumeur de Venise (*Albertine et Germano Zullo*)
+## Chute libre (*David Wiesner*)
 
-![Screenshot](../img/la_rumeur_de_venise.jpg){ width="100" }
+![Screenshot](../img/chute_libre.jpg){ width="100" }
 
-Un livre sans texte, qui illustre comment la rumeur passe d'une maison à l'autre.Et tout ça en voyageant à travers Venise.
+Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un garçon s'endort avec un livre dans les bras, et qu'on suit dans ses rêves. À couper le souffle.
 
 
 ## Le monde englouti (*David Wiesner*)
@@ -38,13 +45,6 @@ Un livre sans texte, qui illustre comment la rumeur passe d'une maison à l'autr
 ![Screenshot](../img/flotsam.jpg){ width="100" }
 
 Un livre sur l'imagination et la créativité.
-
-
-## Chute libre (*David Wiesner*)
-
-![Screenshot](../img/chute_libre.jpg){ width="100" }
-
-Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un garçon s'endort avec un livre dans les bras, et qu'on suit dans ses rêves. À couper le souffle.
 
 
 ## Les trois cochons (*David Wiesner*)
