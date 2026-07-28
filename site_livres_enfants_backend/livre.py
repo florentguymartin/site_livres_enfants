@@ -4,12 +4,18 @@ from enum import Enum, StrEnum
 from site_livres_enfants_backend.livres_database.authors import Author
 
 class BooksCategory(StrEnum):
+    """
+    Catégories de livres
+    """
     GIRL_EMPOWERMENT = "girls_empowerment"
     LIVRES_SANS_TEXTE = "livres_sans_texte"
     POUR_RIRE = "pour_rire"
     POUR_REVER = "pour_rever"
 
 class BooksAge(StrEnum):
+    """
+    Tranches d'âge
+    """
     AGE_0_1_ANS = "0_1_ans"
     AGE_2_3_ANS = "2_3_ans"
     AGE_4_5_ANS = "4_5_ans"
@@ -52,9 +58,12 @@ age_descriptions: dict[BooksAge,tuple[str, str]] = {
 }
 
 class Livre (BaseModel):
+    """ 
+    Représente un livre.
+    """
     titre: str
     auteur: Author | tuple[Author, ...]
-    couverture_path: Optional[str] = None
+    couverture_path: str | None | list[str] = None
     categories: tuple[BooksCategory, ...] = ()
     description: str
     age: tuple[BooksAge, ...] = ()
@@ -85,9 +94,15 @@ class LivreRendererMarkdown:
             auteur_as_str = livre.auteur.value
         lines.append(f"## {livre.titre} (*{auteur_as_str}*)")
         lines.append("")
-        if livre.couverture_path:
-            # specify image size explicitely to be at most 300 pixels
-            lines.append(f"![Screenshot]({img_folder}/" + livre.couverture_path + "){ width=\"100\" }")
+        if livre.couverture_path is not None:
+            if isinstance(livre.couverture_path, list):
+                couverture_path_list = livre.couverture_path
+            elif isinstance(livre.couverture_path, str):
+                couverture_path_list = [livre.couverture_path]
+            else:
+                raise TypeError(f"Invalid type for couverture_path, expected None, str or list[str] but got {type(livre.couverture_path)}")
+            for img_path in couverture_path_list:
+                lines.append(f"![Screenshot]({img_folder}/" + img_path + "){ width=\"100\" }")
             lines.append("")
         lines.append(livre.description)
         lines.append("")

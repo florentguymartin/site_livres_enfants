@@ -3,25 +3,13 @@
 ## Introduction
 Des livres pour les enfants de 4 à 5 ans.
 
-## Voyage (*Aaron Becker*)
+## Voyage | Quest | Imagine, encore... (*Aaron Becker*)
 
 ![Screenshot](../img/voyage.jpg){ width="100" }
-
-La petite fille mène l'action. C'est elle qui sauve le roi. C'est elle qui a la curiosité d'initier l'histoire qui nous est racontée.
-
-
-## Quest (*Aaron Becker*)
-
 ![Screenshot](../img/quest.jpg){ width="100" }
-
-Deuxième livre de la série (après 'Voyage'). Une histoire à la Indiana Jones où la petite fille est aidée par un garçon dans une quête colorée. 
-
-
-## Imagine, encore... (*Aaron Becker*)
-
 ![Screenshot](../img/imagine_encore.jpg){ width="100" }
 
-Troisième et dernier livre de la série (après 'Voyage' et 'Quest'). Le papa essaye de ramener la petite fille dans le monde réel, au début sans succès. Quelques pérégrinations plus tard, la morale c'est que les adultes sont parfois de bon conseil.
+Une trilogie très originale qui suit les aventures d'une petite fille dans un mondes imaginaire.À l'aide de son crayon, elle crée des objets, des outils, des animaux qui lui permet d'avancer dans son aventure.Bien qu'il n'y ait pas de texte, dans chaque livre le scénario est très bien ficelé et captivant pour les enfants.C'est la petite fille qui mène l'action. C'est elle qui sauve le roi. Et c'est elle qui a la curiosité d'initier l'histoire qui nous est racontée.
 
 
 ## The tree and the River (*Aaron Becker*)
