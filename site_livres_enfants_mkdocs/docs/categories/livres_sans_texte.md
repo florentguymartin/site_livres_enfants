@@ -32,6 +32,8 @@ Un livre sans texte, qui illustre comment la rumeur passe d'une maison à l'autr
 
 Jour - Nuit, bourgeon - Fleur, vache - lait, etc.
 
+Prix Bologna Ragazzi 2015 (non fiction, gagnant)  
+
 
 ## Chute libre (*David Wiesner*)
 
@@ -94,6 +96,8 @@ Même principe que 'ce jour-là...' en zoomant sur l'Espagne.
 ![Screenshot](../img/zwergenspuk.jpg){ width="100" }
 
 Un style très Escher. Avec plusieurs niveaux de compréhension. Unique dans son genre.
+
+Prix Bologna Ragazzi 1972 (Mention spéciale pour les enfants)  
 
 
 ## Le livre de l'été (*Rotraut Susanne Berner*)

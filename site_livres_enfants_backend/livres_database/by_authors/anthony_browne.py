@@ -1,5 +1,6 @@
 from site_livres_enfants_backend.livre import Livre, BooksCategory, BooksAge
 from site_livres_enfants_backend.livres_database.authors import Author
+from site_livres_enfants_backend.book_awards import PrixBolognaRagazzi, PrixSorciere
 
 anthony_browne_livres: list[Livre] = [
     Livre(
@@ -13,6 +14,9 @@ anthony_browne_livres: list[Livre] = [
         ),
         categories=(BooksCategory.POUR_RIRE,),
         age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,),
+        awards=(
+            PrixSorciere(year=1999, additional_comment="Catégorie albums")
+        )
     ),
     Livre(
         titre="Anna et le gorille",
@@ -57,4 +61,19 @@ anthony_browne_livres: list[Livre] = [
         categories=(),
         age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,),
     ),
+    Livre(
+        titre="À calicochon",
+        auteur=Author.ANTHONY_BROWN,
+        # couverture_path="a_calicochon.jpg",
+        description=(
+            "On n'est plus dans les années 60."
+            "Enfin pas encore chez les Porchon, mais ça ne va pas durer."
+            "Un livre drôle pour rappeler qu'à une époque les mamans avaient un rôle différent et pas enviable."
+        ),
+        categories=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
+        awards=(
+            PrixBolognaRagazzi(year=1987, additional_comment="Mention spéciale pour les enfants")
+        )   
+    )
 ]

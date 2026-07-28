@@ -23,3 +23,5 @@ Même principe que 'ce jour-là...' en zoomant sur l'Espagne.
 
 Un style très Escher. Avec plusieurs niveaux de compréhension. Unique dans son genre.
 
+Prix Bologna Ragazzi 1972 (Mention spéciale pour les enfants)  
+

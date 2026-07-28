@@ -37,3 +37,12 @@ Une méchante brigade séquestre des animaux. Heureusement Ourson va tout faire 
 
 Une histoire racontée par quatre personnages différents, chacun avec sa propre perspective. Très drole, et offre une réflexion sur la subjectivité des points de vue. Les illustrations sont bourrées de détails en arrière-plan: à chaque lecture on découvre un nouveau détail. 
 
+Prix Sorcière 1999 (Catégorie albums)  
+
+
+## À calicochon (*Anthony Browne*)
+
+On n'est plus dans les années 60.Enfin pas encore chez les Porchon, mais ça ne va pas durer.Un livre drôle pour rappeler qu'à une époque les mamans avaient un rôle différent et pas enviable.
+
+Prix Bologna Ragazzi 1987 (Mention spéciale pour les enfants)  
+

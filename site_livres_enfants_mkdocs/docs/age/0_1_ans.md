@@ -30,6 +30,8 @@ Des photos de bébés. Un livre pour les tout-tout-petits.
 
 Un livre super interactif pour apprendre couleur, formes et espace. Merci Justine !
 
+Prix Sorcière 2011 (Catégorie tout-petits)  
+
 
 ## Le lion et la souris (*Jerry Pinkney*)
 

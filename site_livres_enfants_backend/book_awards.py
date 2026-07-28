@@ -27,8 +27,17 @@ class GenericBookAward(BookAward):
         return award_as_str
 
 class MedailleCaldecott(GenericBookAward):
-    # def __init__(self, year: int, additional_comment: str | None = None):
-    #     super().__init__(year, additional_comment)
-
     def get_award_name(self) -> str:
         return "Médaille Caldecott"
+
+class PrixBolognaRagazzi(GenericBookAward):
+    def get_award_name(self) -> str:
+        return "Prix Bologna Ragazzi"
+
+class PommeDorBratislava(GenericBookAward):
+    def get_award_name(self) -> str:
+        return "Pomme d'Or de Bratislava"
+
+class PrixSorciere(GenericBookAward):
+    def get_award_name(self) -> str:
+        return "Prix Sorcière"

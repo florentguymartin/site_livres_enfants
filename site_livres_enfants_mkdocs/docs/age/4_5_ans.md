@@ -53,6 +53,8 @@ On suit une souris dans ses bois de Janvier à Décembre, avec de très belles i
 
 Jour - Nuit, bourgeon - Fleur, vache - lait, etc.
 
+Prix Bologna Ragazzi 2015 (non fiction, gagnant)  
+
 
 ## Le garçon, le chien et la mer (*Anthony Browne*)
 
@@ -80,6 +82,15 @@ Une méchante brigade séquestre des animaux. Heureusement Ourson va tout faire 
 ![Screenshot](../img/une_histoire_a_quatre_voix.jpg){ width="100" }
 
 Une histoire racontée par quatre personnages différents, chacun avec sa propre perspective. Très drole, et offre une réflexion sur la subjectivité des points de vue. Les illustrations sont bourrées de détails en arrière-plan: à chaque lecture on découvre un nouveau détail. 
+
+Prix Sorcière 1999 (Catégorie albums)  
+
+
+## À calicochon (*Anthony Browne*)
+
+On n'est plus dans les années 60.Enfin pas encore chez les Porchon, mais ça ne va pas durer.Un livre drôle pour rappeler qu'à une époque les mamans avaient un rôle différent et pas enviable.
+
+Prix Bologna Ragazzi 1987 (Mention spéciale pour les enfants)  
 
 
 ## Les poulets guerriers (*Catherine Zarcate*)
@@ -186,6 +197,8 @@ Une petite fille voyage en train de la ville à la campagne et se questionne sur
 
 Un livre super interactif pour apprendre couleur, formes et espace. Merci Justine !
 
+Prix Sorcière 2011 (Catégorie tout-petits)  
+
 
 ## Olivia Reine des Princesses (*Ian Falconer*)
 
@@ -214,12 +227,16 @@ Le tigre est malade et son ami ours lui promet de le guérir. Un beau livre sur 
 
 Un super livre pour démystifier le pot. Très drole, très vrai, et de jolis dessins
 
+Prix Sorcière 1991 (Catégorie tout-petits)  
+
 
 ## Grosse Légume (*Jean Gourounas*)
 
 ![Screenshot](../img/grosse_legume.jpg){ width="100" }
 
 À mourir de rire. L'histoire d'un ver qui s'enfile des légumes. Attention, pour que le charme opère, il faut que le lecteur lise le livre de manière rythmique. Les kids en redemandent!
+
+Prix Sorcière 2005 (Catégorie tout-petits)  
 
 
 ## Le lion et la souris (*Jerry Pinkney*)
@@ -432,6 +449,8 @@ Même principe que 'ce jour-là...' en zoomant sur l'Espagne.
 ![Screenshot](../img/zwergenspuk.jpg){ width="100" }
 
 Un style très Escher. Avec plusieurs niveaux de compréhension. Unique dans son genre.
+
+Prix Bologna Ragazzi 1972 (Mention spéciale pour les enfants)  
 
 
 ## Prout de Mammouth (*Noé Carlain*)

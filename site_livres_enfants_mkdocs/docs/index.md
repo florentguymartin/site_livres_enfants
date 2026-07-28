@@ -1,4 +1,4 @@
-# C'est pas du Shakespeare! Vraiment?
+# C'est pas du Shakespeare!
 
 Les livres pour enfants ont tendance à ne pas jouer dans la cour des grands.
 À la différence de la *vraie* littérature pour adultes, quand on cherche un livre pour enfants on ne pense pas:  
