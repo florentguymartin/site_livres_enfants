@@ -28,6 +28,3 @@ Nous avons 3 jeunes enfants.
 On essaye de faire une lecture aux enfants tous les soirs. 
 Et tout ça nous l'avons un peu découvert au fil de l'eau. 
 L'ambition de ce site est de partager les belles découvertes faites au gré de ces lectures du soir.
-
-![Screenshot](img/2_petites_mains_et_2_petits_pieds.jpg){ width="100" }
-![Screenshot](img/2_petites_mains_et_2_petits_pieds.jpg){ width="100" }
