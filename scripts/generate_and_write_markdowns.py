@@ -1,3 +1,7 @@
+"""
+Script to generate and write Markdown files for the book database.
+"""
+
 # -*- coding: utf-8 -*-
 import os
 from site_livres_enfants_backend.livres_database import database
@@ -9,6 +13,7 @@ os.chdir(root_directory)
 livres = database
 
 if __name__ == "__main__":
+
     write_all_category_pages_md(livres)
 
     write_all_age_pages_md(livres)

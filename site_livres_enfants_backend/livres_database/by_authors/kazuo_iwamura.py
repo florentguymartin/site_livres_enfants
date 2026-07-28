@@ -136,6 +136,7 @@ kazuo_iwamura_livres: list[Livre] = [
     Livre(
         titre="Quand dormez-vous?",
         auteur=Author.KAZUO_IWAMURA,
+        couverture_path="nachts_wenn_alle_schlaffen.jpg",
         description=(
             "Nic, Nac et Noc les écureuils vont la découverte du décalage horaire avec les hiboux. "
             "Très mignon comme d'habitude avec Kazuo Iwamura."

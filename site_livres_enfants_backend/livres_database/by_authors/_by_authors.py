@@ -59,6 +59,9 @@ by_authors_books.extend(eve_bunting_livres)
 from .gerald_rose import gerald_rose_livres
 by_authors_books.extend(gerald_rose_livres)
 
+from .gerda_muller import gerda_muller_livres
+by_authors_books.extend(gerda_muller_livres)
+
 from .germano_zullo import germano_zullo_livres
 by_authors_books.extend(germano_zullo_livres)
 

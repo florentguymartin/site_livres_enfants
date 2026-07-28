@@ -1,14 +1,14 @@
 # C'est pas du Shakespeare! Vraiment?
 
 Les livres pour enfants ont tendance à ne pas jouer dans la cour des grands.
-À la différence de la *vraie* littérature pour adultes, quand on pense livre pour enfants on ne pense pas:  
+À la différence de la *vraie* littérature pour adultes, quand on cherche un livre pour enfants on ne pense pas:  
 
-- C'est le dernier Prix Goncourt.
+- Je vais prendre le dernier Prix Goncourt.
 - Ah oui, cet auteur est vraiment bien.
 - C'est un classique, ça me ferait pas de mal de le lire.
 - Faut vraiment que je trouve quelque chose qui lui fasse plaisir.
 
-Et parfois c'est même plutôt:  
+Et malheureusement parfois c'est même plutôt:  
 
 - En tête de gondole du supermarché, allez hop, ça fera un bon cadeau de Noël!
 - Le titre ou la couverture a l'air sympa, hop!
