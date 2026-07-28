@@ -4,7 +4,7 @@ Les livres pour enfants ont tendance à ne pas jouer dans la cour des grands.
 À la différence de la *vraie* littérature pour adultes, quand on pense livre pour enfants on ne pense pas:  
 
 - C'est le dernier Prix Goncourt
-- Ah oui, c'est auteur est vraiment bien
+- Ah oui, cet auteur est vraiment bien
 - C'est un classique, ça me ferait pas de mal de le lire
 - Faut vraiment que je trouve quelque chose qui lui fera plaisir
 
