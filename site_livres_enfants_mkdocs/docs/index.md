@@ -21,7 +21,7 @@ Et pourtant, la littérature jeunesse, c'est comme la *vraie* littérature pour 
 - Des classiques un peu démodés, mais qui sont très bien si on les remet dans leur contexte
 - Des auteurs qui nous surprennent à chaque livres, et ne nous déçoivent jamais
 - Des prix littéraires en veux-tu en voilà
-- Si on se fie à Wikipedia, le [Prix Hans-Christian-Ansersen](https://fr.wikipedia.org/wiki/Prix_Hans-Christian-Andersen) est parfois surnommé le petit prix Nobel de littérature
+- Si on se fie à Wikipedia, le [Prix Hans-Christian Andersen](https://fr.wikipedia.org/wiki/Prix_Hans-Christian-Andersen) est parfois surnommé le petit prix Nobel de littérature
 - Et comme pour les livres pour adultes, si on prend la tête de gondole du supermarché, on sera peut-être (à tous les coups?) déçu
 
 Nous avons 3 jeunes enfants. 
