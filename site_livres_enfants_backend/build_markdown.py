@@ -6,7 +6,7 @@ from site_livres_enfants_backend.livre import (
     Livre, BooksCategory, LivreRendererMarkdown, category_descriptions, age_descriptions, BooksAge
 )
 from site_livres_enfants_backend.livres_database.authors import Author, author_descriptions
-from site_livres_enfants_backend.backend_utils import is_author, to_snake_case
+from site_livres_enfants_backend.backend_utils import is_author, to_snake_case, sort_books_by_author_and_title
 import os
 
 MKDOCS_DIR_NAME = "site_livres_enfants_mkdocs"
@@ -157,11 +157,13 @@ def write_age_page_md(
     if not filename.endswith(".md"):
         raise ValueError(f"Filename must end with .md extension: {filename}")
 
+    sorted_books = sort_books_by_author_and_title(livres)
+
     age_md = _make_age_page_md(
         title=title, 
         books_age=books_age,
         age_description=age_description, 
-        livres=livres,
+        livres=sorted_books,
         img_folder="../img",
     )
 
@@ -196,17 +198,18 @@ def write_category_page_md(
     if not filename.endswith(".md"):
         raise ValueError(f"Filename must end with .md extension: {filename}")
 
+    sorted_books = sort_books_by_author_and_title(livres)
+
     category_md = _make_category_page_md(
         title=title, 
         books_category=books_category,
         category_description=books_category_description, 
-        livres=livres,
+        livres=sorted_books,
         img_folder="../img"
     )
     file_path_dir = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, "categories")
     os.makedirs(file_path_dir, exist_ok=True)
     file_path = os.path.join(file_path_dir, filename)
-    # file_path = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, filename)
 
     with open(file_path, mode="w", encoding="utf-8") as f:
         f.write(category_md)
@@ -237,10 +240,12 @@ def write_author_page_md(
     if not filename.endswith(".md"):
         raise ValueError(f"Filename must end with .md extension: {filename}")
 
+    sorted_books = sort_books_by_author_and_title(livres)
+
     author_md = _make_author_page_md(
         author=author,
         author_description=author_description,
-        livres=livres, 
+        livres=sorted_books, 
         img_folder="../img",
     )
 
@@ -312,13 +317,3 @@ def write_all_author_pages(livres: list[Livre]) -> None:
             author_description=description,
             livres=author_livres
         )
-        # md_filename = to_snake_case(str(author))
-
-        # file_path_dir = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, "authors")
-        # os.makedirs(file_path_dir, exist_ok=True)
-        # file_path = os.path.join(file_path_dir, md_filename + ".md")
-
-        # with open(file_path, mode="w", encoding="utf-8") as f:
-        #     f.write(author_page)
-
-        # print("Generated: " + md_filename + ".md")

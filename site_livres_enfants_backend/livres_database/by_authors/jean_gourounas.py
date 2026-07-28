@@ -1,6 +1,6 @@
 from site_livres_enfants_backend.livre import Livre, BooksCategory, BooksAge
 from site_livres_enfants_backend.livres_database.authors import Author
-
+from site_livres_enfants_backend.book_awards import PrixSorciere
 jean_gourounas_livres: list[Livre] = [
     Livre(
         titre="Grosse Légume",
@@ -13,6 +13,9 @@ jean_gourounas_livres: list[Livre] = [
             "Les kids en redemandent!"
         ),
         categories=(BooksCategory.POUR_RIRE,),
-        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
+        awards=(
+            PrixSorciere(year=2005, additional_comment="Catégorie tout-petits")
+        )
     ),
 ]

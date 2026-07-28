@@ -1,54 +1,49 @@
 # Backlog of todos
 
-## refactor
-remove any logic (e.g. page rendering) into src
+## Meilleur titre
+C'est pad du Shakespeare...
+Enfin presque.
+Enfin peut-être?
+Vraiment?
 
-## Finalize categories
+## add a top 10?
 
-- girls
+## missing books
+- album d adele
+- various ducos
+- chien bleu?
+- OH josse goffin prix bologna raggazi 1992 enfant gagnant
+- petit musee bologna 1994 mention special jeunesse
+- magasin zinzin bologna 1996 
+- les petits bonheurs du pre  bologna gagnant enfant 2001
+- la grande question bologna fiction 2004 gagnant, prix sorciere 2005 categ albums
+- mon tout petit bologna 2016 vainqueur fiction
+- loiseau blanc bologna 2018 fiction vainqueur
+- des trucs comme ci des trucs comme ça bologna non fiction special mention 2022
+- marta et la bicylette pomme d'or 1999
+- au file des mois grand prix de bratislava 2001
+- chasse a l ours prix sorciere 1990 categorei albums
 
-- sans image
-  - avant après 
+- adele s en mele prix sorciere 1988
+l art du pot
+
+
 
 - rire   
 ca pourrait être pire. 
-grosse legume. 
-au lit petit monstre
 
-- Age:
-    - 0-1
-    - 2-3
-    - 4-5
+## Add new categories
 
-- Auteurs:
-  - Mitsumaso anno
-  - famille souris
-  - auteur de floatman
-  - anthony brown
-  - david wiesner
-  - max ducos
-
-
-- se faire peur
+- se faire peur ?
   - chien bleu
 
-- rever
-  - souris au clair de lune
-
-- apprendre/ grandir?
+- apprendre/ grandir / se faire peur?
   - le livre?
 
-## Update the database of books
+- Price
+
+## Add pages will all books sorted by authors and sorted by titles
 - by authors: add books, ordered by author name
-- by prices: by prices
-
-livres:
-- chien bleu
-
-## Backlog livre a ajouter
-Olivia reine (girl)
-Le tunnel (sans image)
-
 
 ## Improvement
 
@@ -57,4 +52,7 @@ Add livre attributes:
 * Year of publication
 * Price won by book
 
-Add an enum with authors to avoid typos
+For the prices an bologna ragazzi, see https://www.bolognachildrensbookfair.com/media//libro/2025/premi/BRAW/60_years_of_BRAW.pdf
+
+in authors pages:
+enforce a sorting? e.g iwamura by groups, matsumasa anno also, etc

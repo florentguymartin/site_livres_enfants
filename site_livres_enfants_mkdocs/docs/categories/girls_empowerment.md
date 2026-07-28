@@ -3,11 +3,13 @@
 ## Introduction
 Des livres où des filles et des femmes jouent le premier role et sont inspirantes.
 
-## Voyage (*Aaron Becker*)
+## Voyage | Quest | Imagine, encore... (*Aaron Becker*)
 
 ![Screenshot](../img/voyage.jpg){ width="100" }
+![Screenshot](../img/quest.jpg){ width="100" }
+![Screenshot](../img/imagine_encore.jpg){ width="100" }
 
-La petite fille mène l'action. C'est elle qui sauve le roi. C'est elle qui a la curiosité d'initier l'histoire qui nous est racontée.
+Une trilogie très originale qui suit les aventures d'une petite fille dans un mondes imaginaire.À l'aide de son crayon, elle crée des objets, des outils, des animaux qui lui permet d'avancer dans son aventure.Bien qu'il n'y ait pas de texte, dans chaque livre le scénario est très bien ficelé et captivant pour les enfants.C'est la petite fille qui mène l'action. C'est elle qui sauve le roi. Et c'est elle qui a la curiosité d'initier l'histoire qui nous est racontée.
 
 
 ## Le tunnel (*Anthony Browne*)

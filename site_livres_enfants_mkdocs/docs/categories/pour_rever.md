@@ -31,18 +31,18 @@ La nuit de Noël. Un petit garçon.Un train sorti de nulle part. La vraie magie 
 Un jeu de société qui prend vie. Le film est très populaire, mais le livre qui l'a inspiré mérite d'être redécouvert.
 
 
-## Le monde englouti (*David Wiesner*)
-
-![Screenshot](../img/flotsam.jpg){ width="100" }
-
-Un livre sur l'imagination et la créativité.
-
-
 ## Chute libre (*David Wiesner*)
 
 ![Screenshot](../img/chute_libre.jpg){ width="100" }
 
 Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un garçon s'endort avec un livre dans les bras, et qu'on suit dans ses rêves. À couper le souffle.
+
+
+## Le monde englouti (*David Wiesner*)
+
+![Screenshot](../img/flotsam.jpg){ width="100" }
+
+Un livre sur l'imagination et la créativité.
 
 
 ## Ligne 135 (*Germano Zullo et Albertine*)
@@ -66,25 +66,18 @@ Des illustrations très très belles. Pas de texte, et une histoire qui laisse p
 Un livre sur les animaux avant de dormir.
 
 
-## La famille souris dîne au clair de lune (*Kazuo Iwamura*)
-
-![Screenshot](../img/la_famille_souris_dine_au_clair_de_lune.jpg){ width="100" }
-
-Un livre sur les liens familiaux et la nature.
-
-
-## À table (*Kazuo Iwamura*)
-
-![Screenshot](../img/a_table.jpg){ width="100" }
-
-Les oiseaux ne mangent pas la même chose que les écureuils.
-
-
 ## C'est déjà le Printemps! (*Kazuo Iwamura*)
 
 ![Screenshot](../img/c_est_deja_le_printemps.jpg){ width="100" }
 
 Que devient la neige au Printemps? Une très belle histoire, beaucoup de poésie, et une très belle rencontre au milieu du lac.
+
+
+## La famille souris dîne au clair de lune (*Kazuo Iwamura*)
+
+![Screenshot](../img/la_famille_souris_dine_au_clair_de_lune.jpg){ width="100" }
+
+Un livre sur les liens familiaux et la nature.
 
 
 ## Vive la neige (*Kazuo Iwamura*)
@@ -94,11 +87,20 @@ Que devient la neige au Printemps? Une très belle histoire, beaucoup de poésie
 Un peu de neige, c'est l'occasion idéale pour sortir la luge et permettre aux adultes de retrouver une âme d'enfants.
 
 
+## À table (*Kazuo Iwamura*)
+
+![Screenshot](../img/a_table.jpg){ width="100" }
+
+Les oiseaux ne mangent pas la même chose que les écureuils.
+
+
 ## Max et les Maximonstres (*Maurice Sendak*)
 
 ![Screenshot](../img/max_et_les_maximonstres.jpg){ width="100" }
 
 Un classique de la littérature enfantine, qui aborde les thèmes de l'imagination et de la rébellion.
+
+Médaille Caldecott 1964  
 
 
 ## L'ange disparu (*Max Ducos*)

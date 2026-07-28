@@ -24,18 +24,13 @@ Des illustrations minimalistes très bien pour les tout petits.
 Des photos de bébés. Un livre pour les tout-tout-petits.
 
 
-## 2 petites mains et 2 petits pieds (*Mem Fox et Helen Oxenbury*)
-
-![Screenshot](../img/2_petites_mains_et_2_petits_pieds.jpg){ width="100" }
-
-Un livre sur la diversité des bébés.
-
-
 ## Un livre (*Hervé Tullet*)
 
 ![Screenshot](../img/un_livre.jpg){ width="100" }
 
 Un livre super interactif pour apprendre couleur, formes et espace. Merci Justine !
+
+Prix Sorcière 2011 (Catégorie tout-petits)  
 
 
 ## Le lion et la souris (*Jerry Pinkney*)
@@ -71,4 +66,11 @@ De belles illustrations, des mini-histoires rigolotes. Un final qui fait toujour
 ![Screenshot](../img/au_bois_dormant.jpg){ width="100" }
 
 Un livre sur les animaux avant de dormir.
+
+
+## 2 petites mains et 2 petits pieds (*Mem Fox et Helen Oxenbury*)
+
+![Screenshot](../img/2_petites_mains_et_2_petits_pieds.jpg){ width="100" }
+
+Un livre sur la diversité des bébés.
 
