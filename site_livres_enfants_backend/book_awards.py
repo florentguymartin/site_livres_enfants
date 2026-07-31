@@ -41,3 +41,27 @@ class PommeDorBratislava(GenericBookAward):
 class PrixSorciere(GenericBookAward):
     def get_award_name(self) -> str:
         return "Prix Sorcière"
+
+
+award_descriptions: dict[type[GenericBookAward], tuple[str, str, str]] = {
+    MedailleCaldecott: (
+        "Médaille Caldecott",
+        "La médaille Caldecott est décernée chaque année par l'American Library Association à l'illustrateur du livre d'images pour enfants américain le plus distingué de l'année.",
+        "medaille_caldecott",
+    ),
+    PrixBolognaRagazzi: (
+        "Prix Bologna Ragazzi",
+        "Le prix Bologna Ragazzi est l'un des prix littéraires les plus prestigieux pour la littérature jeunesse, décerné chaque année lors du Salon du livre de jeunesse de Bologne.",
+        "prix_bologna_ragazzi",
+    ),
+    PommeDorBratislava: (
+        "Pomme d'Or de Bratislava",
+        "La Pomme d'Or de Bratislava est un prix international décerné lors du Biennale des illustrations de Bratislava pour récompenser l'excellence en illustration de livres pour enfants.",
+        "pomme_d_or_de_bratislava",
+    ),
+    PrixSorciere: (
+        "Prix Sorcière",
+        "Le Prix Sorcière est un prix littéraire français décerné chaque année par les libraires spécialisés en littérature jeunesse pour récompenser les meilleurs livres pour enfants.",
+        "prix_sorciere",
+    ),
+}
