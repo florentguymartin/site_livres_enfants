@@ -7,6 +7,7 @@ from site_livres_enfants_backend.livre import (
 )
 from site_livres_enfants_backend.livres_database.authors import Author, author_descriptions
 from site_livres_enfants_backend.backend_utils import is_author, to_snake_case, sort_books_by_author_and_title
+from site_livres_enfants_backend.book_awards import BookAward, GenericBookAward, award_descriptions
 import os
 
 MKDOCS_DIR_NAME = "site_livres_enfants_mkdocs"
@@ -316,4 +317,104 @@ def write_all_author_pages(livres: list[Livre]) -> None:
             author=author,
             author_description=description,
             livres=author_livres
+        )
+
+
+def _has_award(livre: Livre, award_class: type[GenericBookAward]) -> bool:
+    """Check if a book has a specific award type."""
+    if livre.awards is None:
+        return False
+    if isinstance(livre.awards, BookAward):
+        return isinstance(livre.awards, award_class)
+    return any(isinstance(award, award_class) for award in livre.awards)
+
+
+def _make_book_award_page_md(
+    title: str,
+    award_class: type[GenericBookAward],
+    award_description: str,
+    livres: list[Livre],
+    img_folder: str | None = None,
+) -> str:
+    """Generate Markdown content for a book award page.
+
+    Args:
+        title (str): The title of the page.
+        award_class (type[GenericBookAward]): The book award class to filter by.
+        award_description (str): The description of the award.
+        livres (list[Livre]): The list of books to filter.
+        img_folder (str | None): The folder containing book cover images.
+
+    Returns:
+        The generated Markdown content as a string.
+    """
+    award_livres = [livre for livre in livres if _has_award(livre, award_class)]
+
+    return make_page_md(
+        title=title,
+        introduction=award_description,
+        livres=award_livres,
+        img_folder=img_folder,
+    )
+
+
+def write_book_award_page_md(
+    filename: str,
+    title: str,
+    award_class: type[GenericBookAward],
+    award_description: str,
+    livres: list[Livre],
+) -> None:
+    """Generate and write a book award Markdown file.
+
+    Args:
+        filename (str): The filename of the file to write. Must include the .md extension.
+        title (str): The title of the award page.
+        award_class (type[GenericBookAward]): The book award class to filter by.
+        award_description (str): The description of the award.
+        livres (list[Livre]): The list of books to filter.
+
+    Returns:
+        None
+    """
+    if not filename.endswith(".md"):
+        raise ValueError(f"Filename must end with .md extension: {filename}")
+
+    sorted_books = sort_books_by_author_and_title(livres)
+
+    award_md = _make_book_award_page_md(
+        title=title,
+        award_class=award_class,
+        award_description=award_description,
+        livres=sorted_books,
+        img_folder="../img",
+    )
+
+    file_path_dir = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, "book_awards")
+    os.makedirs(file_path_dir, exist_ok=True)
+    file_path = os.path.join(file_path_dir, filename)
+
+    with open(file_path, mode="w", encoding="utf-8") as f:
+        f.write(award_md)
+
+    print("Generated: " + filename)
+
+
+def write_all_book_award_pages_md(livres: list[Livre]) -> None:
+    """Generate and write Markdown pages for all book awards.
+
+    Args:
+        livres (list[Livre]): The list of books to categorize by award.
+
+    Returns:
+        None
+    """
+    for award_class, (title, description, filename_stem) in award_descriptions.items():
+        filename = filename_stem + ".md"
+        write_book_award_page_md(
+            filename=filename,
+            title=title,
+            award_class=award_class,
+            award_description=description,
+            livres=livres,
         )
