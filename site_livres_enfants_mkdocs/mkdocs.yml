@@ -11,7 +11,12 @@ theme:
 
 
 nav:
-  - Introduction: index.md
+  - Introduction: 
+    #- introduction/index.md
+    - index.md
+    - "La valeur n'attend pas le nombre des années": introduction/la_valeur.md
+    - "C'est en forgeant qu'on devient forgeron": introduction/forger.md
+    - "Choisir c'est renoncer": introduction/choisir.md
   - Categories:
     - categories/index.md
     - "Girls empowerment": categories/girls_empowerment.md

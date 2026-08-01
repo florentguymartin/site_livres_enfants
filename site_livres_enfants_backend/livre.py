@@ -25,7 +25,14 @@ class BooksAge(StrEnum):
 category_descriptions: dict[BooksCategory, tuple[str, str]] = {
     BooksCategory.GIRL_EMPOWERMENT: (
         "Girl Empowerment", 
-        "Des livres où des filles et des femmes jouent le premier role et sont inspirantes.",
+        (
+            "Sois belle et tais-toi."
+            "Dans un monde idéal, en 2026, on ne devrait pas parler de girl empowerment."
+            "Dans un monde idéal il y aurait plein de livres pour enfants où un personnage féminin peut s'apparenter à un *role model*."
+            "Malheureusement, mon expérience personnelle me dit que ce n'est pas le cas."
+            "Et malheureusement, les livres présentés dans cette page se comptent sur les doigts d'une main."
+            "Raison de plus pour les mettre en avant."
+        ),
         ),
     BooksCategory.LIVRES_SANS_TEXTE: (
         "Livres sans texte", 
