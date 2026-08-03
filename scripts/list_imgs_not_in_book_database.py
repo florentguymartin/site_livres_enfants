@@ -11,9 +11,9 @@ for livre in database:
         list_of_images_in_database.extend(livre.couverture_path)
 
 # list files in site_livres_enfants_mkdocs/docs/img
-list_of_image_filenames = os.listdir(os.path.join(project_root_dir_path, "docs", "img"))
-
+list_of_image_filenames = os.listdir(os.path.join(project_root_dir_path, "site_livres_enfants_mkdocs", "docs", "img"))
 delta = list(set(list_of_image_filenames) - set(list_of_images_in_database))
+
 if len(delta) == 0:
     print("All images in site_livres_enfants_mkdocs/docs/img appear in the database")
 else:
