@@ -169,3 +169,36 @@ by_authors_books.extend(the_tjong_khing_livres)
 
 from .tomi_ungerer import tomi_ungerer_livres
 by_authors_books.extend(tomi_ungerer_livres)
+
+from .alain_le_saux import alain_le_saux_livres
+by_authors_books.extend(alain_le_saux_livres)
+
+from .anne_weiss import anne_weiss_livres
+by_authors_books.extend(anne_weiss_livres)
+
+from .bernadette_gervais import bernadette_gervais_livres
+by_authors_books.extend(bernadette_gervais_livres)
+
+from .claude_ponti import claude_ponti_livres
+by_authors_books.extend(claude_ponti_livres)
+
+from .josse_goffin import josse_goffin_livres
+by_authors_books.extend(josse_goffin_livres)
+
+from .marcia_brown import marcia_brown_livres
+by_authors_books.extend(marcia_brown_livres)
+
+from .margot_zemach import margot_zemach_livres
+by_authors_books.extend(margot_zemach_livres)
+
+from .matsuoka_tatsuhide import matsuoka_tatsuhide_livres
+by_authors_books.extend(matsuoka_tatsuhide_livres)
+
+from .nadja import nadja_livres
+by_authors_books.extend(nadja_livres)
+
+from .pierre_bertrand import pierre_bertrand_livres
+by_authors_books.extend(pierre_bertrand_livres)
+
+from .wolf_erlbruch import wolf_erlbruch_livres
+by_authors_books.extend(wolf_erlbruch_livres)
