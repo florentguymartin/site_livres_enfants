@@ -64,6 +64,17 @@ class Author(StrEnum):
     ROTRAUT_SUSANNE_BERNER = "Rotraut Susanne Berner"
     SUZY_LEE = "Suzy Lee"
     TOMI_UNGERER = "Tomi Ungerer"
+    ALAIN_LE_SAUX = "Alain Le Saux"
+    ANNE_WEISS = "Anne Weiss"
+    BERNADETTE_GERVAIS = "Bernadette Gervais"
+    CLAUDE_PONTI = "Claude Ponti"
+    JOSSE_GOFFIN = "Josse Goffin"
+    MARGOT_ZEMACH = "Margot Zemach"
+    MARCIA_BROWN = "Marcia Brown"
+    MATSUOKA_TATSUHIDE = "Matsuoka Tatsuhide"
+    NADJA = "Nadja"
+    PIERRE_BERTRAND = "Pierre Bertrand"
+    WOLF_ERLBRUCH = "Wolf Erlbruch"
 
 
 author_descriptions: dict[Author, str] = {
