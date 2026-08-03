@@ -18,5 +18,5 @@ if len(delta) == 0:
     print("All images in site_livres_enfants_mkdocs/docs/img appear in the database")
 else:
     print("Images not found in the database:")
-    for img in delta:
-        print(f" - {img}")
+    for img in sorted(delta):
+        print(f"{img}")

@@ -8,6 +8,17 @@ Vraiment?
 
 ## add a top 10?
 
+1. Flotman
+2. Juliette et Bellini
+3. La famille souris dîne au clair de lune
+4. Grosse légume
+5. La visite
+6. Le Boreal Express
+7. Une histoire à quatre voix
+8. Vert secret
+9. Avant après
+10. L'album d'Adèle
+
 ## missing books
 - album d adele
 - various ducos
