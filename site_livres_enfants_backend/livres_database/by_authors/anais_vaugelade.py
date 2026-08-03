@@ -13,4 +13,15 @@ anais_vaugelade_livres: list[Livre] = [
         categories=(),
         age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,),
     ),
+    Livre(
+        titre="Une soupe au caillou",
+        auteur=Author.ANAIS_VAUGELADE,
+        couverture_path="une_soupe_au_caillou.jpg",
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=()
+        #todo: description needs to be entered manually afterwards
+    ),
 ]

@@ -14,4 +14,15 @@ paul_zelinsky_livres: list[Livre] = [
         categories=(),
         age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
     ),
+    Livre(
+        titre="Raiponce",
+        auteur=Author.PAUL_ZELINKSKY,
+        couverture_path="raiponce.jpg",
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=()
+        #todo: description needs to be entered manually afterwards
+    ),
 ]

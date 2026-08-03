@@ -26,6 +26,83 @@ mitsumasa_anno_livres: list[Livre] = [
         age=(BooksAge.AGE_4_5_ANS,),
     ),
     Livre(
+        titre="Dix petits amis déménagent",
+        auteur=Author.MITSUMASA_ANNO,
+        couverture_path="dix_petits_amis_demenagent.jpg",
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=()
+        #todo: description needs to be entered manually afterwards
+    ),
+    Livre(
+        titre="Jeux de chapeaux",
+        auteur=Author.MITSUMASA_ANNO,
+        couverture_path="jeux_de_chapeau.jpg",
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=()
+        #todo: description needs to be entered manually afterwards
+    ),
+    Livre(
+        titre="Jeux mathématiques",
+        auteur=Author.MITSUMASA_ANNO,
+        couverture_path="jeux_mathematiques.jpg",
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=()
+        #todo: description needs to be entered manually afterwards
+    ),
+    Livre(
+        titre="Le Danemark d'Anderson",
+        auteur=Author.MITSUMASA_ANNO,
+        couverture_path="le_danemark_d_anderson.jpg",
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=()
+        #todo: description needs to be entered manually afterwards
+    ),
+    Livre(
+        titre="Le loup, le crapaud et les trois petits cochons",
+        auteur=Author.MITSUMASA_ANNO,
+        couverture_path="le_loup_le_crapaud_et_les_trois_petits_cochons.jpg",
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=()
+        #todo: description needs to be entered manually afterwards
+    ),
+    Livre(
+        titre="Le pot magique",
+        auteur=Author.MITSUMASA_ANNO,
+        couverture_path="le_pot_magique.jpg",
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=()
+        #todo: description needs to be entered manually afterwards
+    ),
+    Livre(
+        titre="Loup y es-tu?",
+        auteur=Author.MITSUMASA_ANNO,
+        couverture_path="loup_y_es_tu.jpg",
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=()
+        #todo: description needs to be entered manually afterwards
+    ),
+    Livre(
         titre="Zwergenspuk",
         auteur=Author.MITSUMASA_ANNO,
         couverture_path="zwergenspuk.jpg",
