@@ -19,6 +19,13 @@ Une histoire sur le temps qui passe et son effet sur les paysages, les villes et
 Une trilogie très originale qui suit les aventures d'une petite fille dans un mondes imaginaire.À l'aide de son crayon, elle crée des objets, des outils, des animaux qui lui permet d'avancer dans son aventure.Bien qu'il n'y ait pas de texte, dans chaque livre le scénario est très bien ficelé et captivant pour les enfants.C'est la petite fille qui mène l'action. C'est elle qui sauve le roi. Et c'est elle qui a la curiosité d'initier l'histoire qui nous est racontée.
 
 
+## Petit Musée (*Alain Le Saux*)
+
+![Screenshot](../img/petit_musee.jpg){ width="100" }
+
+Un imagier avec des tableaux de peinture. 
+
+
 ## La Rumeur de Venise (*Albertine et Germano Zullo*)
 
 ![Screenshot](../img/la_rumeur_de_venise.jpg){ width="100" }
@@ -33,6 +40,27 @@ Un livre sans texte, qui illustre comment la rumeur passe d'une maison à l'autr
 Jour - Nuit, bourgeon - Fleur, vache - lait, etc.
 
 Prix Bologna Ragazzi 2015 (non fiction, gagnant)  
+
+
+## Adèle et la Pele (*Claude Ponti*)
+
+![Screenshot](../img/adele_et_la_pele.jpg){ width="100" }
+
+Le troisième volet de la série Adèle. Adèle a grandi, mais l'imagination de l'auteur n'a pas d'âge.
+
+
+## Adèle s'en mêle (*Claude Ponti*)
+
+![Screenshot](../img/adele_s_en_mele.jpg){ width="100" }
+
+Le deuxième volet de la série Adèle. Adèle rentre dans le livre.
+
+
+## L'album d'Adèle (*Claude Ponti*)
+
+![Screenshot](../img/l_album_d_adele.jpg){ width="100" }
+
+Le premier volet de la série Adèle. Un livre sans image, où on découvre de nouveaux détails à chaque lecture. 
 
 
 ## Chute libre (*David Wiesner*)

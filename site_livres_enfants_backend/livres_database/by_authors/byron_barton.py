@@ -30,7 +30,7 @@ byron_barton_livres: list[Livre] = [
             "to be filled"
         ),
         categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        age=(BooksAge.AGE_0_1_ANS, BooksAge.AGE_2_3_ANS)
+        
     ),
 ]

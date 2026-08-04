@@ -1,5 +1,6 @@
 from site_livres_enfants_backend.livre import Livre, BooksCategory, BooksAge
 from site_livres_enfants_backend.livres_database.authors import Author
+from site_livres_enfants_backend.livre import BooksAge, BooksCategory
 
 anais_vaugelade_livres: list[Livre] = [
     Livre(
@@ -18,10 +19,9 @@ anais_vaugelade_livres: list[Livre] = [
         auteur=Author.ANAIS_VAUGELADE,
         couverture_path="une_soupe_au_caillou.jpg",
         description=(
-            "to be filled"
+            "L'histoirde la soupe au caillou avec de belles illustrations."
         ),
         categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
     ),
 ]

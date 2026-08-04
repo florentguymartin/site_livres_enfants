@@ -67,3 +67,6 @@ For the prices an bologna ragazzi, see https://www.bolognachildrensbookfair.com/
 
 in authors pages:
 enforce a sorting? e.g iwamura by groups, matsumasa anno also, etc
+
+
+# add a script to track books which are not in any page

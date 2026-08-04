@@ -24,6 +24,20 @@ Une visite au musée qui sort de l'ordinaire.
 Comment transormer un échec en succès. 
 
 
+## Le mystère de la grande dune (*Max Ducos*)
+
+![Screenshot](../img/le_mystere_de_la_grande_dune.jpg){ width="100" }
+
+to be filled
+
+
+## Mon passage secret (*Max Ducos*)
+
+![Screenshot](../img/mon_passage_secret.jpg){ width="100" }
+
+to be filled
+
+
 ## Vert secret (*Max Ducos*)
 
 ![Screenshot](../img/vert_secret.jpg){ width="100" }

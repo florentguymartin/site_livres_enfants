@@ -7,32 +7,35 @@ claude_ponti_livres: list[Livre] = [
         auteur=Author.CLAUDE_PONTI,
         couverture_path="adele_et_la_pele.jpg",
         description=(
-            "to be filled"
+            "Le troisième volet de la série Adèle. "
+            "Adèle a grandi, mais l'imagination de l'auteur n'a pas d'âge."
         ),
-        categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+
     ),
     Livre(
         titre="Adèle s'en mêle",
         auteur=Author.CLAUDE_PONTI,
         couverture_path="adele_s_en_mele.jpg",
         description=(
-            "to be filled"
+            "Le deuxième volet de la série Adèle. "
+            "Adèle rentre dans le livre."
         ),
-        categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+
     ),
     Livre(
         titre="L'album d'Adèle",
         auteur=Author.CLAUDE_PONTI,
         couverture_path="l_album_d_adele.jpg",
         description=(
-            "to be filled"
+            "Le premier volet de la série Adèle. "
+            "Un livre sans image, où on découvre de nouveaux détails à chaque lecture. "
+            ""
         ),
-        categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
     ),
 ]

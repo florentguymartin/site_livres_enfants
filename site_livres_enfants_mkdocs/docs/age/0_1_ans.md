@@ -10,6 +10,13 @@ Des livres pour les tout-petits.
 Des illustrations minimalistes très bien pour les tout petits.
 
 
+## Les trains (*Byron Barton*)
+
+![Screenshot](../img/les_trains.jpg){ width="100" }
+
+to be filled
+
+
 ## Ma maison (*Byron Barton*)
 
 ![Screenshot](../img/ma_maison.jpg){ width="100" }

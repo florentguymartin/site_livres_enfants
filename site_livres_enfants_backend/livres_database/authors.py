@@ -75,6 +75,7 @@ class Author(StrEnum):
     NADJA = "Nadja"
     PIERRE_BERTRAND = "Pierre Bertrand"
     WOLF_ERLBRUCH = "Wolf Erlbruch"
+    PASCALE_ESTELLON = "Pascal Estellon"
 
 
 author_descriptions: dict[Author, str] = {

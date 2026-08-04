@@ -26,11 +26,25 @@ Une trilogie très originale qui suit les aventures d'une petite fille dans un m
 Deux lapins, deux frères. Une histoire qui part dans tous les sens, mais ils sont tellement mignons que ça passe!
 
 
+## Petit Musée (*Alain Le Saux*)
+
+![Screenshot](../img/petit_musee.jpg){ width="100" }
+
+Un imagier avec des tableaux de peinture. 
+
+
 ## La Rumeur de Venise (*Albertine et Germano Zullo*)
 
 ![Screenshot](../img/la_rumeur_de_venise.jpg){ width="100" }
 
 Un livre sans texte, qui illustre comment la rumeur passe d'une maison à l'autre.Et tout ça en voyageant à travers Venise.
+
+
+## Marta et la bicyclette (*Albertine et Germano Zullo*)
+
+![Screenshot](../img/marta_et_la_bicyclette.jpg){ width="100" }
+
+Une vache qui fait de la bicyclette.
 
 
 ## Souris des bois - Une année dans la forêt (*Alice Melvin*)
@@ -45,6 +59,20 @@ On suit une souris dans ses bois de Janvier à Décembre, avec de très belles i
 ![Screenshot](../img/le_secret.jpg){ width="100" }
 
 'Non je veux pas te dire' dit la poule au chat. Alors le chat, va se forger son propre secret. Une belle histoire qui part un peu dans tous les sens, sur fond de quête initiatique.
+
+
+## Une soupe au caillou (*Anaïs Vaugelade*)
+
+![Screenshot](../img/une_soupe_au_caillou.jpg){ width="100" }
+
+L'histoirde la soupe au caillou avec de belles illustrations.
+
+
+## Les petits bonheurs de pré (*Anne Weiss et Pascal Estellon*)
+
+![Screenshot](../img/les_petits_bonheurs_du_pre.jpg){ width="100" }
+
+Un imagier champêtre, avec de très très belles illustrations.
 
 
 ## Avant Après (*Anne-Margot Ramstein et Matthias Aregui*)
@@ -107,6 +135,13 @@ Prix Bologna Ragazzi 1987 (Mention spéciale pour les enfants)
 Comment un petit garçon de 3/4 ans prépare la venue d'une petite soeur.
 
 
+## Les trains (*Byron Barton*)
+
+![Screenshot](../img/les_trains.jpg){ width="100" }
+
+to be filled
+
+
 ## Les poulets guerriers (*Catherine Zarcate*)
 
 ![Screenshot](../img/les_poulets_guerriers.jpg){ width="100" }
@@ -147,6 +182,27 @@ Deux petits lapins voisins, qui commencent à se brouiller pour de broutilles. M
 ![Screenshot](../img/la_chaise_bleue.jpg){ width="100" }
 
 Nous donnons trop de jouets aux enfants. Less is more. La preuve par la chaise
+
+
+## Adèle et la Pele (*Claude Ponti*)
+
+![Screenshot](../img/adele_et_la_pele.jpg){ width="100" }
+
+Le troisième volet de la série Adèle. Adèle a grandi, mais l'imagination de l'auteur n'a pas d'âge.
+
+
+## Adèle s'en mêle (*Claude Ponti*)
+
+![Screenshot](../img/adele_s_en_mele.jpg){ width="100" }
+
+Le deuxième volet de la série Adèle. Adèle rentre dans le livre.
+
+
+## L'album d'Adèle (*Claude Ponti*)
+
+![Screenshot](../img/l_album_d_adele.jpg){ width="100" }
+
+Le premier volet de la série Adèle. Un livre sans image, où on découvre de nouveaux détails à chaque lecture. 
 
 
 ## Chute libre (*David Wiesner*)
