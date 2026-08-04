@@ -14,6 +14,25 @@ MKDOCS_DIR_NAME = "site_livres_enfants_mkdocs"
 DOCS_DIR_NAME = "docs"
 
 
+TOP_TEN_BOOK_TITLES = (
+    "Flotman",
+    "Juliette et Bellini",
+    "La famille souris dîne au clair de lune",
+    "Grosse Légume",
+    "La visite",
+    "Boréal-Express",
+    "Une histoire à quatre voix",
+    "Vert secret",
+    "Avant Après",
+    "L'album d'Adèle",
+)
+
+TOP_TEN_TITLE = "Choisir c'est renoncer"
+TOP_TEN_INTRODUCTION = (
+    "Choisir c'est renoncer. Voici donc 10 livres qui pourraient former un top 10, "
+    "présentés dans l'ordre défini dans le README."
+)
+
 def make_page_md(
     title: str, 
     introduction: str, 
@@ -398,6 +417,31 @@ def write_book_award_page_md(
         f.write(award_md)
 
     print("Generated: " + filename)
+
+
+def write_top_ten_page_md(livres: list[Livre]) -> None:
+    """Generate and write the top 10 Markdown file."""
+    books_by_title = {livre.titre: livre for livre in livres}
+    missing_titles = [title for title in TOP_TEN_BOOK_TITLES if title not in books_by_title]
+    if missing_titles:
+        raise ValueError(f"Top 10 books not found in database: {', '.join(missing_titles)}")
+
+    top_ten_books = [books_by_title[title] for title in TOP_TEN_BOOK_TITLES]
+    top_ten_md = make_page_md(
+        title=TOP_TEN_TITLE,
+        introduction=TOP_TEN_INTRODUCTION,
+        livres=top_ten_books,
+        img_folder="../img",
+    )
+
+    file_path_dir = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, "introduction")
+    os.makedirs(file_path_dir, exist_ok=True)
+    file_path = os.path.join(file_path_dir, "choisir.md")
+
+    with open(file_path, mode="w", encoding="utf-8") as f:
+        f.write(top_ten_md)
+
+    print("Generated: choisir.md")
 
 
 def write_all_book_award_pages_md(livres: list[Livre]) -> None:
