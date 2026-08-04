@@ -16,7 +16,7 @@ Put cover images in `site_livres_enfants_mkdocs/docs/img`
 
 1. **Create a Conda environment:**
    ```bash
-   conda create -n env_site_livres python=3.11
+   conda create -n env_site_livres python=3.13
    conda activate env_site_livres
    ```
 
@@ -144,7 +144,7 @@ Currently generates:
 ## 🛠️ Getting Started
 
 ### Prerequisites
-- Python ≥ 3.11
+- Python ≥ 3.13
 - Dependencies: `mkdocs`, `pydantic`, `mkdocs-material` (see `pyproject.toml`)
 
 ### Installation
