@@ -44,4 +44,28 @@ max_ducos_livres: list[Livre] = [
         categories=(),
         age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,),
     ),
+    Livre(
+        titre="Le mystère de la grande dune",
+        auteur=Author.MAX_DUCOS,
+        couverture_path="le_mystere_de_la_grande_dune.jpg",
+        description=(
+            "Un petit garçon s'aventure sur la dune du Pyla, et trouve un dauphin échoué suite à une tempête. "
+            "Un scénario captivant pour les enfants, avec de très belles illustrations. "
+        ),
+        categories=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+        
+    ),
+    Livre(
+        titre="Mon passage secret",
+        auteur=Author.MAX_DUCOS,
+        couverture_path="mon_passage_secret.jpg",
+        description=(
+            "Un papy essaye de se souvenir d'un passage secret de son enfance. "
+            "Mais papy sucre un peu les fraises. "
+            "Mais on rigole bien !"
+        ),
+        categories=(),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+    ),
 ]

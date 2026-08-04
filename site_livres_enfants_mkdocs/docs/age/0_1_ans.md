@@ -10,6 +10,13 @@ Des livres pour les tout-petits.
 Des illustrations minimalistes très bien pour les tout petits.
 
 
+## Les trains (*Byron Barton*)
+
+![Screenshot](../img/les_trains.jpg){ width="100" }
+
+to be filled
+
+
 ## Ma maison (*Byron Barton*)
 
 ![Screenshot](../img/ma_maison.jpg){ width="100" }
@@ -40,6 +47,13 @@ Prix Sorcière 2011 (Catégorie tout-petits)
 La fable d'Ésope illustrée par Jerry Pinkney, sans texte. De très belles illustrations et une morale qui traverse les millénaires.
 
 
+## Oh (*Josse Goffin*)
+
+![Screenshot](../img/oh.jpg){ width="100" }
+
+Pas de texte. Des pages qu'on peut déplier. Avant de déplier la page on a une suggestion qui s'avère incorrecte une fois la page dépliée. Très ludique et éducatif. 
+
+
 ## Au bain petit lapin (*Jörg Mühle*)
 
 ![Screenshot](../img/au_bain_petit_lapin.jpg){ width="100" }
@@ -66,6 +80,13 @@ De belles illustrations, des mini-histoires rigolotes. Un final qui fait toujour
 ![Screenshot](../img/au_bois_dormant.jpg){ width="100" }
 
 Un livre sur les animaux avant de dormir.
+
+
+## Saute (*Matsuoka Tatsuhide*)
+
+![Screenshot](../img/saute.jpg){ width="100" }
+
+Des animaux qui sauntent. C'est pas du Shakespeare. Mais ça fait rire les petits. 
 
 
 ## 2 petites mains et 2 petits pieds (*Mem Fox et Helen Oxenbury*)

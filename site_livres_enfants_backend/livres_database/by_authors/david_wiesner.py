@@ -6,7 +6,15 @@ david_wiesner_livres: list[Livre] = [
         titre="Le monde englouti",
         auteur=Author.DAVID_WIESNER,
         couverture_path="flotsam.jpg",
-        description="Un livre sur l'imagination et la créativité.",
+        description=(
+            "Un garçon, une plage, une vague, un appareil photo. "
+            "David Wiesner a le don pour transformer la banalité en quelque chose d'extraordinaire. "
+            "Je ne sais pas si David Wiesner (qui est Américain) avait en tête le poème de Rimbaud *Le bateau ivre* en dessinant les dernières pages. "
+            "Mais le parallèle est saisissant. "
+            "Un livre époustouflant. \n"
+            "Les esprits cartésiens qui ont à coeur de distinguer une suite arithmétique d'une suite géométrique tiqueront sûrement dans un des passages clés du livre. "
+            "Mais on pardonne volontiers à David. Merci David Wiesner pour ce chef-d'œuvre !"
+            ),
         categories=(BooksCategory.POUR_REVER, BooksCategory.LIVRES_SANS_TEXTE),
         age=(BooksAge.AGE_4_5_ANS,)
     ),

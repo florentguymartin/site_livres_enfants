@@ -1,7 +1,7 @@
 # David Wiesner
 
 ## Introduction
-David Wiesner est un auteur et illustrateur américain, célèbre pour ses livres pour enfants qui utilisent des illustrations innovantes et des récits visuels.
+David Wiesner est un auteur et illustrateur américain. Ces livres sont sans textes. Que des illustrations. C'est très imaginatif, et on peut dire poétique. Du gros niveau ! 
 
 ## Chute libre (*David Wiesner*)
 
@@ -14,7 +14,8 @@ Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un g
 
 ![Screenshot](../img/flotsam.jpg){ width="100" }
 
-Un livre sur l'imagination et la créativité.
+Un garçon, une plage, une vague, un appareil photo. David Wiesner a le don pour transformer la banalité en quelque chose d'extraordinaire. Je ne sais pas si David Wiesner (qui est Américain) avait en tête le poème de Rimbaud *Le bateau ivre* en dessinant les dernières pages. Mais le parallèle est saisissant. Un livre époustouflant. 
+Les esprits cartésiens qui ont à coeur de distinguer une suite arithmétique d'une suite géométrique tiqueront sûrement dans un des passages clés du livre. Mais on pardonne volontiers à David. Merci David Wiesner pour ce chef-d'œuvre !
 
 
 ## Les trois cochons (*David Wiesner*)

@@ -1,7 +1,13 @@
 # Livres sans texte
 
 ## Introduction
-Des livres sans texte, avec seulement des images, pour stimuler l'imagination.
+Il y a des livres sans texte, avec seulement des images. Et il y en pas mal qui sont vraiment très bien. Ce qui est bien avec ce genre de livre, c'est que: 
+
+* Ça permet de créer un vrai dialogue avec l'enfant (ou les enfants) 
+* Cela permet de faire de l'enfant un acteur de la lecture et pas seulement un spectateur. 
+Pour l'adulte qui lit, ça oblige aussi à s'impliquer davantage dans l'histoire. 
+
+Succès garanti ! Voici une sélection, tout en subjectivité.
 
 ## The tree and the River (*Aaron Becker*)
 
@@ -17,6 +23,13 @@ Une histoire sur le temps qui passe et son effet sur les paysages, les villes et
 ![Screenshot](../img/imagine_encore.jpg){ width="100" }
 
 Une trilogie très originale qui suit les aventures d'une petite fille dans un mondes imaginaire.À l'aide de son crayon, elle crée des objets, des outils, des animaux qui lui permet d'avancer dans son aventure.Bien qu'il n'y ait pas de texte, dans chaque livre le scénario est très bien ficelé et captivant pour les enfants.C'est la petite fille qui mène l'action. C'est elle qui sauve le roi. Et c'est elle qui a la curiosité d'initier l'histoire qui nous est racontée.
+
+
+## Petit Musée (*Alain Le Saux*)
+
+![Screenshot](../img/petit_musee.jpg){ width="100" }
+
+Un imagier avec des tableaux de peinture. 
 
 
 ## La Rumeur de Venise (*Albertine et Germano Zullo*)
@@ -35,6 +48,27 @@ Jour - Nuit, bourgeon - Fleur, vache - lait, etc.
 Prix Bologna Ragazzi 2015 (non fiction, gagnant)  
 
 
+## Adèle et la Pele (*Claude Ponti*)
+
+![Screenshot](../img/adele_et_la_pele.jpg){ width="100" }
+
+Le troisième volet de la série Adèle. Adèle a grandi, mais l'imagination de l'auteur n'a pas d'âge.
+
+
+## Adèle s'en mêle (*Claude Ponti*)
+
+![Screenshot](../img/adele_s_en_mele.jpg){ width="100" }
+
+Le deuxième volet de la série Adèle. Adèle rentre dans le livre.
+
+
+## L'album d'Adèle (*Claude Ponti*)
+
+![Screenshot](../img/l_album_d_adele.jpg){ width="100" }
+
+Le premier volet de la série Adèle. Un livre sans image, où on découvre de nouveaux détails à chaque lecture. 
+
+
 ## Chute libre (*David Wiesner*)
 
 ![Screenshot](../img/chute_libre.jpg){ width="100" }
@@ -46,7 +80,8 @@ Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un g
 
 ![Screenshot](../img/flotsam.jpg){ width="100" }
 
-Un livre sur l'imagination et la créativité.
+Un garçon, une plage, une vague, un appareil photo. David Wiesner a le don pour transformer la banalité en quelque chose d'extraordinaire. Je ne sais pas si David Wiesner (qui est Américain) avait en tête le poème de Rimbaud *Le bateau ivre* en dessinant les dernières pages. Mais le parallèle est saisissant. Un livre époustouflant. 
+Les esprits cartésiens qui ont à coeur de distinguer une suite arithmétique d'une suite géométrique tiqueront sûrement dans un des passages clés du livre. Mais on pardonne volontiers à David. Merci David Wiesner pour ce chef-d'œuvre !
 
 
 ## Les trois cochons (*David Wiesner*)
@@ -70,6 +105,13 @@ Un livre sur un mardi pas comme les autres.
 La fable d'Ésope illustrée par Jerry Pinkney, sans texte. De très belles illustrations et une morale qui traverse les millénaires.
 
 
+## Oh (*Josse Goffin*)
+
+![Screenshot](../img/oh.jpg){ width="100" }
+
+Pas de texte. Des pages qu'on peut déplier. Avant de déplier la page on a une suggestion qui s'avère incorrecte une fois la page dépliée. Très ludique et éducatif. 
+
+
 ## La visite (*Junko Nakamura*)
 
 ![Screenshot](../img/la_visite.jpg){ width="100" }
@@ -82,6 +124,27 @@ Des illustrations très très belles. Pas de texte, et une histoire qui laisse p
 ![Screenshot](../img/ce_jour_la.jpg){ width="100" }
 
 Un voyage initiatique à travers l'Europe des siècles passés. Beaucoup de détails. Beaucoup de références artistiques qui m'échappent, mais il y a des explications à la fin.
+
+
+## Dix petits amis déménagent (*Mitsumasa Anno*)
+
+![Screenshot](../img/dix_petits_amis_demenagent.jpg){ width="100" }
+
+Un super livre pour une introduction en douceur au concept de soustraction (table de 10).
+
+
+## Le Danemark d'Anderson (*Mitsumasa Anno*)
+
+![Screenshot](../img/le_danemark_d_anderson.jpg){ width="100" }
+
+Un voyage à travers le Danemark, en suivant les traces d'Andersen.
+
+
+## Loup y es-tu? (*Mitsumasa Anno*)
+
+![Screenshot](../img/loup_y_es_tu.jpg){ width="100" }
+
+Des illustrations d'un bois. Dans chaque page des animaux ou des visages se cachent dans les dessins. Enfants captivés !
 
 
 ## Sur les traces de Don Quichotte (*Mitsumasa Anno*)

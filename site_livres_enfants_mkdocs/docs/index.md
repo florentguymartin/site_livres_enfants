@@ -28,3 +28,12 @@ Nous avons 3 jeunes enfants.
 On essaye de faire une lecture aux enfants tous les soirs. 
 Et tout ça nous l'avons un peu découvert au fil de l'eau. 
 L'ambition de ce site est de partager les belles découvertes faites au gré de ces lectures du soir.
+
+* [Un top 10](introduction/choisir.md)
+* [Categories](categories/index.md)
+* [Auteurs](authors/index.md)
+* [Âge](age/index.md)
+* [Prix littéraires](book_awards/index.md)
+
+Enfin, nous expliquons [ici](introduction/forger.md) comment mois après mois nous nous sommes forgés 
+notre référentiel, notre culture générale pourrait-on dire, concernant la littérature enfantine.

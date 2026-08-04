@@ -10,4 +10,14 @@ mario_ramos_livres: list[Livre] = [
         categories=(BooksCategory.POUR_RIRE,),
         age=(BooksAge.AGE_2_3_ANS,)
     ),
+    Livre(
+        titre="Loup, loup y es-tu?",
+        auteur=Author.MARIO_RAMOS,
+        couverture_path="loup_loup_y_es_tu.jpg",
+        description=(
+            "Un classique détourné. "
+        ),
+        categories=(),
+        age=(BooksAge.AGE_2_3_ANS,)
+    ),
 ]

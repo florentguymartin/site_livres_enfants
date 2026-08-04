@@ -42,7 +42,8 @@ Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un g
 
 ![Screenshot](../img/flotsam.jpg){ width="100" }
 
-Un livre sur l'imagination et la créativité.
+Un garçon, une plage, une vague, un appareil photo. David Wiesner a le don pour transformer la banalité en quelque chose d'extraordinaire. Je ne sais pas si David Wiesner (qui est Américain) avait en tête le poème de Rimbaud *Le bateau ivre* en dessinant les dernières pages. Mais le parallèle est saisissant. Un livre époustouflant. 
+Les esprits cartésiens qui ont à coeur de distinguer une suite arithmétique d'une suite géométrique tiqueront sûrement dans un des passages clés du livre. Mais on pardonne volontiers à David. Merci David Wiesner pour ce chef-d'œuvre !
 
 
 ## Ligne 135 (*Germano Zullo et Albertine*)
@@ -108,4 +109,11 @@ Médaille Caldecott 1964
 ![Screenshot](../img/l_ange_disparu.jpg){ width="100" }
 
 Une visite au musée qui sort de l'ordinaire. 
+
+
+## Chien bleu (*Nadja*)
+
+![Screenshot](../img/chien_bleu.jpg){ width="100" }
+
+Une très belle histoire sur l'amitié entre une petite fille et un chien bleu. 
 

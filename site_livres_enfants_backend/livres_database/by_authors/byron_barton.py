@@ -22,4 +22,15 @@ byron_barton_livres: list[Livre] = [
         categories=(),
         age=(BooksAge.AGE_0_1_ANS,),
     ),
+    Livre(
+        titre="Les trains",
+        auteur=Author.BYRON_BARTON,
+        couverture_path="les_trains.jpg",
+        description=(
+            "to be filled"
+        ),
+        categories=(),
+        age=(BooksAge.AGE_0_1_ANS, BooksAge.AGE_2_3_ANS)
+        
+    ),
 ]

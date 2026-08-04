@@ -25,19 +25,40 @@ class BooksAge(StrEnum):
 category_descriptions: dict[BooksCategory, tuple[str, str]] = {
     BooksCategory.GIRL_EMPOWERMENT: (
         "Girl Empowerment", 
-        "Des livres où des filles et des femmes jouent le premier role et sont inspirantes.",
+        (
+            "Sois belle et tais-toi. "
+            "Dans un monde idéal, en 2026, on ne devrait pas parler de girl empowerment. "
+            "Dans un monde idéal il y aurait plein de livres pour enfants où un personnage féminin peut s'apparenter à un *role model*. "
+            "Malheureusement, mon expérience personnelle me dit que ce n'est pas le cas. "
+            "Et malheureusement, les livres présentés dans cette page se comptent sur les doigts d'une main. "
+            "Raison de plus pour les mettre en avant."
+        ),
         ),
     BooksCategory.LIVRES_SANS_TEXTE: (
         "Livres sans texte", 
-        "Des livres sans texte, avec seulement des images, pour stimuler l'imagination.",
+        (
+        "Il y a des livres sans texte, avec seulement des images. "
+        "Et il y en pas mal qui sont vraiment très bien. "
+        "Ce qui est bien avec ce genre de livre, c'est que: \n\n"
+        "* Ça permet de créer un vrai dialogue avec l'enfant (ou les enfants) \n"
+        "* Cela permet de faire de l'enfant un acteur de la lecture et pas seulement un spectateur. \n"
+        "Pour l'adulte qui lit, ça oblige aussi à s'impliquer davantage dans l'histoire. \n\n"
+        "Succès garanti ! "
+        "Voici une sélection, tout en subjectivité."
+        ),
     ),
     BooksCategory.POUR_RIRE: (
         "Pour rire", 
-        "Des livres pour rire et s'amuser.",
+        (
+            "Shakespeare avait l'ambition de faire rire. "
+            "Alors pourquoi ne pas en faire autant avec nos enfants ?"
+        ),
     ),
     BooksCategory.POUR_REVER: (
         "Pour rêver", 
-        "Des livres pour rêver et s'évader.",
+        (
+            "Des livres pour rêver et s'évader."
+        ),
     ),
 }
 

@@ -11,7 +11,12 @@ theme:
 
 
 nav:
-  - Introduction: index.md
+  - "C'est pas du Shakespeare": 
+    #- introduction/index.md
+    - index.md
+    # - "La valeur n'attend pas le nombre des années": introduction/la_valeur.md
+    - "C'est en forgeant qu'on devient forgeron": introduction/forger.md
+    - "Choisir c'est renoncer": introduction/choisir.md
   - Categories:
     - categories/index.md
     - "Girls empowerment": categories/girls_empowerment.md
@@ -30,6 +35,12 @@ nav:
     - "0-1 ans": age/0_1_ans.md
     - "2-3 ans": age/2_3_ans.md
     - "4-5 ans": age/4_5_ans.md
+  - "Prix littéraires":
+    - book_awards/index.md
+    - "Médaille Caldecott": book_awards/medaille_caldecott.md
+    - "Prix Bologna Ragazzi": book_awards/prix_bologna_ragazzi.md
+    - "Pomme d'Or de Bratislava": book_awards/pomme_d_or_de_bratislava.md
+    - "Prix Sorcière": book_awards/prix_sorciere.md
 
 markdown_extensions:
   - attr_list

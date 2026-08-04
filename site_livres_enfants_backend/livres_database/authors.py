@@ -64,6 +64,18 @@ class Author(StrEnum):
     ROTRAUT_SUSANNE_BERNER = "Rotraut Susanne Berner"
     SUZY_LEE = "Suzy Lee"
     TOMI_UNGERER = "Tomi Ungerer"
+    ALAIN_LE_SAUX = "Alain Le Saux"
+    ANNE_WEISS = "Anne Weiss"
+    BERNADETTE_GERVAIS = "Bernadette Gervais"
+    CLAUDE_PONTI = "Claude Ponti"
+    JOSSE_GOFFIN = "Josse Goffin"
+    MARGOT_ZEMACH = "Margot Zemach"
+    MARCIA_BROWN = "Marcia Brown"
+    MATSUOKA_TATSUHIDE = "Matsuoka Tatsuhide"
+    NADJA = "Nadja"
+    PIERRE_BERTRAND = "Pierre Bertrand"
+    WOLF_ERLBRUCH = "Wolf Erlbruch"
+    PASCALE_ESTELLON = "Pascal Estellon"
 
 
 author_descriptions: dict[Author, str] = {
@@ -71,28 +83,37 @@ author_descriptions: dict[Author, str] = {
         "Anthony Browne est un auteur et illustrateur britannique, "
         "connu pour ses livres pour enfants qui explorent des thèmes de l'imagination et de la réalité. "
         "Il use et abuse (et on redemande) d'illustrations avec des détails suprenants (voir extra-ordinaires) dans l'arrière-plan: "
-        "Un arbre en forme de fruit, des nuages en forme d'animaux, etc. "
-        "Une source inépuisable de discussion avec les enfants."
+        "un arbre en forme de fruit, des nuages en forme d'animaux, etc. "
+        "Une source inépuisable de discussion avec les enfants. "
     ),
     Author.DAVID_WIESNER: (
-        "David Wiesner est un auteur et illustrateur américain, "
-        "célèbre pour ses livres pour enfants qui utilisent des illustrations innovantes et des récits visuels."
+        "David Wiesner est un auteur et illustrateur américain. "
+        "Ces livres sont sans textes. Que des illustrations. "
+        "C'est très imaginatif, et on peut dire poétique. "
+        "Du gros niveau ! "
     ),
     Author.KAZUO_IWAMURA: (
         "Kazuo Iwamura est un auteur et illustrateur japonais, "
-        "reconnu pour ses livres pour enfants qui mettent en avant la nature et les relations humaines."
+        "avec des livres qui mettent en avant la nature et les relations humaines. "
+        "Il a notamment deux grandes séries: \n\n"
+        "* La famille souris. Des histoires simples poétiques et puissantes. \n"
+        "* La série Nic, Nac et Noc, avec trois petits écureuils. On change de mammifères, mais l'esprit reste le même. \n\n "
+        "Bizarrement, à ma connaissance, Kazuo Iwamura n'a pas reçu de prix littéraire majeur. "
+        "Dur à comprendre tant certains de ses livres sont vraiment très très biens. "
+        "La famille souris dîne au clair de Lune par exemple: La grande classe. "
+        "Kazuo Iwamura est décédé en 2024. Merci à lui pour son oeuvre. "
     ),
     Author.MITSUMASA_ANNO: (
         "Mitsumasa Anno est un auteur et illustrateur japonais, "
         "célèbre pour ses livres pour enfants qui explorent des thèmes de la nature, "
-        "du voyage, de l'art et des mathématiques."
+        "du voyage, de l'art et des mathématiques. "
         "Mitsumasa Anno est également connu pour son approche unique de la narration visuelle, "
-        "incitant les jeunes lecteurs à interagir avec les illustrations et à découvrir des histoires cachées."
+        "incitant les jeunes lecteurs à interagir avec les illustrations et à découvrir des histoires cachées. "
     ),
     Author.MAX_DUCOS: (
-        "Max Ducos écrit des histoires dont les scénarios sont à la fois très imaginatifs, poétiques, et profonds,"
+        "Max Ducos écrit des histoires dont les scénarios sont à la fois très imaginatifs, poétiques, et profonds, "
         "mais avec un récit toujours très simple et efficace. "
         "Tout ça avec de très belles illustrations. "
-        "Super à partir de 3 ans."
+        "Super à partir de 3 ans. "
     )
 }

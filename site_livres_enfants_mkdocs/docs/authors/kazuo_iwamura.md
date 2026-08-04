@@ -1,7 +1,12 @@
 # Kazuo Iwamura
 
 ## Introduction
-Kazuo Iwamura est un auteur et illustrateur japonais, reconnu pour ses livres pour enfants qui mettent en avant la nature et les relations humaines.
+Kazuo Iwamura est un auteur et illustrateur japonais, avec des livres qui mettent en avant la nature et les relations humaines. Il a notamment deux grandes séries: 
+
+* La famille souris. Des histoires simples poétiques et puissantes. 
+* La série Nic, Nac et Noc, avec trois petits écureuils. On change de mammifères, mais l'esprit reste le même. 
+
+ Bizarrement, à ma connaissance, Kazuo Iwamura n'a pas reçu de prix littéraire majeur. Dur à comprendre tant certains de ses livres sont vraiment très très biens. La famille souris dîne au clair de Lune par exemple: La grande classe. Kazuo Iwamura est décédé en 2024. Merci à lui pour son oeuvre. 
 
 ## C'est déjà le Printemps! (*Kazuo Iwamura*)
 
