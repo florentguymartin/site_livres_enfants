@@ -1,7 +1,7 @@
 # Anthony Browne
 
 ## Introduction
-Anthony Browne est un auteur et illustrateur britannique, connu pour ses livres pour enfants qui explorent des thèmes de l'imagination et de la réalité. Il use et abuse (et on redemande) d'illustrations avec des détails suprenants (voir extra-ordinaires) dans l'arrière-plan: Un arbre en forme de fruit, des nuages en forme d'animaux, etc. Une source inépuisable de discussion avec les enfants.
+Anthony Browne est un auteur et illustrateur britannique, connu pour ses livres pour enfants qui explorent des thèmes de l'imagination et de la réalité. Il use et abuse (et on redemande) d'illustrations avec des détails suprenants (voir extra-ordinaires) dans l'arrière-plan: un arbre en forme de fruit, des nuages en forme d'animaux, etc. Une source inépuisable de discussion avec les enfants. 
 
 ## Anna et le gorille (*Anthony Browne*)
 

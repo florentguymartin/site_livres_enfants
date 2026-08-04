@@ -11,6 +11,6 @@ bernadette_gervais_livres: list[Livre] = [
         ),
         categories=(),
         age=()
-        #todo: description needs to be entered manually afterwards
+        
     ),
 ]

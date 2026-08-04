@@ -36,15 +36,29 @@ category_descriptions: dict[BooksCategory, tuple[str, str]] = {
         ),
     BooksCategory.LIVRES_SANS_TEXTE: (
         "Livres sans texte", 
-        "Des livres sans texte, avec seulement des images, pour stimuler l'imagination.",
+        (
+        "Il y a des livres sans texte, avec seulement des images. "
+        "Et il y en pas mal qui sont vraiment très bien. "
+        "Ce qui est bien avec ce genre de livre, c'est que: "
+        "* Ça permet de créer un vrai dialogue avec l'enfant (ou les enfants), "
+        "et cela permet de faire de l'enfant un acteur de la lecture et pas seulement un spectateur. "
+        "Pour l'adulte qui lit, ça oblige aussi à s'impliquer davantage dans l'histoire. "
+        "Succès garanti !"
+        "Voici une sélection, tout en subjectivité."
+        ),
     ),
     BooksCategory.POUR_RIRE: (
         "Pour rire", 
-        "Des livres pour rire et s'amuser.",
+        (
+            "Shakespeare avait l'ambition de faire rire. "
+            "Alors pourquoi ne pas en faire autant avec nos petits ?"
+        ),
     ),
     BooksCategory.POUR_REVER: (
         "Pour rêver", 
-        "Des livres pour rêver et s'évader.",
+        (
+            "Des livres pour rêver et s'évader."
+        ),
     ),
 }
 

@@ -1,7 +1,7 @@
 # David Wiesner
 
 ## Introduction
-David Wiesner est un auteur et illustrateur américain, célèbre pour ses livres pour enfants qui utilisent des illustrations innovantes et des récits visuels.
+David Wiesner est un auteur et illustrateur américain, célèbre pour ses livres pour enfants qui utilisent des illustrations innovantes et des récits visuels. 
 
 ## Chute libre (*David Wiesner*)
 

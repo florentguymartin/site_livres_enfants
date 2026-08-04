@@ -1,7 +1,7 @@
 # Livres sans texte
 
 ## Introduction
-Des livres sans texte, avec seulement des images, pour stimuler l'imagination.
+Il y a des livres sans texte, avec seulement des images. Et il y en pas mal qui sont vraiment très bien. Ce qui est bien avec ce genre de livre, c'est que: * Ça permet de créer un vrai dialogue avec l'enfant (ou les enfants), et cela permet de faire de l'enfant un acteur de la lecture et pas seulement un spectateur. Pour l'adulte qui lit, ça oblige aussi à s'impliquer davantage dans l'histoire. Succès garanti !Voici une sélection, tout en subjectivité.
 
 ## The tree and the River (*Aaron Becker*)
 

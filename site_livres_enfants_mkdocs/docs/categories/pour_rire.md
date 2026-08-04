@@ -1,7 +1,7 @@
 # Pour rire
 
 ## Introduction
-Des livres pour rire et s'amuser.
+Shakespeare avait l'ambition de faire rire. Alors pourquoi ne pas en faire autant avec nos petits ?
 
 ## Une histoire à quatre voix (*Anthony Browne*)
 
