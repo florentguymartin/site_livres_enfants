@@ -7,10 +7,11 @@ josse_goffin_livres: list[Livre] = [
         auteur=Author.JOSSE_GOFFIN,
         couverture_path="oh.jpg",
         description=(
-            "to be filled"
+            "Pas de texte. Des pages qu'on peut déplier. "
+            "Avant de déplier la page on a une suggestion qui s'avère incorrecte une fois la page dépliée. "
+            "Très ludique et éducatif. "
         ),
-        categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_0_1_ANS, BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS),
     ),
 ]

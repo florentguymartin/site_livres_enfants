@@ -7,10 +7,9 @@ matsuoka_tatsuhide_livres: list[Livre] = [
         auteur=Author.MATSUOKA_TATSUHIDE,
         couverture_path="saute.jpg",
         description=(
-            "to be filled"
+            "Des animaux qui sauntent. C'est pas du Shakespeare. Mais ça fait rire les petits. "
         ),
-        categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        categories=(BooksCategory.POUR_RIRE,),
+        age=(BooksAge.AGE_0_1_ANS, BooksAge. AGE_2_3_ANS),
     ),
 ]

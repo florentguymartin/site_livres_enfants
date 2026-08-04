@@ -296,6 +296,13 @@ Prix Sorcière 2005 (Catégorie tout-petits)
 La fable d'Ésope illustrée par Jerry Pinkney, sans texte. De très belles illustrations et une morale qui traverse les millénaires.
 
 
+## Oh (*Josse Goffin*)
+
+![Screenshot](../img/oh.jpg){ width="100" }
+
+Pas de texte. Des pages qu'on peut déplier. Avant de déplier la page on a une suggestion qui s'avère incorrecte une fois la page dépliée. Très ludique et éducatif. 
+
+
 ## Le Gruffalo (*Julia Donaldson et Axel Scheffler*)
 
 ![Screenshot](../img/der_grueffelo.jpg){ width="100" }
@@ -422,6 +429,20 @@ Les oiseaux ne mangent pas la même chose que les écureuils.
 Une histoire de souris qui partent en vacances à la plage.
 
 
+## La féticheuse (*Marcia Brown*)
+
+![Screenshot](../img/la_feticheuse.jpg){ width="100" }
+
+Illustrations d'un poème de Blaise Cendrars
+
+
+## Ça pourrait être pire (*Margot Zemach*)
+
+![Screenshot](../img/ca_pourrait_etre_pire.jpg){ width="100" }
+
+Un conte Yiddish. Absurde. Très (très) drôle. Et philosophique. 
+
+
 ## Course épique (*Marie Dorléans*)
 
 ![Screenshot](../img/course_epique.jpg){ width="100" }
@@ -466,6 +487,20 @@ Un jeu de piste captivant dans dans une maison d'architecte. Un scénario comple
 Comment transormer un échec en succès. 
 
 
+## Le mystère de la grande dune (*Max Ducos*)
+
+![Screenshot](../img/le_mystere_de_la_grande_dune.jpg){ width="100" }
+
+Un petit garçon s'aventure sur la dune du Pyla, et trouve un dauphin échoué suite à une tempête. Un scénario captivant pour les enfants, avec de très belles illustrations. 
+
+
+## Mon passage secret (*Max Ducos*)
+
+![Screenshot](../img/mon_passage_secret.jpg){ width="100" }
+
+Un papy essaye de se souvenir d'un passage secret de son enfance. Mais papy sucre un peu les fraises. Mais on rigole bien !
+
+
 ## Vert secret (*Max Ducos*)
 
 ![Screenshot](../img/vert_secret.jpg){ width="100" }
@@ -487,6 +522,48 @@ Une tendre histoire sur les premiers émois amoureux.
 Un voyage initiatique à travers l'Europe des siècles passés. Beaucoup de détails. Beaucoup de références artistiques qui m'échappent, mais il y a des explications à la fin.
 
 
+## Dix petits amis déménagent (*Mitsumasa Anno*)
+
+![Screenshot](../img/dix_petits_amis_demenagent.jpg){ width="100" }
+
+Un super livre pour une introduction en douceur au concept de soustraction (table de 10).
+
+
+## Jeux de chapeaux (*Mitsumasa Anno*)
+
+![Screenshot](../img/jeux_de_chapeau.jpg){ width="100" }
+
+Une introduction aux maths.
+
+
+## Jeux mathématiques (*Mitsumasa Anno*)
+
+![Screenshot](../img/jeux_mathematiques.jpg){ width="100" }
+
+Une introduction aux maths. Tout en douceur .
+
+
+## Le Danemark d'Anderson (*Mitsumasa Anno*)
+
+![Screenshot](../img/le_danemark_d_anderson.jpg){ width="100" }
+
+Un voyage à travers le Danemark, en suivant les traces d'Andersen.
+
+
+## Le loup, le crapaud et les trois petits cochons (*Mitsumasa Anno*)
+
+![Screenshot](../img/le_loup_le_crapaud_et_les_trois_petits_cochons.jpg){ width="100" }
+
+Une introduction aux maths.
+
+
+## Loup y es-tu? (*Mitsumasa Anno*)
+
+![Screenshot](../img/loup_y_es_tu.jpg){ width="100" }
+
+Des illustrations d'un bois. Dans chaque page des animaux ou des visages se cachent dans les dessins. Enfants captivés !
+
+
 ## Sur les traces de Don Quichotte (*Mitsumasa Anno*)
 
 ![Screenshot](../img/sur_les_traces_de_don_quichotte.jpg){ width="100" }
@@ -501,6 +578,13 @@ Même principe que 'ce jour-là...' en zoomant sur l'Espagne.
 Un style très Escher. Avec plusieurs niveaux de compréhension. Unique dans son genre.
 
 Prix Bologna Ragazzi 1972 (Mention spéciale pour les enfants)  
+
+
+## Chien bleu (*Nadja*)
+
+![Screenshot](../img/chien_bleu.jpg){ width="100" }
+
+Une très belle histoire sur l'amitié entre une petite fille et un chien bleu. 
 
 
 ## Prout de Mammouth (*Noé Carlain*)
@@ -545,6 +629,13 @@ Un livre plein d'humour sur les jeux de mots et les sonorités.
 Quand on voît quelque chose qui brille au fond d'un puit, faut réfléchir avant de sauter!
 
 
+## Cornebidouille (*Pierre Bertrand*)
+
+![Screenshot](../img/cornebidouille.jpg){ width="100" }
+
+*Pierre, mange ta soupe. Nan j'veux pas!* Une histoire drôle sur la résistance à l'autorité parentale. 
+
+
 ## La maison (*Roberto Innocenti*)
 
 ![Screenshot](../img/la_maison.jpg){ width="100" }
@@ -578,4 +669,11 @@ Deux souris volent un gâteau d'anniversaire. Une course poursuite s'ensuit. Il 
 ![Screenshot](../img/les_trois_brigands.jpg){ width="100" }
 
 Trois brigands décident de voler tous les voyageurs de la route. Mais ils vont rencontrer une petite fille qui va changer leur vie. Un classique de la littérature jeunesse.
+
+
+## La grande question (*Wolf Erlbruch*)
+
+![Screenshot](../img/la_grande_question.jpg){ width="100" }
+
+Une introduction à la philosophie pour les enfants. 
 

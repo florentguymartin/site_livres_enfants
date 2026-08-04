@@ -302,6 +302,13 @@ La fable d'Ésope illustrée par Jerry Pinkney, sans texte. De très belles illu
 Papa ours veut dormir. Mais ça ne se passe pas toujours comme prévu.
 
 
+## Oh (*Josse Goffin*)
+
+![Screenshot](../img/oh.jpg){ width="100" }
+
+Pas de texte. Des pages qu'on peut déplier. Avant de déplier la page on a une suggestion qui s'avère incorrecte une fois la page dépliée. Très ludique et éducatif. 
+
+
 ## Le Gruffalo (*Julia Donaldson et Axel Scheffler*)
 
 ![Screenshot](../img/der_grueffelo.jpg){ width="100" }
@@ -456,6 +463,13 @@ Les oiseaux ne mangent pas la même chose que les écureuils.
 Une histoire de souris qui partent en vacances à la plage.
 
 
+## Ça pourrait être pire (*Margot Zemach*)
+
+![Screenshot](../img/ca_pourrait_etre_pire.jpg){ width="100" }
+
+Un conte Yiddish. Absurde. Très (très) drôle. Et philosophique. 
+
+
 ## Course épique (*Marie Dorléans*)
 
 ![Screenshot](../img/course_epique.jpg){ width="100" }
@@ -470,11 +484,25 @@ Les course à Longchamps c'est bien mais c'est pas très marrant. Ce livre perme
 Les enfants sont parfois des petits monstres, surtout au moment du coucher. Mais le monstre n'est pas toujours celui qu'on croit...
 
 
+## Loup, loup y es-tu? (*Mario Ramos*)
+
+![Screenshot](../img/loup_loup_y_es_tu.jpg){ width="100" }
+
+Un classique détourné. 
+
+
 ## Tu ne dors pas, petit ours? (*Martin Waddell*)
 
 ![Screenshot](../img/tu_ne_dors_pas_petit_ours.jpg){ width="100" }
 
 Un livre dont certains parents se rappeleront. Très mignon, et en tant que parent, pas trop dur de s'identifier.
+
+
+## Saute (*Matsuoka Tatsuhide*)
+
+![Screenshot](../img/saute.jpg){ width="100" }
+
+Des animaux qui sauntent. C'est pas du Shakespeare. Mais ça fait rire les petits. 
 
 
 ## Occupé (*Matthieu Maudet*)
@@ -507,6 +535,20 @@ Un jeu de piste captivant dans dans une maison d'architecte. Un scénario comple
 Une visite au musée qui sort de l'ordinaire. 
 
 
+## Le mystère de la grande dune (*Max Ducos*)
+
+![Screenshot](../img/le_mystere_de_la_grande_dune.jpg){ width="100" }
+
+Un petit garçon s'aventure sur la dune du Pyla, et trouve un dauphin échoué suite à une tempête. Un scénario captivant pour les enfants, avec de très belles illustrations. 
+
+
+## Mon passage secret (*Max Ducos*)
+
+![Screenshot](../img/mon_passage_secret.jpg){ width="100" }
+
+Un papy essaye de se souvenir d'un passage secret de son enfance. Mais papy sucre un peu les fraises. Mais on rigole bien !
+
+
 ## Vert secret (*Max Ducos*)
 
 ![Screenshot](../img/vert_secret.jpg){ width="100" }
@@ -535,6 +577,27 @@ Un livre sur la diversité des bébés.
 Un voyage initiatique à travers l'Europe des siècles passés. Beaucoup de détails. Beaucoup de références artistiques qui m'échappent, mais il y a des explications à la fin.
 
 
+## Jeux de chapeaux (*Mitsumasa Anno*)
+
+![Screenshot](../img/jeux_de_chapeau.jpg){ width="100" }
+
+Une introduction aux maths.
+
+
+## Le Danemark d'Anderson (*Mitsumasa Anno*)
+
+![Screenshot](../img/le_danemark_d_anderson.jpg){ width="100" }
+
+Un voyage à travers le Danemark, en suivant les traces d'Andersen.
+
+
+## Loup y es-tu? (*Mitsumasa Anno*)
+
+![Screenshot](../img/loup_y_es_tu.jpg){ width="100" }
+
+Des illustrations d'un bois. Dans chaque page des animaux ou des visages se cachent dans les dessins. Enfants captivés !
+
+
 ## Zwergenspuk (*Mitsumasa Anno*)
 
 ![Screenshot](../img/zwergenspuk.jpg){ width="100" }
@@ -542,6 +605,13 @@ Un voyage initiatique à travers l'Europe des siècles passés. Beaucoup de dét
 Un style très Escher. Avec plusieurs niveaux de compréhension. Unique dans son genre.
 
 Prix Bologna Ragazzi 1972 (Mention spéciale pour les enfants)  
+
+
+## Chien bleu (*Nadja*)
+
+![Screenshot](../img/chien_bleu.jpg){ width="100" }
+
+Une très belle histoire sur l'amitié entre une petite fille et un chien bleu. 
 
 
 ## Prout de Mammouth (*Noé Carlain*)
@@ -577,6 +647,13 @@ Un livre plein d'humour sur les jeux de mots et les sonorités.
 ![Screenshot](../img/plouf.jpg){ width="100" }
 
 Quand on voît quelque chose qui brille au fond d'un puit, faut réfléchir avant de sauter!
+
+
+## Cornebidouille (*Pierre Bertrand*)
+
+![Screenshot](../img/cornebidouille.jpg){ width="100" }
+
+*Pierre, mange ta soupe. Nan j'veux pas!* Une histoire drôle sur la résistance à l'autorité parentale. 
 
 
 ## Le livre de l'été (*Rotraut Susanne Berner*)

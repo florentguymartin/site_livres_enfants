@@ -30,77 +30,75 @@ mitsumasa_anno_livres: list[Livre] = [
         auteur=Author.MITSUMASA_ANNO,
         couverture_path="dix_petits_amis_demenagent.jpg",
         description=(
-            "to be filled"
+            "Un super livre pour une introduction en douceur au concept de soustraction (table de 10)."
         ),
-        categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_4_5_ANS,),
     ),
     Livre(
         titre="Jeux de chapeaux",
         auteur=Author.MITSUMASA_ANNO,
         couverture_path="jeux_de_chapeau.jpg",
         description=(
-            "to be filled"
+            "Une introduction aux maths."
         ),
         categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
     ),
     Livre(
         titre="Jeux mathématiques",
         auteur=Author.MITSUMASA_ANNO,
         couverture_path="jeux_mathematiques.jpg",
         description=(
-            "to be filled"
+            "Une introduction aux maths. Tout en douceur ."
         ),
         categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        age=(BooksAge.AGE_4_5_ANS,)
     ),
     Livre(
         titre="Le Danemark d'Anderson",
         auteur=Author.MITSUMASA_ANNO,
         couverture_path="le_danemark_d_anderson.jpg",
         description=(
-            "to be filled"
+            "Un voyage à travers le Danemark, en suivant les traces d'Andersen."
         ),
-        categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,)
     ),
     Livre(
         titre="Le loup, le crapaud et les trois petits cochons",
         auteur=Author.MITSUMASA_ANNO,
         couverture_path="le_loup_le_crapaud_et_les_trois_petits_cochons.jpg",
         description=(
-            "to be filled"
+            "Une introduction aux maths."
         ),
         categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        age=(BooksAge.AGE_4_5_ANS, )
     ),
     Livre(
         titre="Le pot magique",
         auteur=Author.MITSUMASA_ANNO,
         couverture_path="le_pot_magique.jpg",
         description=(
-            "to be filled"
+            "Expliquer le concept de factorielle avec des dessins. Pas sûr que ça marche. "
+            "Mais c'est déjà beau d'essayer !"
         ),
         categories=(),
         age=()
-        #todo: description needs to be entered manually afterwards
+
     ),
     Livre(
         titre="Loup y es-tu?",
         auteur=Author.MITSUMASA_ANNO,
         couverture_path="loup_y_es_tu.jpg",
         description=(
-            "to be filled"
+            "Des illustrations d'un bois. "
+            "Dans chaque page des animaux ou des visages se cachent dans les dessins. "
+            "Enfants captivés !"
         ),
-        categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        categories=(BooksCategory.LIVRES_SANS_TEXTE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+
     ),
     Livre(
         titre="Zwergenspuk",

@@ -110,3 +110,10 @@ Médaille Caldecott 1964
 
 Une visite au musée qui sort de l'ordinaire. 
 
+
+## Chien bleu (*Nadja*)
+
+![Screenshot](../img/chien_bleu.jpg){ width="100" }
+
+Une très belle histoire sur l'amitié entre une petite fille et un chien bleu. 
+

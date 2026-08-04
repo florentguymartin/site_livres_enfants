@@ -7,10 +7,10 @@ marcia_brown_livres: list[Livre] = [
         auteur=Author.MARCIA_BROWN,
         couverture_path="la_feticheuse.jpg",
         description=(
-            "to be filled"
+            "Illustrations d'un poème de Blaise Cendrars"
         ),
         categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        age=(BooksAge.AGE_4_5_ANS,)
+        
     ),
 ]

@@ -72,6 +72,13 @@ La loi du plus fort est toujours la meilleure. Vraiment? La petite souris et le 
 De belles illustrations, des mini-histoires rigolotes. Un final qui fait toujours rire même à la dixième lecture. Simple mais efficace.
 
 
+## Ça pourrait être pire (*Margot Zemach*)
+
+![Screenshot](../img/ca_pourrait_etre_pire.jpg){ width="100" }
+
+Un conte Yiddish. Absurde. Très (très) drôle. Et philosophique. 
+
+
 ## Course épique (*Marie Dorléans*)
 
 ![Screenshot](../img/course_epique.jpg){ width="100" }
@@ -84,6 +91,13 @@ Les course à Longchamps c'est bien mais c'est pas très marrant. Ce livre perme
 ![Screenshot](../img/au_lit_petit_monstre.jpg){ width="100" }
 
 Les enfants sont parfois des petits monstres, surtout au moment du coucher. Mais le monstre n'est pas toujours celui qu'on croit...
+
+
+## Saute (*Matsuoka Tatsuhide*)
+
+![Screenshot](../img/saute.jpg){ width="100" }
+
+Des animaux qui sauntent. C'est pas du Shakespeare. Mais ça fait rire les petits. 
 
 
 ## Occupé (*Matthieu Maudet*)

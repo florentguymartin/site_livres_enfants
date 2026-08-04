@@ -15,10 +15,9 @@ mario_ramos_livres: list[Livre] = [
         auteur=Author.MARIO_RAMOS,
         couverture_path="loup_loup_y_es_tu.jpg",
         description=(
-            "to be filled"
+            "Un classique détourné. "
         ),
         categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        age=(BooksAge.AGE_2_3_ANS,)
     ),
 ]

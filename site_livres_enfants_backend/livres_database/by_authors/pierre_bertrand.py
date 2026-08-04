@@ -7,10 +7,11 @@ pierre_bertrand_livres: list[Livre] = [
         auteur=Author.PIERRE_BERTRAND,
         couverture_path="cornebidouille.jpg",
         description=(
-            "to be filled"
+            "*Pierre, mange ta soupe. Nan j'veux pas!* "
+            "Une histoire drôle sur la résistance à l'autorité parentale. "
         ),
         categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,)
+        
     ),
 ]

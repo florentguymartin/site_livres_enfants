@@ -7,10 +7,9 @@ wolf_erlbruch_livres: list[Livre] = [
         auteur=Author.WOLF_ERLBRUCH,
         couverture_path="la_grande_question.jpg",
         description=(
-            "to be filled"
+            "Une introduction à la philosophie pour les enfants. "
         ),
         categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        age=(BooksAge.AGE_4_5_ANS,)
     ),
 ]

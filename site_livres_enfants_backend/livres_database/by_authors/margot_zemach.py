@@ -7,10 +7,11 @@ margot_zemach_livres: list[Livre] = [
         auteur=Author.MARGOT_ZEMACH,
         couverture_path="ca_pourrait_etre_pire.jpg",
         description=(
-            "to be filled"
+            "Un conte Yiddish. "
+            "Absurde. Très (très) drôle. "
+            "Et philosophique. "
         ),
-        categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        categories=(BooksCategory.POUR_RIRE,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
     ),
 ]

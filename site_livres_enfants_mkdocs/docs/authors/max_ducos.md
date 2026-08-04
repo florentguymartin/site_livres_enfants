@@ -28,14 +28,14 @@ Comment transormer un échec en succès.
 
 ![Screenshot](../img/le_mystere_de_la_grande_dune.jpg){ width="100" }
 
-to be filled
+Un petit garçon s'aventure sur la dune du Pyla, et trouve un dauphin échoué suite à une tempête. Un scénario captivant pour les enfants, avec de très belles illustrations. 
 
 
 ## Mon passage secret (*Max Ducos*)
 
 ![Screenshot](../img/mon_passage_secret.jpg){ width="100" }
 
-to be filled
+Un papy essaye de se souvenir d'un passage secret de son enfance. Mais papy sucre un peu les fraises. Mais on rigole bien !
 
 
 ## Vert secret (*Max Ducos*)

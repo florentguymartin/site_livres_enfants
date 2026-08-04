@@ -7,10 +7,10 @@ nadja_livres: list[Livre] = [
         auteur=Author.NADJA,
         couverture_path="chien_bleu.jpg",
         description=(
-            "to be filled"
+            "Une très belle histoire sur l'amitié entre une petite fille et un chien bleu. "
         ),
-        categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        categories=(BooksCategory.POUR_REVER,),
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+
     ),
 ]
