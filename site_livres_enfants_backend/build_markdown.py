@@ -15,7 +15,7 @@ DOCS_DIR_NAME = "docs"
 
 
 TOP_TEN_BOOK_TITLES = (
-    "Flotman",
+    "Le monde englouti",
     "Juliette et Bellini",
     "La famille souris dîne au clair de lune",
     "Grosse Légume",
@@ -29,8 +29,8 @@ TOP_TEN_BOOK_TITLES = (
 
 TOP_TEN_TITLE = "Choisir c'est renoncer"
 TOP_TEN_INTRODUCTION = (
-    "Choisir c'est renoncer. Voici donc 10 livres qui pourraient former un top 10, "
-    "présentés dans l'ordre défini dans le README."
+    "Nous n'avons pas résisté à l'envie de vous présenter un top 10. "
+    "Tout en subjectivité. "
 )
 
 def make_page_md(

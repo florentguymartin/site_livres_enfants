@@ -11,10 +11,10 @@ theme:
 
 
 nav:
-  - Introduction: 
+  - "C'est pas du Shakespeare": 
     #- introduction/index.md
     - index.md
-    - "La valeur n'attend pas le nombre des années": introduction/la_valeur.md
+    # - "La valeur n'attend pas le nombre des années": introduction/la_valeur.md
     - "C'est en forgeant qu'on devient forgeron": introduction/forger.md
     - "Choisir c'est renoncer": introduction/choisir.md
   - Categories:
