@@ -1,7 +1,13 @@
 # Livres sans texte
 
 ## Introduction
-Il y a des livres sans texte, avec seulement des images. Et il y en pas mal qui sont vraiment très bien. Ce qui est bien avec ce genre de livre, c'est que: * Ça permet de créer un vrai dialogue avec l'enfant (ou les enfants), et cela permet de faire de l'enfant un acteur de la lecture et pas seulement un spectateur. Pour l'adulte qui lit, ça oblige aussi à s'impliquer davantage dans l'histoire. Succès garanti !Voici une sélection, tout en subjectivité.
+Il y a des livres sans texte, avec seulement des images. Et il y en pas mal qui sont vraiment très bien. Ce qui est bien avec ce genre de livre, c'est que: 
+
+* Ça permet de créer un vrai dialogue avec l'enfant (ou les enfants) 
+* Cela permet de faire de l'enfant un acteur de la lecture et pas seulement un spectateur. 
+Pour l'adulte qui lit, ça oblige aussi à s'impliquer davantage dans l'histoire. 
+
+Succès garanti ! Voici une sélection, tout en subjectivité.
 
 ## The tree and the River (*Aaron Becker*)
 
@@ -74,7 +80,8 @@ Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un g
 
 ![Screenshot](../img/flotsam.jpg){ width="100" }
 
-Un livre sur l'imagination et la créativité.
+Un garçon, une plage, une vague, un appareil photo. David Wiesner a le don pour transformer la banalité en quelque chose d'extraordinaire. Je ne sais pas si David Wiesner (qui est Américain) avait en tête le poème de Rimbaud *Le bateau ivre* en dessinant les dernières pages. Mais le parallèle est saisissant. Un livre époustouflant. 
+Les esprits cartésiens qui ont à coeur de distinguer une suite arithmétique d'une suite géométrique tiqueront sûrement dans un des passages clés du livre. Mais on pardonne volontiers à David. Merci David Wiesner pour ce chef-d'œuvre !
 
 
 ## Les trois cochons (*David Wiesner*)

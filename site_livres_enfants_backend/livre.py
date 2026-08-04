@@ -39,11 +39,11 @@ category_descriptions: dict[BooksCategory, tuple[str, str]] = {
         (
         "Il y a des livres sans texte, avec seulement des images. "
         "Et il y en pas mal qui sont vraiment très bien. "
-        "Ce qui est bien avec ce genre de livre, c'est que: "
-        "* Ça permet de créer un vrai dialogue avec l'enfant (ou les enfants), "
-        "et cela permet de faire de l'enfant un acteur de la lecture et pas seulement un spectateur. "
-        "Pour l'adulte qui lit, ça oblige aussi à s'impliquer davantage dans l'histoire. "
-        "Succès garanti !"
+        "Ce qui est bien avec ce genre de livre, c'est que: \n\n"
+        "* Ça permet de créer un vrai dialogue avec l'enfant (ou les enfants) \n"
+        "* Cela permet de faire de l'enfant un acteur de la lecture et pas seulement un spectateur. \n"
+        "Pour l'adulte qui lit, ça oblige aussi à s'impliquer davantage dans l'histoire. \n\n"
+        "Succès garanti ! "
         "Voici une sélection, tout en subjectivité."
         ),
     ),
@@ -51,7 +51,7 @@ category_descriptions: dict[BooksCategory, tuple[str, str]] = {
         "Pour rire", 
         (
             "Shakespeare avait l'ambition de faire rire. "
-            "Alors pourquoi ne pas en faire autant avec nos petits ?"
+            "Alors pourquoi ne pas en faire autant avec nos enfants ?"
         ),
     ),
     BooksCategory.POUR_REVER: (

@@ -87,8 +87,10 @@ author_descriptions: dict[Author, str] = {
         "Une source inépuisable de discussion avec les enfants. "
     ),
     Author.DAVID_WIESNER: (
-        "David Wiesner est un auteur et illustrateur américain, "
-        "célèbre pour ses livres pour enfants qui utilisent des illustrations innovantes et des récits visuels. "
+        "David Wiesner est un auteur et illustrateur américain. "
+        "Ces livres sont sans textes. Que des illustrations. "
+        "C'est très imaginatif, et on peut dire poétique. "
+        "Du gros niveau ! "
     ),
     Author.KAZUO_IWAMURA: (
         "Kazuo Iwamura est un auteur et illustrateur japonais, "

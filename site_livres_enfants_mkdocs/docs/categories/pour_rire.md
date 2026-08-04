@@ -1,7 +1,7 @@
 # Pour rire
 
 ## Introduction
-Shakespeare avait l'ambition de faire rire. Alors pourquoi ne pas en faire autant avec nos petits ?
+Shakespeare avait l'ambition de faire rire. Alors pourquoi ne pas en faire autant avec nos enfants ?
 
 ## Une histoire à quatre voix (*Anthony Browne*)
 
