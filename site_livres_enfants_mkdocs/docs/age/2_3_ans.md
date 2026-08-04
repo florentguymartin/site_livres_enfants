@@ -628,6 +628,13 @@ Des animaux et des prouts. C'est pas du Shakespeare, et je me rapelle avoir ente
 Les livres de Paul Zelinksy sont des oeuvres d'art.La narration de l'histoire des frères Grimm n'est pas très moderne, mais les illustrations de Zelinksy sont magnifiques et plaisent aux enfants.
 
 
+## Raiponce (*Paul Zelinsky*)
+
+![Screenshot](../img/raiponce.jpg){ width="100" }
+
+Chaque page ressemble à une peinture de maître de la Renaissance. C'est très beau. Et les enfants aiment beaucoup.
+
+
 ## Aller bon train (*Pauline Delabroy-Allard et Cati Baur*)
 
 ![Screenshot](../img/aller_bon_train.jpg){ width="100" }
