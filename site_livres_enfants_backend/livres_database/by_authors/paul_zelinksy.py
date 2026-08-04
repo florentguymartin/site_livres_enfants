@@ -19,10 +19,12 @@ paul_zelinsky_livres: list[Livre] = [
         auteur=Author.PAUL_ZELINKSKY,
         couverture_path="raiponce.jpg",
         description=(
-            "to be filled"
+            "Chaque page ressemble à une peinture de maître de la Renaissance. "
+            "C'est très beau. "
+            "Et les enfants aiment beaucoup."
         ),
         categories=(),
-        age=()
-        #todo: description needs to be entered manually afterwards
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS)
+
     ),
 ]
