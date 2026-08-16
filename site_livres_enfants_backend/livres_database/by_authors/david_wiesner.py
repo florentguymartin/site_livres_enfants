@@ -1,5 +1,6 @@
 from site_livres_enfants_backend.livre import Livre, BooksCategory, BooksAge
 from site_livres_enfants_backend.livres_database.authors import Author
+from site_livres_enfants_backend.book_awards import MedailleCaldecott
 
 david_wiesner_livres: list[Livre] = [
     Livre(
@@ -16,7 +17,8 @@ david_wiesner_livres: list[Livre] = [
             "Mais on pardonne volontiers à David. Merci David Wiesner pour ce chef-d'œuvre !"
             ),
         categories=(BooksCategory.POUR_REVER, BooksCategory.LIVRES_SANS_TEXTE),
-        age=(BooksAge.AGE_4_5_ANS,)
+        age=(BooksAge.AGE_4_5_ANS,),
+        awards=(MedailleCaldecott(year=2007, additional_comment="Gagnant"))
     ),
     Livre(
         titre="Chute libre",
@@ -29,6 +31,7 @@ david_wiesner_livres: list[Livre] = [
         ),
         categories=(BooksCategory.POUR_REVER, BooksCategory.LIVRES_SANS_TEXTE),
         age=(BooksAge.AGE_4_5_ANS, BooksAge.AGE_2_3_ANS),
+        awards=(MedailleCaldecott(year=1989, additional_comment="Finaliste"))
     ),
     Livre(
         titre="Les trois cochons",
@@ -49,6 +52,7 @@ david_wiesner_livres: list[Livre] = [
         ),
         categories=(BooksCategory.LIVRES_SANS_TEXTE,),
         age=(BooksAge.AGE_4_5_ANS,),
+        awards=(MedailleCaldecott(year=1992, additional_comment="Gagnant")),
     ),
 
 ]

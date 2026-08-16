@@ -1,5 +1,6 @@
 from site_livres_enfants_backend.livre import Livre, BooksCategory, BooksAge
 from site_livres_enfants_backend.livres_database.authors import Author
+from site_livres_enfants_backend.book_awards import MedailleCaldecott
 
 emily_arnold_mccully_livres: list[Livre] = [
     Livre(
@@ -16,6 +17,7 @@ emily_arnold_mccully_livres: list[Livre] = [
     ),
     couverture_path="juliette_et_bellini.jpg",
     categories=(BooksCategory.GIRL_EMPOWERMENT,),
-    age = (BooksAge.AGE_4_5_ANS,)
+    age = (BooksAge.AGE_4_5_ANS,),
+    awards=(MedailleCaldecott(year=1993, additional_comment="Gagnant"))
 ),
 ]
