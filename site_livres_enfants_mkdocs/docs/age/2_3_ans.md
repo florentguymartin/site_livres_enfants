@@ -18,6 +18,8 @@ Une histoire sur le temps qui passe et son effet sur les paysages, les villes et
 
 Une trilogie très originale qui suit les aventures d'une petite fille dans un mondes imaginaire.À l'aide de son crayon, elle crée des objets, des outils, des animaux qui lui permet d'avancer dans son aventure.Bien qu'il n'y ait pas de texte, dans chaque livre le scénario est très bien ficelé et captivant pour les enfants.C'est la petite fille qui mène l'action. C'est elle qui sauve le roi. Et c'est elle qui a la curiosité d'initier l'histoire qui nous est racontée.
 
+Médaille Caldecott 2014 (Finaliste)  
+
 
 ## Un bisou pour mon frère (*Adrien Albert*)
 
@@ -162,6 +164,8 @@ Le benjamin des lapins entend beaucoup parler du printemps.Mais c'est quoi le Pr
 
 La nuit de Noël. Un petit garçon.Un train sorti de nulle part. La vraie magie de Noël.
 
+Médaille Caldecott 1986 (Gagnant)  
+
 
 ## Les histoires du soir de Litouho (*Christelle Saquet*)
 
@@ -210,6 +214,8 @@ Le premier volet de la série Adèle. Un livre sans image, où on découvre de n
 ![Screenshot](../img/chute_libre.jpg){ width="100" }
 
 Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un garçon s'endort avec un livre dans les bras, et qu'on suit dans ses rêves. À couper le souffle.
+
+Médaille Caldecott 1989 (Finaliste)  
 
 
 ## Le petit bateau de petit ours (*Eve Bunting*)
@@ -293,6 +299,8 @@ Prix Sorcière 2005 (Catégorie tout-petits)
 ![Screenshot](../img/le_lion_et_la_souris.jpg){ width="100" }
 
 La fable d'Ésope illustrée par Jerry Pinkney, sans texte. De très belles illustrations et une morale qui traverse les millénaires.
+
+Médaille Caldecott 2010 (Gagnant)  
 
 
 ## Enfin la paix (*Jill Murphy*)
@@ -627,12 +635,16 @@ Des animaux et des prouts. C'est pas du Shakespeare, et je me rapelle avoir ente
 
 Les livres de Paul Zelinksy sont des oeuvres d'art.La narration de l'histoire des frères Grimm n'est pas très moderne, mais les illustrations de Zelinksy sont magnifiques et plaisent aux enfants.
 
+Médaille Caldecott 1987 (Finaliste)  
+
 
 ## Raiponce (*Paul Zelinsky*)
 
 ![Screenshot](../img/raiponce.jpg){ width="100" }
 
 Chaque page ressemble à une peinture de maître de la Renaissance. C'est très beau. Et les enfants aiment beaucoup.
+
+Médaille Caldecott 1998 (Gagnant)  
 
 
 ## Aller bon train (*Pauline Delabroy-Allard et Cati Baur*)

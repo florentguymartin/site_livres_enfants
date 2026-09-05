@@ -46,6 +46,8 @@ Prix Sorcière 2011 (Catégorie tout-petits)
 
 La fable d'Ésope illustrée par Jerry Pinkney, sans texte. De très belles illustrations et une morale qui traverse les millénaires.
 
+Médaille Caldecott 2010 (Gagnant)  
+
 
 ## Oh (*Josse Goffin*)
 

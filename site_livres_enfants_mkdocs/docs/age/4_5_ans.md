@@ -18,6 +18,8 @@ Une histoire sur le temps qui passe et son effet sur les paysages, les villes et
 
 Une trilogie très originale qui suit les aventures d'une petite fille dans un mondes imaginaire.À l'aide de son crayon, elle crée des objets, des outils, des animaux qui lui permet d'avancer dans son aventure.Bien qu'il n'y ait pas de texte, dans chaque livre le scénario est très bien ficelé et captivant pour les enfants.C'est la petite fille qui mène l'action. C'est elle qui sauve le roi. Et c'est elle qui a la curiosité d'initier l'histoire qui nous est racontée.
 
+Médaille Caldecott 2014 (Finaliste)  
+
 
 ## Un bisou pour mon frère (*Adrien Albert*)
 
@@ -134,6 +136,8 @@ Attention: ce livre nécessite de se donner la peine de chanter la 'Chanson des 
 
 La nuit de Noël. Un petit garçon.Un train sorti de nulle part. La vraie magie de Noël.
 
+Médaille Caldecott 1986 (Gagnant)  
+
 
 ## Jumanji (*Chris Van Allsburg*)
 
@@ -190,6 +194,8 @@ Le premier volet de la série Adèle. Un livre sans image, où on découvre de n
 
 Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un garçon s'endort avec un livre dans les bras, et qu'on suit dans ses rêves. À couper le souffle.
 
+Médaille Caldecott 1989 (Finaliste)  
+
 
 ## Le monde englouti (*David Wiesner*)
 
@@ -197,6 +203,8 @@ Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un g
 
 Un garçon, une plage, une vague, un appareil photo. David Wiesner a le don pour transformer la banalité en quelque chose d'extraordinaire. Je ne sais pas si David Wiesner (qui est Américain) avait en tête le poème de Rimbaud *Le bateau ivre* en dessinant les dernières pages. Mais le parallèle est saisissant. Un livre époustouflant. 
 Les esprits cartésiens qui ont à coeur de distinguer une suite arithmétique d'une suite géométrique tiqueront sûrement dans un des passages clés du livre. Mais on pardonne volontiers à David. Merci David Wiesner pour ce chef-d'œuvre !
+
+Médaille Caldecott 2007 (Gagnant)  
 
 
 ## Les trois cochons (*David Wiesner*)
@@ -212,12 +220,16 @@ Une réinterprétation imaginative du conte classique.
 
 Un livre sur un mardi pas comme les autres.
 
+Médaille Caldecott 1992 (Gagnant)  
+
 
 ## Juliette et Bellini (*Emily Arnold McCully*)
 
 ![Screenshot](../img/juliette_et_bellini.jpg){ width="100" }
 
 Juliette est une petite fille curieuse, courageuse, persévérante et émouvante. Quand elle fait la rencontre du célebre finambule Bellini, elle est tout de suite fascinée par son art. À force de détermination, elle finit par attitrer l'attention de Bellini qui l'entraîne. Spoiler: Et le jour où Bellini se retrouve en difficulté sur le fil, en pleine nuit et dans le vide, c'est Juliette qui vient le sauver et nour offre une dernière page sous les étoiles à couper le souffle. Go Juliette! Un livre magnifique.
+
+Médaille Caldecott 1993 (Gagnant)  
 
 
 ## Le tapis en peau de tigre (*Gerald Rose*)
@@ -294,6 +306,8 @@ Prix Sorcière 2005 (Catégorie tout-petits)
 ![Screenshot](../img/le_lion_et_la_souris.jpg){ width="100" }
 
 La fable d'Ésope illustrée par Jerry Pinkney, sans texte. De très belles illustrations et une morale qui traverse les millénaires.
+
+Médaille Caldecott 2010 (Gagnant)  
 
 
 ## Oh (*Josse Goffin*)
@@ -434,6 +448,8 @@ Une histoire de souris qui partent en vacances à la plage.
 ![Screenshot](../img/la_feticheuse.jpg){ width="100" }
 
 Illustrations d'un poème de Blaise Cendrars
+
+Médaille Caldecott 1950 (Gagnant)  
 
 
 ## Ça pourrait être pire (*Margot Zemach*)
@@ -607,12 +623,16 @@ Un petit oiseau est par terre. Est-ce qu'il dort? En fait non. Un livre qui essa
 
 Les livres de Paul Zelinksy sont des oeuvres d'art.La narration de l'histoire des frères Grimm n'est pas très moderne, mais les illustrations de Zelinksy sont magnifiques et plaisent aux enfants.
 
+Médaille Caldecott 1987 (Finaliste)  
+
 
 ## Raiponce (*Paul Zelinsky*)
 
 ![Screenshot](../img/raiponce.jpg){ width="100" }
 
 Chaque page ressemble à une peinture de maître de la Renaissance. C'est très beau. Et les enfants aiment beaucoup.
+
+Médaille Caldecott 1998 (Gagnant)  
 
 
 ## Aller bon train (*Pauline Delabroy-Allard et Cati Baur*)

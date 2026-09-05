@@ -10,12 +10,16 @@ Nous n'avons pas résisté à l'envie de vous présenter un top 10. Tout en subj
 Un garçon, une plage, une vague, un appareil photo. David Wiesner a le don pour transformer la banalité en quelque chose d'extraordinaire. Je ne sais pas si David Wiesner (qui est Américain) avait en tête le poème de Rimbaud *Le bateau ivre* en dessinant les dernières pages. Mais le parallèle est saisissant. Un livre époustouflant. 
 Les esprits cartésiens qui ont à coeur de distinguer une suite arithmétique d'une suite géométrique tiqueront sûrement dans un des passages clés du livre. Mais on pardonne volontiers à David. Merci David Wiesner pour ce chef-d'œuvre !
 
+Médaille Caldecott 2007 (Gagnant)  
+
 
 ## Juliette et Bellini (*Emily Arnold McCully*)
 
 ![Screenshot](../img/juliette_et_bellini.jpg){ width="100" }
 
 Juliette est une petite fille curieuse, courageuse, persévérante et émouvante. Quand elle fait la rencontre du célebre finambule Bellini, elle est tout de suite fascinée par son art. À force de détermination, elle finit par attitrer l'attention de Bellini qui l'entraîne. Spoiler: Et le jour où Bellini se retrouve en difficulté sur le fil, en pleine nuit et dans le vide, c'est Juliette qui vient le sauver et nour offre une dernière page sous les étoiles à couper le souffle. Go Juliette! Un livre magnifique.
+
+Médaille Caldecott 1993 (Gagnant)  
 
 
 ## La famille souris dîne au clair de lune (*Kazuo Iwamura*)
@@ -46,6 +50,8 @@ Des illustrations très très belles. Pas de texte, et une histoire qui laisse p
 ![Screenshot](../img/boreal_express.jpg){ width="100" }
 
 La nuit de Noël. Un petit garçon.Un train sorti de nulle part. La vraie magie de Noël.
+
+Médaille Caldecott 1986 (Gagnant)  
 
 
 ## Une histoire à quatre voix (*Anthony Browne*)

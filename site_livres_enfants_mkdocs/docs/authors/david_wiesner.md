@@ -9,6 +9,8 @@ David Wiesner est un auteur et illustrateur américain. Ces livres sont sans tex
 
 Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un garçon s'endort avec un livre dans les bras, et qu'on suit dans ses rêves. À couper le souffle.
 
+Médaille Caldecott 1989 (Finaliste)  
+
 
 ## Le monde englouti (*David Wiesner*)
 
@@ -16,6 +18,8 @@ Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un g
 
 Un garçon, une plage, une vague, un appareil photo. David Wiesner a le don pour transformer la banalité en quelque chose d'extraordinaire. Je ne sais pas si David Wiesner (qui est Américain) avait en tête le poème de Rimbaud *Le bateau ivre* en dessinant les dernières pages. Mais le parallèle est saisissant. Un livre époustouflant. 
 Les esprits cartésiens qui ont à coeur de distinguer une suite arithmétique d'une suite géométrique tiqueront sûrement dans un des passages clés du livre. Mais on pardonne volontiers à David. Merci David Wiesner pour ce chef-d'œuvre !
+
+Médaille Caldecott 2007 (Gagnant)  
 
 
 ## Les trois cochons (*David Wiesner*)
@@ -30,4 +34,6 @@ Une réinterprétation imaginative du conte classique.
 ![Screenshot](../img/mardi.jpg){ width="100" }
 
 Un livre sur un mardi pas comme les autres.
+
+Médaille Caldecott 1992 (Gagnant)  
 

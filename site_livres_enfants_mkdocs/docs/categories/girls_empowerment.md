@@ -11,6 +11,8 @@ Sois belle et tais-toi. Dans un monde idéal, en 2026, on ne devrait pas parler 
 
 Une trilogie très originale qui suit les aventures d'une petite fille dans un mondes imaginaire.À l'aide de son crayon, elle crée des objets, des outils, des animaux qui lui permet d'avancer dans son aventure.Bien qu'il n'y ait pas de texte, dans chaque livre le scénario est très bien ficelé et captivant pour les enfants.C'est la petite fille qui mène l'action. C'est elle qui sauve le roi. Et c'est elle qui a la curiosité d'initier l'histoire qui nous est racontée.
 
+Médaille Caldecott 2014 (Finaliste)  
+
 
 ## Le tunnel (*Anthony Browne*)
 
@@ -24,6 +26,8 @@ Une soeur et un grand frère qui ne s'entendent pas. Une soeur qui est introvert
 ![Screenshot](../img/juliette_et_bellini.jpg){ width="100" }
 
 Juliette est une petite fille curieuse, courageuse, persévérante et émouvante. Quand elle fait la rencontre du célebre finambule Bellini, elle est tout de suite fascinée par son art. À force de détermination, elle finit par attitrer l'attention de Bellini qui l'entraîne. Spoiler: Et le jour où Bellini se retrouve en difficulté sur le fil, en pleine nuit et dans le vide, c'est Juliette qui vient le sauver et nour offre une dernière page sous les étoiles à couper le souffle. Go Juliette! Un livre magnifique.
+
+Médaille Caldecott 1993 (Gagnant)  
 
 
 ## Olivia Reine des Princesses (*Ian Falconer*)

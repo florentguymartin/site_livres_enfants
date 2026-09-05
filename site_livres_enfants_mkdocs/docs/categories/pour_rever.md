@@ -23,6 +23,8 @@ Le benjamin des lapins entend beaucoup parler du printemps.Mais c'est quoi le Pr
 
 La nuit de Noël. Un petit garçon.Un train sorti de nulle part. La vraie magie de Noël.
 
+Médaille Caldecott 1986 (Gagnant)  
+
 
 ## Jumanji (*Chris Van Allsburg*)
 
@@ -37,6 +39,8 @@ Un jeu de société qui prend vie. Le film est très populaire, mais le livre qu
 
 Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un garçon s'endort avec un livre dans les bras, et qu'on suit dans ses rêves. À couper le souffle.
 
+Médaille Caldecott 1989 (Finaliste)  
+
 
 ## Le monde englouti (*David Wiesner*)
 
@@ -44,6 +48,8 @@ Comme toujours avec Davide Wiesner, beaucoup de poésie et de créativité. Un g
 
 Un garçon, une plage, une vague, un appareil photo. David Wiesner a le don pour transformer la banalité en quelque chose d'extraordinaire. Je ne sais pas si David Wiesner (qui est Américain) avait en tête le poème de Rimbaud *Le bateau ivre* en dessinant les dernières pages. Mais le parallèle est saisissant. Un livre époustouflant. 
 Les esprits cartésiens qui ont à coeur de distinguer une suite arithmétique d'une suite géométrique tiqueront sûrement dans un des passages clés du livre. Mais on pardonne volontiers à David. Merci David Wiesner pour ce chef-d'œuvre !
+
+Médaille Caldecott 2007 (Gagnant)  
 
 
 ## Ligne 135 (*Germano Zullo et Albertine*)
