@@ -1,8 +1,8 @@
 # C'est en forgeant qu'on devient forgeron
 
-Alors si on accepte que beaucoup de jeunes parents partent presque de zero 
+Alors si on accepte que beaucoup de jeunes parents partent de zero 
 en terme de *culture générale* en littérature enfantine, comment se forger sa propre 
-culture et identifier nos goûts (à nous les parents) et les goûts de nos enfants? 
+culture et identifier nos goûts à nous les parents et les goûts de nos enfants? 
 
 ## Demander, partager
 En parler autour de soi est bien sûr la meilleure source d'inspiration. 
