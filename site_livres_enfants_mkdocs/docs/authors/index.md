@@ -1,6 +1,6 @@
 # Les Shakespeare de la littérature pour enfants
 
-Une séléction subjéctive d'auteurs qui valent le détour:
+Une séléction d'auteurs qui valent le détour:
 
 - [Mitsumasa Anno](mitsumasa_anno.md)
 - [Anthony Browne](anthony_browne.md)

@@ -10,3 +10,5 @@ site_livres_enfants_mkdocs/docs/img_high_quality/*
 .DS_Store
 
 .vscode/
+
+.idea
