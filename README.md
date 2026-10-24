@@ -7,6 +7,11 @@ The site is deployed at https://florentguymartin.github.io/site_livres_enfants/
 ## Essential Dev
 Put cover images in `site_livres_enfants_mkdocs/docs/img`
 
+To build and serve:
+```bash
+bash scripts/build.sh
+```
+
 ## 📦 Installation
 
 ### Prerequisites

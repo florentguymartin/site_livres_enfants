@@ -1,5 +1,10 @@
 # C'est pas du Shakespeare!
 
+La double ambition de ce site est  
+
+- De partager des recommandations de livres pour enfants (0 à 6 ans).
+- Vous convaincre (si besoin) que la littérature enfantine mérite d'être prise avec autant de serieux que la littérature *classique* pour adulte, par exemple via ses nombreux prix littéraires.
+
 Les livres pour enfants ont tendance à ne pas jouer dans la cour des grands.
 À la différence de la *vraie* littérature pour adultes, quand on cherche un livre pour enfants on ne pense pas:  
 
@@ -24,16 +29,16 @@ Et pourtant, la littérature jeunesse, c'est comme la *vraie* littérature pour 
 - Si on se fie à Wikipedia, le [Prix Hans-Christian Andersen](https://fr.wikipedia.org/wiki/Prix_Hans-Christian-Andersen) est parfois surnommé le petit prix Nobel de littérature.
 - Et comme pour les livres pour adultes, si on prend la tête de gondole du supermarché, on sera peut-être (à tous les coups?) déçu.
 
-Nous avons 3 jeunes enfants. 
+Nous avons 3 jeunes enfants nés en 2020, 2022 et 2024.
 On essaye de faire une lecture aux enfants tous les soirs. 
 Et tout ça nous l'avons un peu découvert au fil de l'eau. 
 L'ambition de ce site est de partager les belles découvertes faites au gré de ces lectures du soir.
 
-* [Un top 10](introduction/choisir.md)
-* [Categories](categories/index.md)
-* [Auteurs](authors/index.md)
-* [Âge](age/index.md)
-* [Prix littéraires](book_awards/index.md)
+* [Un top 10](introduction/un_top_10.md)
+* Une [sélection de livres par thèmes](categories/index.md) 
+* Une [sélection](authors/index.md) d'auteurs qu'on apprécie particulièrement
+* Une [sélection par âge](age/index.md)
+* Une [sélection de prix littéraires](book_awards/index.md) pour la littérature enfanting
 
 Enfin, nous expliquons [ici](introduction/forger.md) comment mois après mois nous nous sommes forgés 
 notre référentiel, notre culture générale pourrait-on dire, concernant la littérature enfantine.

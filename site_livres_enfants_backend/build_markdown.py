@@ -27,15 +27,16 @@ TOP_TEN_BOOK_TITLES = (
     "L'album d'Adèle",
 )
 
-TOP_TEN_TITLE = "Choisir c'est renoncer"
-TOP_TEN_INTRODUCTION = (
-    "Nous n'avons pas résisté à l'envie de vous présenter un top 10. "
-    "Tout en subjectivité. "
-)
+TOP_TEN_TITLE = "Un top 10"
+# TOP_TEN_INTRODUCTION = (
+#     "Nous n'avons pas résisté à l'envie de vous présenter un top 10. "
+#     "Tout en subjectivité. "
+# )
+TOP_TEN_INTRODUCTION = None
 
 def make_page_md(
     title: str, 
-    introduction: str, 
+    introduction: str | None,
     livres: list[Livre],
     img_folder: str | None = None,
 ) -> str:
@@ -50,14 +51,15 @@ def make_page_md(
     Returns:
         The generated Markdown content as a string.
     """
-    if not isinstance(introduction, str):
-        raise ValueError(f"Introduction must be a string but got {introduction} with type {type(introduction).__name__}")
+    if (not isinstance(introduction, str)) and (introduction is not None) :
+        raise ValueError(f"Introduction must be a string or None but got {introduction} with type {type(introduction).__name__}")
 
     lines = []
     lines.append("# " + title)
-    lines.append("")
-    lines.append("## Introduction")
-    lines.append(introduction)
+    if introduction is not None:
+        lines.append("")
+        lines.append("## Introduction")
+        lines.append(introduction)
     lines.append("")
 
     livre_renderer = LivreRendererMarkdown()
@@ -436,12 +438,12 @@ def write_top_ten_page_md(livres: list[Livre]) -> None:
 
     file_path_dir = os.path.join(root_directory, MKDOCS_DIR_NAME, DOCS_DIR_NAME, "introduction")
     os.makedirs(file_path_dir, exist_ok=True)
-    file_path = os.path.join(file_path_dir, "choisir.md")
+    file_path = os.path.join(file_path_dir, "un_top_10.md")
 
     with open(file_path, mode="w", encoding="utf-8") as f:
         f.write(top_ten_md)
 
-    print("Generated: choisir.md")
+    print("Generated: un_top_10.md")
 
 
 def write_all_book_award_pages_md(livres: list[Livre]) -> None:

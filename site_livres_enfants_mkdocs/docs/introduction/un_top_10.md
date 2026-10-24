@@ -1,7 +1,4 @@
-# Choisir c'est renoncer
-
-## Introduction
-Nous n'avons pas résisté à l'envie de vous présenter un top 10. Tout en subjectivité. 
+# Un top 10
 
 ## Le monde englouti (*David Wiesner*)
 
