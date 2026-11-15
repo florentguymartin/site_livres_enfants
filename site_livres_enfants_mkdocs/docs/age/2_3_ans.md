@@ -187,6 +187,8 @@ Deux petits lapins voisins, qui commencent à se brouiller pour de broutilles. M
 
 Nous donnons trop de jouets aux enfants. Less is more. La preuve par la chaise
 
+Prix Sorcière 1997 (Prix spécial)  
+
 
 ## Adèle et la Pele (*Claude Ponti*)
 
@@ -200,6 +202,8 @@ Le troisième volet de la série Adèle. Adèle a grandi, mais l'imagination de 
 ![Screenshot](../img/adele_s_en_mele.jpg){ width="100" }
 
 Le deuxième volet de la série Adèle. Adèle rentre dans le livre.
+
+Prix Sorcière 1988 (Catégorie tout-petits)  
 
 
 ## L'album d'Adèle (*Claude Ponti*)
