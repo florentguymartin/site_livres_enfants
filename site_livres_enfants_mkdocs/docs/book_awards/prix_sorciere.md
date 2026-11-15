@@ -12,6 +12,33 @@ Une histoire racontée par quatre personnages différents, chacun avec sa propre
 Prix Sorcière 1999 (Catégorie albums)  
 
 
+## La chaise bleue (*Claude Boujon*)
+
+![Screenshot](../img/la_chaise_bleue.jpg){ width="100" }
+
+Nous donnons trop de jouets aux enfants. Less is more. La preuve par la chaise
+
+Prix Sorcière 1997 (Prix spécial)  
+
+
+## Adèle s'en mêle (*Claude Ponti*)
+
+![Screenshot](../img/adele_s_en_mele.jpg){ width="100" }
+
+Le deuxième volet de la série Adèle. Adèle rentre dans le livre.
+
+Prix Sorcière 1988 (Catégorie tout-petits)  
+
+
+## Les trois cochons (*David Wiesner*)
+
+![Screenshot](../img/les_trois_cochons.jpg){ width="100" }
+
+Une réinterprétation imaginative du conte classique.
+
+Prix Sorcière 2002 (Catégorie albums)  
+
+
 ## Un livre (*Hervé Tullet*)
 
 ![Screenshot](../img/un_livre.jpg){ width="100" }
@@ -37,4 +64,13 @@ Prix Sorcière 1991 (Catégorie tout-petits)
 À mourir de rire. L'histoire d'un ver qui s'enfile des légumes. Attention, pour que le charme opère, il faut que le lecteur lise le livre de manière rythmique. Les kids en redemandent!
 
 Prix Sorcière 2005 (Catégorie tout-petits)  
+
+
+## La grande question (*Wolf Erlbruch*)
+
+![Screenshot](../img/la_grande_question.jpg){ width="100" }
+
+Une introduction à la philosophie pour les enfants. 
+
+Prix Sorcière 2005 (Catégorie albums)  
 

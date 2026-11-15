@@ -63,6 +63,8 @@ Le troisième volet de la série Adèle. Adèle a grandi, mais l'imagination de 
 
 Le deuxième volet de la série Adèle. Adèle rentre dans le livre.
 
+Prix Sorcière 1988 (Catégorie tout-petits)  
+
 
 ## L'album d'Adèle (*Claude Ponti*)
 
@@ -95,6 +97,8 @@ Médaille Caldecott 2007 (Gagnant)
 ![Screenshot](../img/les_trois_cochons.jpg){ width="100" }
 
 Une réinterprétation imaginative du conte classique.
+
+Prix Sorcière 2002 (Catégorie albums)  
 
 
 ## Mardi (*David Wiesner*)
