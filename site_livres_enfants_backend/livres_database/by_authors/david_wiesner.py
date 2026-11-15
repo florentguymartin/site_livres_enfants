@@ -1,6 +1,6 @@
 from site_livres_enfants_backend.livre import Livre, BooksCategory, BooksAge
 from site_livres_enfants_backend.livres_database.authors import Author
-from site_livres_enfants_backend.book_awards import MedailleCaldecott
+from site_livres_enfants_backend.book_awards import MedailleCaldecott, PrixSorciere
 
 david_wiesner_livres: list[Livre] = [
     Livre(
@@ -42,6 +42,7 @@ david_wiesner_livres: list[Livre] = [
         ),
         categories=(BooksCategory.LIVRES_SANS_TEXTE,),
         age=(BooksAge.AGE_4_5_ANS,),
+        awards=(PrixSorciere(year=2002, additional_comment="Catégorie albums"),),
     ),
     Livre(
         titre="Mardi",
