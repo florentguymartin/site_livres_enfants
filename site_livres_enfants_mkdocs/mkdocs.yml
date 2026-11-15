@@ -44,3 +44,6 @@ nav:
 
 markdown_extensions:
   - attr_list
+
+exclude_docs: |
+  /img_high_quality/
