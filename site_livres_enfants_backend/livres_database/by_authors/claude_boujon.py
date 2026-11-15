@@ -1,5 +1,6 @@
 from site_livres_enfants_backend.livre import Livre, BooksCategory, BooksAge
 from site_livres_enfants_backend.livres_database.authors import Author
+from site_livres_enfants_backend.book_awards import PrixSorciere
 
 claude_boujon_livres: list[Livre] = [
     Livre(
@@ -23,6 +24,7 @@ claude_boujon_livres: list[Livre] = [
             "La preuve par la chaise"
         ),
         categories=(),
-        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,)
+        age=(BooksAge.AGE_2_3_ANS, BooksAge.AGE_4_5_ANS,),
+        awards=(PrixSorciere(year=1997, additional_comment="Prix spécial"),)
     ),
 ]

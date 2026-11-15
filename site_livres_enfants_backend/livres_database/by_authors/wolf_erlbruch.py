@@ -1,5 +1,6 @@
 from site_livres_enfants_backend.livre import Livre, BooksCategory, BooksAge
 from site_livres_enfants_backend.livres_database.authors import Author
+from site_livres_enfants_backend.book_awards import PrixSorciere
 
 wolf_erlbruch_livres: list[Livre] = [
     Livre(
@@ -10,6 +11,7 @@ wolf_erlbruch_livres: list[Livre] = [
             "Une introduction à la philosophie pour les enfants. "
         ),
         categories=(),
-        age=(BooksAge.AGE_4_5_ANS,)
+        age=(BooksAge.AGE_4_5_ANS,),
+        awards=(PrixSorciere(year=2005, additional_comment="Catégorie albums"),)
     ),
 ]
