@@ -4,8 +4,38 @@ A Python-based static site generator for curating and showcasing children's book
 
 The site is deployed at https://florentguymartin.github.io/site_livres_enfants/
 
+
 ## Essential Dev
 Put cover images in `site_livres_enfants_mkdocs/docs/img`
+
+## 📚 Adding Books
+
+1. **Create or edit a book source file** (e.g.,  `site_livres_enfants_mkdocs/docs/authors/anthony_browne.md` or `site_livres_enfants_backend/livres_database/by_prices/medaille_caldecott.py`)
+
+1. Add the cover. If you have already a cover image with not too high quality, directly add to `site_livres_enfants_mkdocs/docs/img`. Otherwise add to `site_livres_enfants_mkdocs/docs/img_high_quality` and run the script `scripts/image_compression.py` to generate a resized version in `site_livres_enfants_mkdocs/docs/img`. The script will compress the images. The resized image will be saved in the `img` directory with the same filename.
+
+2. **Instantiate `Livre` objects** with metadata:
+   ```python
+   from site_livres_enfants_backend.livre import Livre, BooksCategory
+   
+   my_book = Livre(
+       titre="Mon Livre",
+       auteur="Auteur Français",
+       description="An inspiring story about exploration...",
+       categories=[BooksCategory.GIRL_EMPOWERMENT],
+       couverture_path="mon_livre.jpg",
+   )
+   ```
+3. **Add to the database** list in the module
+4. **Export** from `livres_database/__init__.py`:
+   ```python
+   from .by_prices import books_by_prices
+   database: list[Livre] = []
+   database += books_by_prices
+   ```
+5. **Rebuild** with `bash scripts/build.sh`
+
+
 
 To build and serve:
 ```bash
@@ -180,29 +210,7 @@ mkdocs build -s -c -f site_livres_enfants_mkdocs/mkdocs.yml
 mkdocs serve -o -f site_livres_enfants_mkdocs/mkdocs.yml
 ```
 
-## 📚 Adding Books
 
-1. **Create or edit a book source file** (e.g., `site_livres_enfants_backend/livres_database/by_prices/medaille_caldecott.py`)
-2. **Instantiate `Livre` objects** with metadata:
-   ```python
-   from site_livres_enfants_backend.livre import Livre, BooksCategory
-   
-   my_book = Livre(
-       titre="Mon Livre",
-       auteur="Auteur Français",
-       description="An inspiring story about exploration...",
-       categories=[BooksCategory.GIRL_EMPOWERMENT],
-       couverture_path="mon_livre.jpg",
-   )
-   ```
-3. **Add to the database** list in the module
-4. **Export** from `livres_database/__init__.py`:
-   ```python
-   from .by_prices import books_by_prices
-   database: list[Livre] = []
-   database += books_by_prices
-   ```
-5. **Rebuild** with `bash scripts/build.sh`
 
 ## 🎨 Customization
 
