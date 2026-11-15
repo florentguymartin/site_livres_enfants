@@ -24,6 +24,7 @@ chris_van_allsburg_livres: list[Livre] = [
             "Le film est très populaire, mais le livre qui l'a inspiré mérite d'être redécouvert."
         ),
         categories=(BooksCategory.POUR_REVER,),
-        age=(BooksAge.AGE_4_5_ANS,)
+        age=(BooksAge.AGE_4_5_ANS,),
+        awards=(MedailleCaldecott(year=1982, additional_comment="Gagnant"))
     )
 ]
