@@ -78,6 +78,8 @@ De belles illustrations, des mini-histoires rigolotes. Un final qui fait toujour
 
 Un conte Yiddish. Absurde. Très (très) drôle. Et philosophique. 
 
+Médaille Caldecott 1978 (Finaliste)  
+
 
 ## Course épique (*Marie Dorléans*)
 

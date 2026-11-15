@@ -36,6 +36,7 @@ Prix Sorcière 1988 (Catégorie tout-petits)
 
 Une réinterprétation imaginative du conte classique.
 
+Médaille Caldecott 2002 (Gagnant)  
 Prix Sorcière 2002 (Catégorie albums)  
 
 

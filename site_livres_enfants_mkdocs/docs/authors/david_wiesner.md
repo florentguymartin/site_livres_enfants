@@ -28,6 +28,7 @@ Médaille Caldecott 2007 (Gagnant)
 
 Une réinterprétation imaginative du conte classique.
 
+Médaille Caldecott 2002 (Gagnant)  
 Prix Sorcière 2002 (Catégorie albums)  
 
 

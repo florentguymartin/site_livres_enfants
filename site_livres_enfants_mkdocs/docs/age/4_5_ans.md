@@ -145,6 +145,8 @@ Médaille Caldecott 1986 (Gagnant)
 
 Un jeu de société qui prend vie. Le film est très populaire, mais le livre qui l'a inspiré mérite d'être redécouvert.
 
+Médaille Caldecott 1982 (Gagnant)  
+
 
 ## Les histoires du soir de Litouho (*Christelle Saquet*)
 
@@ -217,6 +219,7 @@ Médaille Caldecott 2007 (Gagnant)
 
 Une réinterprétation imaginative du conte classique.
 
+Médaille Caldecott 2002 (Gagnant)  
 Prix Sorcière 2002 (Catégorie albums)  
 
 
@@ -455,14 +458,14 @@ Une histoire de souris qui partent en vacances à la plage.
 
 Illustrations d'un poème de Blaise Cendrars
 
-Médaille Caldecott 1950 (Gagnant)  
-
 
 ## Ça pourrait être pire (*Margot Zemach*)
 
 ![Screenshot](../img/ca_pourrait_etre_pire.jpg){ width="100" }
 
 Un conte Yiddish. Absurde. Très (très) drôle. Et philosophique. 
+
+Médaille Caldecott 1978 (Finaliste)  
 
 
 ## Course épique (*Marie Dorléans*)

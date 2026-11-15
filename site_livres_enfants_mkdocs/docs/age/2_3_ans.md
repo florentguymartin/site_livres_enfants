@@ -481,6 +481,8 @@ Une histoire de souris qui partent en vacances à la plage.
 
 Un conte Yiddish. Absurde. Très (très) drôle. Et philosophique. 
 
+Médaille Caldecott 1978 (Finaliste)  
+
 
 ## Course épique (*Marie Dorléans*)
 

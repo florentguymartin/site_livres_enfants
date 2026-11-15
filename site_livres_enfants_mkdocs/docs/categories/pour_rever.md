@@ -32,6 +32,8 @@ Médaille Caldecott 1986 (Gagnant)
 
 Un jeu de société qui prend vie. Le film est très populaire, mais le livre qui l'a inspiré mérite d'être redécouvert.
 
+Médaille Caldecott 1982 (Gagnant)  
+
 
 ## Chute libre (*David Wiesner*)
 

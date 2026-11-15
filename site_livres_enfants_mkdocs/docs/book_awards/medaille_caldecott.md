@@ -23,6 +23,15 @@ La nuit de Noël. Un petit garçon.Un train sorti de nulle part. La vraie magie 
 Médaille Caldecott 1986 (Gagnant)  
 
 
+## Jumanji (*Chris Van Allsburg*)
+
+![Screenshot](../img/jumanji.jpg){ width="100" }
+
+Un jeu de société qui prend vie. Le film est très populaire, mais le livre qui l'a inspiré mérite d'être redécouvert.
+
+Médaille Caldecott 1982 (Gagnant)  
+
+
 ## Chute libre (*David Wiesner*)
 
 ![Screenshot](../img/chute_libre.jpg){ width="100" }
@@ -40,6 +49,16 @@ Un garçon, une plage, une vague, un appareil photo. David Wiesner a le don pour
 Les esprits cartésiens qui ont à coeur de distinguer une suite arithmétique d'une suite géométrique tiqueront sûrement dans un des passages clés du livre. Mais on pardonne volontiers à David. Merci David Wiesner pour ce chef-d'œuvre !
 
 Médaille Caldecott 2007 (Gagnant)  
+
+
+## Les trois cochons (*David Wiesner*)
+
+![Screenshot](../img/les_trois_cochons.jpg){ width="100" }
+
+Une réinterprétation imaginative du conte classique.
+
+Médaille Caldecott 2002 (Gagnant)  
+Prix Sorcière 2002 (Catégorie albums)  
 
 
 ## Mardi (*David Wiesner*)
@@ -69,13 +88,13 @@ La fable d'Ésope illustrée par Jerry Pinkney, sans texte. De très belles illu
 Médaille Caldecott 2010 (Gagnant)  
 
 
-## La féticheuse (*Marcia Brown*)
+## Ça pourrait être pire (*Margot Zemach*)
 
-![Screenshot](../img/la_feticheuse.jpg){ width="100" }
+![Screenshot](../img/ca_pourrait_etre_pire.jpg){ width="100" }
 
-Illustrations d'un poème de Blaise Cendrars
+Un conte Yiddish. Absurde. Très (très) drôle. Et philosophique. 
 
-Médaille Caldecott 1950 (Gagnant)  
+Médaille Caldecott 1978 (Finaliste)  
 
 
 ## Max et les Maximonstres (*Maurice Sendak*)
