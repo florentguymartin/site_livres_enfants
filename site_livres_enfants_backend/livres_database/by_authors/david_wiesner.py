@@ -42,7 +42,11 @@ david_wiesner_livres: list[Livre] = [
         ),
         categories=(BooksCategory.LIVRES_SANS_TEXTE,),
         age=(BooksAge.AGE_4_5_ANS,),
-        awards=(PrixSorciere(year=2002, additional_comment="Catégorie albums"),),
+        awards=(
+          MedailleCaldecott(year=2002, additional_comment="Gagnant"),
+          PrixSorciere(year=2002, additional_comment="Catégorie albums"),        
+        ),
+        
     ),
     Livre(
         titre="Mardi",
